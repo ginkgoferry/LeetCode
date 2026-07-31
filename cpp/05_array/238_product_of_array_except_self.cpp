@@ -1,5 +1,5 @@
 /*
- * Problem: 238. 除了自身以外数组的乘积 / Product of Array Except Self
+ * Problem: 238. 除自身以外数组的乘积 / Product of Array Except Self
  * Link: https://leetcode.cn/problems/product-of-array-except-self/
  * Chapter: 普通数组
  * Difficulty: Medium
@@ -16,7 +16,12 @@
  *
  * Review:
  * - First pass:
- * - Status: TODO / HINT / DONE / REVIEW / STAR
+ * - Last attempt:
+ * - Last review:
+ * - Next review:
+ * - Confidence:
+ * - Sessions: 0
+ * - Status: TODO
  */
 
 #include <algorithm>

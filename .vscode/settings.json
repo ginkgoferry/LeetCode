@@ -1,0 +1,16 @@
+{
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ],
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "build": true
+    },
+    "search.exclude": {
+        "build": true
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}

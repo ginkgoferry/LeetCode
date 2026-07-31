@@ -16,7 +16,12 @@
  *
  * Review:
  * - First pass:
- * - Status: TODO / HINT / DONE / REVIEW / STAR
+ * - Last attempt:
+ * - Last review:
+ * - Next review:
+ * - Confidence:
+ * - Sessions: 0
+ * - Status: TODO
  */
 
 #include <algorithm>

@@ -1,0 +1,85 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "LeetCode: 运行当前题",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "run",
+                "FILE=${relativeFile}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "clear": true,
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "LeetCode: 构建当前题（调试）",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "build-debug",
+                "FILE=${relativeFile}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "clear": true,
+                "reveal": "silent"
+            }
+        },
+        {
+            "label": "LeetCode: 今日计划",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "today"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "LeetCode: 同步记录",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "sync"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "LeetCode: 完整检查",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "verify"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

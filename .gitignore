@@ -3,4 +3,8 @@ build/
 *.out
 *.o
 *.dSYM/
-notes/notes*.md
+__pycache__/
+*.py[cod]
+
+# Personal scratch files can use this suffix; regular notes are versioned.
+notes/*.local.md
