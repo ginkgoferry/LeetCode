@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository is a personal C++20 workspace for Hot 100 and additional LeetCode study plans.
+This repository is a personal C++20 workspace for multiple LeetCode study plans, including Hot 100.
 Preserve the user's solution style and learning history; do not fill unsolved solutions unless asked.
 
 ## Source of truth

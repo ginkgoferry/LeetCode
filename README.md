@@ -1,8 +1,10 @@
-# LeetCode Hot 100 · C++
+# LeetCode · C++
 
 一个面向长期刷题、复习和复盘的 C++ 项目，包含
 [LeetCode 热题 100](https://leetcode.cn/studyplan/top-100-liked/) 和灵茶山艾府的专题题单。
 免费题已准备 C++ 骨架与本地断言，会员题保留题单索引。
+
+仓库：[ginkgoferry/LeetCode](https://github.com/ginkgoferry/LeetCode)。
 
 项目内置零依赖记录工具：题目状态、学习次数、信心分、用时、复习日期和简短笔记只记录一次，
 题解头部、下方进度表和 [`notes/review.md`](notes/review.md) 会自动同步。
@@ -12,8 +14,9 @@
 题目代码和学习记录按题号共用，题单各自保存章节与学习顺序。初始当前题单为 Hot 100，可用 `make use` 切换；下方进度始终展示 Hot 100。
 
 <!-- AUTO_PLANS:START -->
+
 | 题单 | 去重题数 | 已标分 | 已准备环境 |
-|---|---:|---:|---:|---:|
+|---|---:|---:|---:|
 | [LeetCode Hot 100](notes/plans/hot100.md) | 100 | 1 | 100 |
 | [灵茶山艾府 · 基础算法精讲](notes/plans/lingcha-basic.md) | 172 | 65 | 172 |
 | [灵茶山艾府 · 二分算法](notes/plans/lingcha-binary-search.md) | 138 | 73 | 112 |
@@ -31,6 +34,7 @@
 
 题单之间有重复题，上表数量不能直接相加。全库去重后收录 2,831 道题，已准备 2,425 个本地环境；406 道已确认会员题保留索引。
 当前收录的免费题均已准备本地环境，元数据与环境待办已清零。
+
 <!-- AUTO_PLANS:END -->
 
 ```bash
@@ -144,6 +148,7 @@ tools/leetcode.py    记录、检索、同步、检查与测试工具
 ## 当前进度
 
 <!-- AUTO_PROGRESS:START -->
+
 **总进度：3 / 100（3.0%）**
 
 `█░░░░░░░░░░░░░░░░░░░`
@@ -278,6 +283,7 @@ tools/leetcode.py    记录、检索、同步、检查与测试工具
 | 75 | [颜色分类](https://leetcode.cn/problems/sort-colors/) | 技巧 | MEDIUM | ⬜ TODO | - | - | [C++](cpp/17_tricks/075_sort_colors.cpp) | 未标分 | 常规主线 | - |
 | 31 | [下一个排列](https://leetcode.cn/problems/next-permutation/) | 技巧 | MEDIUM | ⬜ TODO | - | - | [C++](cpp/17_tricks/031_next_permutation.cpp) | 未标分 | 常规主线 | - |
 | 287 | [寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/) | 技巧 | MEDIUM | ⬜ TODO | - | - | [C++](cpp/17_tricks/287_find_the_duplicate_number.cpp) | 未标分 | 常规主线 | - |
+
 <!-- AUTO_PROGRESS:END -->
 
 ## 维护原则

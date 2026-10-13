@@ -17,6 +17,10 @@ class PlansTest(unittest.TestCase):
         self.assertTrue(rendered.startswith('Intro\n'))
         self.assertTrue(rendered.endswith('\nPersonal notes'))
         self.assertNotIn('stale', rendered)
+        self.assertIn('<!-- AUTO_PLANS:START -->\n\n|', rendered)
+        table = [line for line in rendered.splitlines() if line.startswith('|')]
+        self.assertTrue(table)
+        self.assertTrue(all(len(line.strip('|').split('|')) == 4 for line in table))
         for identifier in leetcode.load_plans(catalog):
             self.assertIn(f'(notes/plans/{identifier}.md)', rendered)
         self.assertEqual(leetcode.replace_plan_hub(rendered, catalog), rendered)

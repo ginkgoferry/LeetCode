@@ -119,7 +119,7 @@ class TrackerTest(unittest.TestCase):
         self.assertEqual(
             result,
             "before\n"
-            f"{leetcode.README_START}\nnew\n{leetcode.README_END}\n"
+            f"{leetcode.README_START}\n\nnew\n\n{leetcode.README_END}\n"
             "after\n",
         )
 

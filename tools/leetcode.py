@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local workflow helper for this LeetCode Hot 100 repository.
+"""Local workflow helper for this multi-plan LeetCode repository.
 
 The JSON files under ``data/`` are the source of truth.  This tool keeps the
 solution headers, README progress table, and review queue in sync with them.
@@ -1170,11 +1170,11 @@ def replace_generated_readme(readme: str, generated: str) -> str:
         raise TrackerError("README.md 缺少 AUTO_PROGRESS 标记")
     before, rest = readme.split(README_START, 1)
     _, after = rest.split(README_END, 1)
-    return f"{before}{README_START}\n{generated}\n{README_END}{after}"
+    return f"{before}{README_START}\n\n{generated}\n\n{README_END}{after}"
 
 
 def render_plan_hub(catalog: list[dict[str, Any]]) -> str:
-    lines = ['| 题单 | 去重题数 | 已标分 | 已准备环境 |', '|---|---:|---:|---:|---:|']
+    lines = ['| 题单 | 去重题数 | 已标分 | 已准备环境 |', '|---|---:|---:|---:|']
     for identifier, plan in load_plans(catalog).items():
         selected = select_plan(catalog, identifier)
         rated = sum(p.get('rating') is not None for p in selected)
@@ -1202,7 +1202,7 @@ def replace_plan_hub(readme: str, catalog: list[dict[str, Any]]) -> str:
         raise TrackerError('README 题单总览生成标记不完整')
     before, rest = readme.split(PLANS_START, 1)
     _, after = rest.split(PLANS_END, 1)
-    return f'{before}{PLANS_START}\n{render_plan_hub(catalog)}\n{PLANS_END}{after}'
+    return f'{before}{PLANS_START}\n\n{render_plan_hub(catalog)}\n\n{PLANS_END}{after}'
 
 
 def review_row(problem: dict[str, Any], record: dict[str, Any]) -> str:
@@ -1610,7 +1610,7 @@ def add_training_arguments(parser: argparse.ArgumentParser) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="LeetCode Hot 100 本地刷题、记录与复习工具"
+        description="LeetCode 多题单本地刷题、记录与复习工具"
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
     extra = subparsers.add_parser('extra', help='创建独立个人补充用例文件，不修改官方用例')
