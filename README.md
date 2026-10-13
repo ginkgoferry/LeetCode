@@ -9,6 +9,19 @@
 项目内置零依赖记录工具：题目状态、学习次数、信心分、用时、复习日期和简短笔记只记录一次，
 题解头部、下方进度表和 [`notes/review.md`](notes/review.md) 会自动同步。
 
+## 功能入口
+
+| 功能 | 常用命令 |
+|---|---|
+| 题单切换、章节浏览与筛选 | `make plans`、`make use PLAN=...`、`make browse PLAN=...`、`make list` |
+| 选题、今日安排与统计 | `make next`、`make today`、`make stats`、`make show ID=...` |
+| 本题验证与个人用例 | `make practice ID=...`、`make debug ID=...`、`make extra ID=...` |
+| 学习记录与复习 | `make start ID=...`、`make done ID=...`；另有 hint、review、star、reviewed、note、reviews |
+| 环境重建与语法检查 | `make prepare PLAN=...`、`make skeletons PLAN=...`、`make pending` |
+| 同步、审计、工具测试与 CI | `make sync`、`make check`、`make unit`、`make verify`；push/PR 自动验证 |
+
+命令的默认范围、限制和代码位置见 [功能总览](docs/FEATURES.md)，详细操作见 [工作流](docs/WORKFLOW.md)。
+
 ## 多题单
 
 题目代码和学习记录按题号共用，题单各自保存章节与学习顺序。初始当前题单为 Hot 100，可用 `make use` 切换；下方进度始终展示 Hot 100。
@@ -78,8 +91,8 @@ make today
 # 2. 开始第 283 题
 make start ID=283
 
-# 3. 在本地编译并运行文件内的断言
-make run ID=283
+# 3. 编译运行官方及个人用例，再检查数据、文档与断言一致性
+make practice ID=283
 
 # 4. 完成后记录状态、信心分、用时和一句复盘
 make done ID=283 CONFIDENCE=4 MINUTES=25 NOTE="双指针覆盖后补零"
@@ -121,7 +134,7 @@ make debug ID=1                               # Address/UB Sanitizer
 make run FILE=cpp/01_hash/001_two_sum.cpp     # 也支持按文件运行
 make test                                     # 工具单测 + 全部已完成题
 make check                                    # 检查目录、数据、题解头部和文档
-make verify                                   # check + 编译测试
+make verify                                   # 工具单测 + 一致性检查 + 已完成题运行
 ```
 
 提交到 LeetCode 时复制题目要求的 `Solution`、设计类或 `Codec`。本地测试所需的链表、树和随机链表辅助结构位于
@@ -130,11 +143,12 @@ make verify                                   # check + 编译测试
 ## 项目结构
 
 ```text
-cpp/                 100 道题的实现、题目元数据和本地断言
+cpp/                 各题单共用的 C++ 解法、骨架和本地断言
 common/              本地测试用的数据结构与辅助函数
 data/problems.json   题目目录（稳定元数据）
 data/plans/          各题单的来源、收录范围、章节与有序题号
 data/environments/   核对过的接口和本地测试用例（用于准备环境）
+data/local_cases/    独立个人补充用例（runExtraCases）
 data/workspace.json  当前学习题单设置（不影响学习记录）
 data/progress.json   个人进度与完整学习历史（记录源）
 notes/               专题笔记与自动生成的复习队列
