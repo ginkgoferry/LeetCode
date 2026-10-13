@@ -49,7 +49,7 @@ struct ListNode {
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    ListNode(int x, ListNode *nextNode) : val(x), next(nextNode) {}
 };
 
 struct TreeNode {
@@ -58,7 +58,7 @@ struct TreeNode {
     TreeNode *right;
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    TreeNode(int x, TreeNode *leftNode, TreeNode *rightNode) : val(x), left(leftNode), right(rightNode) {}
 };
 
 inline void collectListNodes(ListNode* head, unordered_set<ListNode*>& owned) {
@@ -82,7 +82,7 @@ struct Node {
     Node *random;
     Node() : val(0), next(nullptr), random(nullptr) {}
     Node(int x) : val(x), next(nullptr), random(nullptr) {}
-    Node(int x, Node *next, Node *random) : val(x), next(next), random(random) {}
+    Node(int x, Node *nextNode, Node *randomNode) : val(x), next(nextNode), random(randomNode) {}
 };
 
 inline ListNode *buildList(const vector<int> &values) {

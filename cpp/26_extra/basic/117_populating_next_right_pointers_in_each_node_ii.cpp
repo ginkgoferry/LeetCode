@@ -91,7 +91,8 @@ int main() {
             levels.push_back(order); vector<Node*> nextLevel;
             for (Node* current : order) {
                 originalValues.push_back(current->val); originalChildren.push_back({current->left, current->right});
-                if (current->left) nextLevel.push_back(current->left); if (current->right) nextLevel.push_back(current->right);
+                if (current->left) nextLevel.push_back(current->left);
+                if (current->right) nextLevel.push_back(current->right);
             }
             order = std::move(nextLevel);
         }
@@ -115,7 +116,8 @@ int main() {
             levels.push_back(order); vector<Node*> nextLevel;
             for (Node* current : order) {
                 originalValues.push_back(current->val); originalChildren.push_back({current->left, current->right});
-                if (current->left) nextLevel.push_back(current->left); if (current->right) nextLevel.push_back(current->right);
+                if (current->left) nextLevel.push_back(current->left);
+                if (current->right) nextLevel.push_back(current->right);
             }
             order = std::move(nextLevel);
         }
