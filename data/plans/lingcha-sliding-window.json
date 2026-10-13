@@ -1,0 +1,1865 @@
+{
+  "id": "lingcha-sliding-window",
+  "name": "灵茶山艾府 · 滑动窗口与双指针",
+  "source_url": "https://leetcode.cn/discuss/post/3578981/ti-dan-hua-dong-chuang-kou-ding-chang-bu-rzz7/",
+  "source_updated_at": "2026-09-12T08:35:25.251470+00:00",
+  "source_sha256": "ced3a69714a957adf5fc853a385cb6fb9f86190bee9cd21b13925a0b74e8d1cf",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 284,
+  "source_entry_count": 284,
+  "source_problem_count": 277,
+  "items": [
+    {
+      "id": 1456,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1263",
+      "rating": 1263
+    },
+    {
+      "id": 643,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1343,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1317",
+      "rating": 1317
+    },
+    {
+      "id": 2090,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1358",
+      "rating": 1358
+    },
+    {
+      "id": 2379,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1360",
+      "rating": 1360
+    },
+    {
+      "id": 2841,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1546",
+      "rating": 1546
+    },
+    {
+      "id": 2461,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1553",
+      "rating": 1553
+    },
+    {
+      "id": 1423,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "1574",
+      "rating": 1574
+    },
+    {
+      "id": 1176,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1100,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1852,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1151,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2107,
+      "section": "一、定长滑动窗口 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1052,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1418",
+      "rating": 1418
+    },
+    {
+      "id": 3679,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1639",
+      "rating": 1639
+    },
+    {
+      "id": 3439,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1729",
+      "rating": 1729
+    },
+    {
+      "id": 3694,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1739",
+      "rating": 1739
+    },
+    {
+      "id": 1297,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1748",
+      "rating": 1748
+    },
+    {
+      "id": 2134,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1748",
+      "rating": 1748
+    },
+    {
+      "id": 1652,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 4043,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 4044,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3652,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 567,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 438,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 30,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1888,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2006",
+      "rating": 2006
+    },
+    {
+      "id": 2156,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2063",
+      "rating": 2063
+    },
+    {
+      "id": 2953,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2449",
+      "rating": 2449
+    },
+    {
+      "id": 3672,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2067,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2524,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2200,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1461,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1504",
+      "rating": 1504
+    },
+    {
+      "id": 1016,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ")$"
+    },
+    {
+      "id": 2653,
+      "section": "一、定长滑动窗口 / §1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1786",
+      "rating": 1786
+    },
+    {
+      "id": 3,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3090,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1329",
+      "rating": 1329
+    },
+    {
+      "id": 1493,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1423",
+      "rating": 1423
+    },
+    {
+      "id": 3634,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1453",
+      "rating": 1453
+    },
+    {
+      "id": 1208,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1497",
+      "rating": 1497
+    },
+    {
+      "id": 904,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1516",
+      "rating": 1516
+    },
+    {
+      "id": 1695,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1529",
+      "rating": 1529
+    },
+    {
+      "id": 2958,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1535",
+      "rating": 1535
+    },
+    {
+      "id": 2024,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1643",
+      "rating": 1643
+    },
+    {
+      "id": 1004,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1656",
+      "rating": 1656
+    },
+    {
+      "id": 3641,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2730,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2779,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1638",
+      "rating": 1638
+    },
+    {
+      "id": 4032,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 1658,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1817",
+      "rating": 1817
+    },
+    {
+      "id": 1838,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1876",
+      "rating": 1876
+    },
+    {
+      "id": 2516,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1948",
+      "rating": 1948
+    },
+    {
+      "id": 2831,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "1976",
+      "rating": 1976
+    },
+    {
+      "id": 2271,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2022",
+      "rating": 2022
+    },
+    {
+      "id": 2106,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2062",
+      "rating": 2062
+    },
+    {
+      "id": 2555,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2081",
+      "rating": 2081
+    },
+    {
+      "id": 2009,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2084",
+      "rating": 2084
+    },
+    {
+      "id": 1610,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2147",
+      "rating": 2147
+    },
+    {
+      "id": 2781,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2204",
+      "rating": 2204
+    },
+    {
+      "id": 3411,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "非暴力做法约 2300"
+    },
+    {
+      "id": 3413,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2374",
+      "rating": 2374
+    },
+    {
+      "id": 395,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1763,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2968,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2444",
+      "rating": 2444
+    },
+    {
+      "id": 1040,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "2456",
+      "rating": 2456
+    },
+    {
+      "id": 487,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 159,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 340,
+      "section": "二、不定长滑动窗口 / §2.1 越短越合法/求最长/最大 / §2.1.2 进阶（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 209,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3795,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": "1505",
+      "rating": 1505
+    },
+    {
+      "id": 2904,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 1234,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": "1878",
+      "rating": 1878
+    },
+    {
+      "id": 2875,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": "1914",
+      "rating": 1914
+    },
+    {
+      "id": 76,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 632,
+      "section": "二、不定长滑动窗口 / §2.2 越长越合法/求最短/最小",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 713,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3258,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2302,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "1808",
+      "rating": 1808
+    },
+    {
+      "id": 2762,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "1940",
+      "rating": 1940
+    },
+    {
+      "id": "LCP 68",
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2743,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3134,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "2451",
+      "rating": 2451
+    },
+    {
+      "id": 3261,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.1 越短越合法",
+      "stage": "basic",
+      "note": "2659 子串的子串",
+      "rating": 2659
+    },
+    {
+      "id": 1358,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "1646",
+      "rating": 1646
+    },
+    {
+      "id": 2962,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "1701",
+      "rating": 1701
+    },
+    {
+      "id": 3325,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2062,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2799,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2537,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "1892",
+      "rating": 1892
+    },
+    {
+      "id": 3298,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "1909 同 76 题",
+      "rating": 1909
+    },
+    {
+      "id": 2495,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.2 越长越合法",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 930,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.3 恰好型滑动窗口",
+      "stage": "basic",
+      "note": "1592",
+      "rating": 1592
+    },
+    {
+      "id": 1248,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.3 恰好型滑动窗口",
+      "stage": "basic",
+      "note": "1624",
+      "rating": 1624
+    },
+    {
+      "id": 3306,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.3 恰好型滑动窗口",
+      "stage": "basic",
+      "note": "2200",
+      "rating": 2200
+    },
+    {
+      "id": 992,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.3 恰好型滑动窗口",
+      "stage": "basic",
+      "note": "2210",
+      "rating": 2210
+    },
+    {
+      "id": 3859,
+      "section": "二、不定长滑动窗口 / §2.3 求子数组个数 / §2.3.3 恰好型滑动窗口",
+      "stage": "basic",
+      "note": "2302",
+      "rating": 2302
+    },
+    {
+      "id": 825,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "1697",
+      "rating": 1697
+    },
+    {
+      "id": 2401,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "1750",
+      "rating": 1750
+    },
+    {
+      "id": 1156,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "1787 有简单做法",
+      "rating": 1787
+    },
+    {
+      "id": 424,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 438,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "有定长滑窗/不定长滑窗两种写法"
+    },
+    {
+      "id": 1712,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 4033,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "2314",
+      "rating": 2314
+    },
+    {
+      "id": "LCR 180",
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1918,
+      "section": "二、不定长滑动窗口 / §2.4 其他（选做）",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 344,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3794,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2000,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "1199",
+      "rating": 1199
+    },
+    {
+      "id": 3643,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "1235",
+      "rating": 1235
+    },
+    {
+      "id": 832,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "1243",
+      "rating": 1243
+    },
+    {
+      "id": 3823,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "1250",
+      "rating": 1250
+    },
+    {
+      "id": 557,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 151,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3775,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "1392",
+      "rating": 1392
+    },
+    {
+      "id": 917,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 345,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3865,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 186,
+      "section": "三、单序列双指针 / §3.1 反转字符串",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2697,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1304",
+      "rating": 1304
+    },
+    {
+      "id": 125,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3936,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1346",
+      "rating": 1346
+    },
+    {
+      "id": 1750,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1502",
+      "rating": 1502
+    },
+    {
+      "id": 2105,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1507",
+      "rating": 1507
+    },
+    {
+      "id": 977,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 658,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1471,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 167,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 633,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2824,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": "LCP 28",
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "同 2824 题"
+    },
+    {
+      "id": 16,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 15,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 18,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1577,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1594",
+      "rating": 1594
+    },
+    {
+      "id": 3862,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1697",
+      "rating": 1697
+    },
+    {
+      "id": 611,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 923,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1711",
+      "rating": 1711
+    },
+    {
+      "id": 2563,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1721",
+      "rating": 1721
+    },
+    {
+      "id": 948,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 11,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 42,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1616,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1868",
+      "rating": 1868
+    },
+    {
+      "id": 1498,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "2276",
+      "rating": 2276
+    },
+    {
+      "id": 1782,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "2457",
+      "rating": 2457
+    },
+    {
+      "id": 1099,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 360,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2422,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 259,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3802,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1861,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1537",
+      "rating": 1537
+    },
+    {
+      "id": 3814,
+      "section": "三、单序列双指针 / §3.2 相向双指针",
+      "stage": "basic",
+      "note": "1796",
+      "rating": 1796
+    },
+    {
+      "id": 2200,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 611,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3649,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "1716",
+      "rating": 1716
+    },
+    {
+      "id": 1871,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "1896 做法不止一种",
+      "rating": 1896
+    },
+    {
+      "id": 1574,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "1932",
+      "rating": 1932
+    },
+    {
+      "id": 2972,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "2153",
+      "rating": 2153
+    },
+    {
+      "id": 2122,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "2159",
+      "rating": 2159
+    },
+    {
+      "id": 2234,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "2562",
+      "rating": 2562
+    },
+    {
+      "id": 1989,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3323,
+      "section": "三、单序列双指针 / §3.3 同向双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 581,
+      "section": "三、单序列双指针 / §3.3 同向双指针 / 相似题目",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3555,
+      "section": "三、单序列双指针 / §3.3 同向双指针 / 相似题目",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1793,
+      "section": "三、单序列双指针 / §3.4 背向双指针",
+      "stage": "basic",
+      "note": "1946",
+      "rating": 1946
+    },
+    {
+      "id": 976,
+      "section": "三、单序列双指针 / §3.4 背向双指针",
+      "stage": "basic",
+      "note": "思考题：改成**最小周长**（原题不是背向双指针，思考题是）"
+    },
+    {
+      "id": 27,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 26,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 80,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3940,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2273,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3684,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 283,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 905,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 922,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3467,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3992,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2460,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1089,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 75,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2784,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 442,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 448,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1470,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1920,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 41,
+      "section": "三、单序列双指针 / §3.5 原地修改",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 240,
+      "section": "三、单序列双指针 / §3.6 矩阵上的双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1351,
+      "section": "三、单序列双指针 / §3.6 矩阵上的双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2109,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1315",
+      "rating": 1315
+    },
+    {
+      "id": 2540,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 350,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "解决进阶问题"
+    },
+    {
+      "id": 88,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 2570,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 4001,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1506",
+      "rating": 1506
+    },
+    {
+      "id": 1855,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1515",
+      "rating": 1515
+    },
+    {
+      "id": "LCP 18",
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1385,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 925,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 809,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1605",
+      "rating": 1605
+    },
+    {
+      "id": 2337,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1693",
+      "rating": 1693
+    },
+    {
+      "id": 777,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "同 2337 题"
+    },
+    {
+      "id": 844,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(1)$ 额外空间"
+    },
+    {
+      "id": 986,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": "面试题 16.06",
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 475,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3998,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1862",
+      "rating": 1862
+    },
+    {
+      "id": 1537,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "1961",
+      "rating": 1961
+    },
+    {
+      "id": 244,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2838,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1229,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1570,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1868,
+      "section": "四、双序列双指针 / §4.1 双指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 392,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 524,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2486,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1363",
+      "rating": 1363
+    },
+    {
+      "id": 2825,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1415",
+      "rating": 1415
+    },
+    {
+      "id": 1023,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1537",
+      "rating": 1537
+    },
+    {
+      "id": 3132,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1620",
+      "rating": 1620
+    },
+    {
+      "id": 522,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 1826,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 4026,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1675",
+      "rating": 1675
+    },
+    {
+      "id": 3983,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1755",
+      "rating": 1755
+    },
+    {
+      "id": 1898,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "1913",
+      "rating": 1913
+    },
+    {
+      "id": 2565,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "2432",
+      "rating": 2432
+    },
+    {
+      "id": 3302,
+      "section": "四、双序列双指针 / §4.2 判断子序列",
+      "stage": "basic",
+      "note": "2474",
+      "rating": 2474
+    },
+    {
+      "id": 2367,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2563,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "1721",
+      "rating": 1721
+    },
+    {
+      "id": 795,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "1817",
+      "rating": 1817
+    },
+    {
+      "id": 2444,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "2093",
+      "rating": 2093
+    },
+    {
+      "id": 3347,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "2156",
+      "rating": 2156
+    },
+    {
+      "id": 1213,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3464,
+      "section": "五、三指针",
+      "stage": "basic",
+      "note": "2806 $k$ 个指针",
+      "rating": 2806
+    },
+    {
+      "id": 1446,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1165",
+      "rating": 1165
+    },
+    {
+      "id": 1869,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1205",
+      "rating": 1205
+    },
+    {
+      "id": 4038,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 2414,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1222",
+      "rating": 1222
+    },
+    {
+      "id": 3456,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1244",
+      "rating": 1244
+    },
+    {
+      "id": 830,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1252",
+      "rating": 1252
+    },
+    {
+      "id": 2273,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1295",
+      "rating": 1295
+    },
+    {
+      "id": 2264,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1309",
+      "rating": 1309
+    },
+    {
+      "id": 2348,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1316",
+      "rating": 1316
+    },
+    {
+      "id": 1513,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1351",
+      "rating": 1351
+    },
+    {
+      "id": 1957,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1358",
+      "rating": 1358
+    },
+    {
+      "id": 674,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3708,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1381 做到 $\\mathcal{O}(n)$",
+      "rating": 1381
+    },
+    {
+      "id": 696,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 978,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1393",
+      "rating": 1393
+    },
+    {
+      "id": 2110,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1408",
+      "rating": 1408
+    },
+    {
+      "id": 228,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2760,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1420",
+      "rating": 1420
+    },
+    {
+      "id": 1887,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1428",
+      "rating": 1428
+    },
+    {
+      "id": 845,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1437",
+      "rating": 1437
+    },
+    {
+      "id": 2038,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1468",
+      "rating": 1468
+    },
+    {
+      "id": 2900,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1469",
+      "rating": 1469
+    },
+    {
+      "id": 1759,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1491",
+      "rating": 1491
+    },
+    {
+      "id": 3011,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1497",
+      "rating": 1497
+    },
+    {
+      "id": 1861,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1537",
+      "rating": 1537
+    },
+    {
+      "id": 1578,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1574",
+      "rating": 1574
+    },
+    {
+      "id": 1839,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1580",
+      "rating": 1580
+    },
+    {
+      "id": 2765,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1581",
+      "rating": 1581
+    },
+    {
+      "id": 3255,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1595",
+      "rating": 1595
+    },
+    {
+      "id": 3350,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1600",
+      "rating": 1600
+    },
+    {
+      "id": 3105,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3926,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1608",
+      "rating": 1608
+    },
+    {
+      "id": 838,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1638",
+      "rating": 1638
+    },
+    {
+      "id": 467,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 3499,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1729",
+      "rating": 1729
+    },
+    {
+      "id": 3952,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1763",
+      "rating": 1763
+    },
+    {
+      "id": 413,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3738,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 2147,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "1915",
+      "rating": 1915
+    },
+    {
+      "id": 2593,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 68,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 135,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3872,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 2948,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "2047",
+      "rating": 2047
+    },
+    {
+      "id": 3948,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "2122",
+      "rating": 2122
+    },
+    {
+      "id": 3830,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 3640,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "2278",
+      "rating": 2278
+    },
+    {
+      "id": 2393,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3773,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2436,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2495,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3063,
+      "section": "六、分组循环",
+      "stage": "basic",
+      "note": "（会员题）"
+    }
+  ]
+}

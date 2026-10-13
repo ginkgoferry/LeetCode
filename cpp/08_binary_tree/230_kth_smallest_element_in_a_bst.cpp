@@ -62,7 +62,10 @@ using namespace std;
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-
+        // TODO: 在这里实现你的解法。
+        (void)root;
+        (void)k;
+        return {};
     }
 };
 

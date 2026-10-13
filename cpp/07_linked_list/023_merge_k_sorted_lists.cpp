@@ -61,7 +61,9 @@ using namespace std;
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-
+        // TODO: 在这里实现你的解法。
+        (void)lists;
+        return {};
     }
 };
 

@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
-
+        // TODO: 在这里实现你的解法。
+        (void)board;
+        (void)word;
+        return {};
     }
 };
 

@@ -62,7 +62,10 @@ using namespace std;
 class Solution {
 public:
     int pathSum(TreeNode* root, int targetSum) {
-
+        // TODO: 在这里实现你的解法。
+        (void)root;
+        (void)targetSum;
+        return {};
     }
 };
 

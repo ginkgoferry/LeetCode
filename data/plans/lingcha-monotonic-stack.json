@@ -1,0 +1,419 @@
+{
+  "id": "lingcha-monotonic-stack",
+  "name": "灵茶山艾府 · 单调栈",
+  "source_url": "https://leetcode.cn/discuss/post/3579480/ti-dan-dan-diao-zhan-ju-xing-xi-lie-zi-d-u4hk/",
+  "source_updated_at": "2026-09-06T23:34:43.533083+00:00",
+  "source_sha256": "5d7e74268d9aeaa69985b77662921f15e2a74b8bd06b2040c20bf1dc09ed8223",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 62,
+  "source_entry_count": 62,
+  "source_problem_count": 62,
+  "items": [
+    {
+      "id": 739,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1475,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 496,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 503,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 901,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 3676,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1848",
+      "rating": 1848
+    },
+    {
+      "id": 456,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "约 2000"
+    },
+    {
+      "id": 3113,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2046",
+      "rating": 2046
+    },
+    {
+      "id": 2866,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2072",
+      "rating": 2072
+    },
+    {
+      "id": 975,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 1944,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2105",
+      "rating": 2105
+    },
+    {
+      "id": 2454,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2175",
+      "rating": 2175
+    },
+    {
+      "id": 654,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1130,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2289,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2482",
+      "rating": 2482
+    },
+    {
+      "id": 2736,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2533",
+      "rating": 2533
+    },
+    {
+      "id": 3420,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2855 树形结构",
+      "rating": 2855
+    },
+    {
+      "id": 3221,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1966,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2832,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1063,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1950,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2282,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3555,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1019,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1571",
+      "rating": 1571
+    },
+    {
+      "id": 962,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1608",
+      "rating": 1608
+    },
+    {
+      "id": 853,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1678",
+      "rating": 1678
+    },
+    {
+      "id": 768,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1788",
+      "rating": 1788
+    },
+    {
+      "id": 3814,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1796",
+      "rating": 1796
+    },
+    {
+      "id": 2054,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1883",
+      "rating": 1883
+    },
+    {
+      "id": 3542,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1890",
+      "rating": 1890
+    },
+    {
+      "id": 1124,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "1908",
+      "rating": 1908
+    },
+    {
+      "id": 1340,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1776,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "2531",
+      "rating": 2531
+    },
+    {
+      "id": 2863,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2355,
+      "section": "§1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 84,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1793,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": "1946",
+      "rating": 1946
+    },
+    {
+      "id": 85,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 221,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4016,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": "1959",
+      "rating": 1959
+    },
+    {
+      "id": 42,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 1504,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1277,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 755,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1727,
+      "section": "二、矩形",
+      "stage": "basic",
+      "note": "1927 注：不是单调栈，但有一些共同的思路",
+      "rating": 1927
+    },
+    {
+      "id": 907,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "1976",
+      "rating": 1976
+    },
+    {
+      "id": 2104,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "$\\mathcal{O}(n)$ 做法难度大约 2000"
+    },
+    {
+      "id": 1856,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2051",
+      "rating": 2051
+    },
+    {
+      "id": 3878,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2230",
+      "rating": 2230
+    },
+    {
+      "id": 2818,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2397",
+      "rating": 2397
+    },
+    {
+      "id": 2281,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2621",
+      "rating": 2621
+    },
+    {
+      "id": 3430,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2645",
+      "rating": 2645
+    },
+    {
+      "id": 3359,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "（会员题）矩形"
+    },
+    {
+      "id": 2334,
+      "section": "三、贡献法",
+      "stage": "basic",
+      "note": "2381",
+      "rating": 2381
+    },
+    {
+      "id": 402,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "约 1800"
+    },
+    {
+      "id": 1673,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "1802",
+      "rating": 1802
+    },
+    {
+      "id": 316,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "2185",
+      "rating": 2185
+    },
+    {
+      "id": 1081,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "同 316 题"
+    },
+    {
+      "id": 3816,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "2377",
+      "rating": 2377
+    },
+    {
+      "id": 321,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2030,
+      "section": "四、最小字典序",
+      "stage": "basic",
+      "note": "2562",
+      "rating": 2562
+    }
+  ]
+}

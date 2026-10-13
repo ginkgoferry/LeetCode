@@ -1,9 +1,13 @@
 PYTHON ?= python3
 CXX ?= clang++
-CXXFLAGS ?= -std=c++20 -Wall -Wextra -Wshadow -O2 -DLOCAL -I.
-DEBUG_FLAGS ?= -std=c++20 -Wall -Wextra -Wshadow -O0 -g -DLOCAL -I. -fsanitize=address,undefined
+CXXFLAGS ?= -std=c++20 -Wall -Wextra -Wshadow -Werror=return-type -O2 -DLOCAL -I.
+DEBUG_FLAGS ?= -std=c++20 -Wall -Wextra -Wshadow -Werror=return-type -O0 -g -DLOCAL -I. -fsanitize=address,undefined
 BUILD_DIR ?= build
 TRACKER := $(PYTHON) tools/leetcode.py
+PLAN_ARG = $(if $(PLAN),--plan "$(PLAN)",)
+TRAINING_ARGS = $(if $(TRAIN),--stage "$(TRAIN)",) $(if $(filter 1,$(FREE)),--free-only,) \
+	$(if $(MIN_RATING),--min-rating "$(MIN_RATING)",) $(if $(MAX_RATING),--max-rating "$(MAX_RATING)",) \
+	$(if $(UNRATED),--unrated "$(UNRATED)",)
 
 TARGET = $(BUILD_DIR)/$(subst /,_,$(basename $(FILE)))
 CONFIDENCE_ARG = $(if $(CONFIDENCE),--confidence "$(CONFIDENCE)",)
@@ -14,15 +18,21 @@ REVIEW_STATUS_ARG = $(if $(STATUS),--status "$(STATUS)",)
 
 .DEFAULT_GOAL := help
 
-.PHONY: help today stats next reviews list show start done hint review star reviewed note \
-	run build build-debug debug unit test sync check verify clean require-id require-file require-note
+.PHONY: help plans pending use today stats next reviews list browse show start done hint review star reviewed note extra practice ci \
+	run build build-debug debug unit test skeletons prepare sync check verify clean require-id require-file require-note
 
 help:
 	@echo "日常刷题"
+	@echo "  make plans | make use PLAN=...    查看/设置当前题单"
+	@echo "  make next TRAIN=basic FREE=1 MAX_RATING=1700"
+	@echo "  make list UNRATED=only            单独查看未标分题"
+	@echo "  make browse PLAN=lingcha-basic    按章节和原始顺序浏览题单"
 	@echo "  make today                         今日复习队列 + 下一题建议"
-	@echo "  make next [CHAPTER=哈希] [DIFFICULTY=EASY]"
+	@echo "  make next [PLAN=hot100] [CHAPTER=哈希] [DIFFICULTY=EASY]"
 	@echo "  make start ID=283                 标记为进行中"
 	@echo "  make run ID=283                   编译并运行题目"
+	@echo "  make practice ID=283              本题运行 + 数据、文档与官方断言检查"
+	@echo "  make extra ID=283                 创建独立个人补充用例文件"
 	@echo "  make debug ID=283                 使用 Sanitizer 调试"
 	@echo ""
 	@echo "记录"
@@ -33,23 +43,40 @@ help:
 	@echo ""
 	@echo "查看与维护"
 	@echo "  make stats | reviews | show ID=283"
+	@echo "  make pending PLAN=all LIMIT=20    查看元数据和环境待准备清单"
 	@echo "  make sync | check | unit | test | verify"
+	@echo "  make ci [BASE=...] [DRY_RUN=1]     CI 环境编译范围检查"
+	@echo "  make skeletons PLAN=lingcha-sliding-window  编译题单全部本地环境"
+	@echo "  make prepare PLAN=lingcha-sliding-window    从核对过的样例准备缺失文件"
 	@echo "  可用 DATE=YYYY-MM-DD 补录；完整参数见 docs/WORKFLOW.md"
 
+pending:
+	$(TRACKER) pending $(PLAN_ARG) $(if $(LIMIT),--limit "$(LIMIT)",)
+
+plans:
+	$(TRACKER) plans
+
+use:
+	@test -n "$(PLAN)" || (echo "缺少 PLAN，请先运行 make plans" >&2; exit 2)
+	$(TRACKER) use "$(PLAN)"
+
 today:
-	$(TRACKER) today $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",)
+	$(TRACKER) today $(PLAN_ARG) $(TRAINING_ARGS) $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",)
 
 stats:
-	$(TRACKER) stats
+	$(TRACKER) stats $(PLAN_ARG) $(TRAINING_ARGS)
 
 next:
-	$(TRACKER) next $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",) $(if $(RANDOM),--random,)
+	$(TRACKER) next $(PLAN_ARG) $(TRAINING_ARGS) $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",) $(if $(RANDOM),--random,)
 
 reviews:
-	$(TRACKER) reviews $(DATE_ARG)
+	$(TRACKER) reviews $(PLAN_ARG) $(DATE_ARG)
 
 list:
-	$(TRACKER) list $(if $(STATUS),--status "$(STATUS)",) $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",) $(if $(QUERY),--query "$(QUERY)",)
+	$(TRACKER) list $(PLAN_ARG) $(TRAINING_ARGS) $(if $(VIEW),--view "$(VIEW)",) $(if $(STATUS),--status "$(STATUS)",) $(if $(CHAPTER),--chapter "$(CHAPTER)",) $(if $(DIFFICULTY),--difficulty "$(DIFFICULTY)",) $(if $(QUERY),--query "$(QUERY)",)
+
+browse:
+	$(MAKE) list VIEW=sections
 
 show: require-id
 	$(TRACKER) show "$(ID)"
@@ -85,10 +112,10 @@ build-debug: require-file
 
 ifneq ($(strip $(ID)),)
 run:
-	@CXX="$(CXX)" $(TRACKER) run "$(ID)"
+	@CXX="$(CXX)" $(TRACKER) run "$(ID)" $(if $(TIMEOUT),--timeout "$(TIMEOUT)",)
 
 debug:
-	@CXX="$(CXX)" $(TRACKER) run "$(ID)" --debug
+	@CXX="$(CXX)" $(TRACKER) run "$(ID)" --debug $(if $(TIMEOUT),--timeout "$(TIMEOUT)",)
 else
 run: build
 	@"$(TARGET)"
@@ -101,6 +128,23 @@ endif
 
 unit:
 	$(PYTHON) -m unittest discover -s tests -v
+
+extra: require-id
+	$(TRACKER) extra "$(ID)"
+
+practice: require-id
+	@CXX="$(CXX)" $(TRACKER) practice "$(ID)" $(if $(filter 1,$(DEBUG)),--debug,) $(if $(TIMEOUT),--timeout "$(TIMEOUT)",)
+
+ci:
+	@CXX="$(CXX)" $(PYTHON) -m tools.ci $(if $(BASE),--base "$(BASE)",) $(if $(filter 1,$(DRY_RUN)),--dry-run,)
+
+skeletons:
+	@CXX="$(CXX)" $(TRACKER) skeletons $(PLAN_ARG)
+
+prepare:
+	$(PYTHON) -m tools.prepare_environments $(PLAN_ARG)
+	$(TRACKER) sync
+	$(TRACKER) check
 
 test: unit
 	$(TRACKER) test

@@ -1,0 +1,913 @@
+{
+  "id": "lingcha-binary-search",
+  "name": "灵茶山艾府 · 二分算法",
+  "source_url": "https://leetcode.cn/discuss/post/3579164/ti-dan-er-fen-suan-fa-er-fen-da-an-zui-x-3rqn/",
+  "source_updated_at": "2026-09-13T01:49:15.067510+00:00",
+  "source_sha256": "3842ab5231b88c6a4464ac012258b9e22e54a2e9430f4b039e149ccb01685dc5",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 138,
+  "source_entry_count": 138,
+  "source_problem_count": 138,
+  "items": [
+    {
+      "id": 34,
+      "section": "一、二分查找 / §1.1 基础",
+      "stage": "basic",
+      "note": "推荐阅读我题解中的答疑"
+    },
+    {
+      "id": 35,
+      "section": "一、二分查找 / §1.1 基础",
+      "stage": "basic",
+      "note": "推荐阅读我题解中的答疑"
+    },
+    {
+      "id": 704,
+      "section": "一、二分查找 / §1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 744,
+      "section": "一、二分查找 / §1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2529,
+      "section": "一、二分查找 / §1.1 基础",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(\\log n)$"
+    },
+    {
+      "id": 1385,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1235",
+      "rating": 1235
+    },
+    {
+      "id": 1170,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1432",
+      "rating": 1432
+    },
+    {
+      "id": 2300,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1477",
+      "rating": 1477
+    },
+    {
+      "id": 2389,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2080,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1702",
+      "rating": 1702
+    },
+    {
+      "id": 3488,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 2563,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1721",
+      "rating": 1721
+    },
+    {
+      "id": 1146,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1771",
+      "rating": 1771
+    },
+    {
+      "id": 981,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "同 1146 题"
+    },
+    {
+      "id": 3508,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1851",
+      "rating": 1851
+    },
+    {
+      "id": 658,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1818,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1934",
+      "rating": 1934
+    },
+    {
+      "id": 911,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "2001",
+      "rating": 2001
+    },
+    {
+      "id": "LCP 8",
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1182,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3893,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2819,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 74,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1287,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(\\log n)$"
+    },
+    {
+      "id": 2476,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1597",
+      "rating": 1597
+    },
+    {
+      "id": 2070,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1724",
+      "rating": 1724
+    },
+    {
+      "id": 4012,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "1736",
+      "rating": 1736
+    },
+    {
+      "id": 1150,
+      "section": "一、二分查找 / §1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1283,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1542",
+      "rating": 1542
+    },
+    {
+      "id": 2187,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1641",
+      "rating": 1641
+    },
+    {
+      "id": 1011,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1725",
+      "rating": 1725
+    },
+    {
+      "id": 875,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1766",
+      "rating": 1766
+    },
+    {
+      "id": 4008,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1776",
+      "rating": 1776
+    },
+    {
+      "id": 3296,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "注：由于有其他做法，难度分会低一些，二分做法估计 1850"
+    },
+    {
+      "id": 3639,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1853",
+      "rating": 1853
+    },
+    {
+      "id": 475,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2594,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1915",
+      "rating": 1915
+    },
+    {
+      "id": 1482,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1946",
+      "rating": 1946
+    },
+    {
+      "id": 3924,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "2080",
+      "rating": 2080
+    },
+    {
+      "id": 3048,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "2263",
+      "rating": 2263
+    },
+    {
+      "id": 3807,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2604,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2702,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3824,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1531",
+      "rating": 1531
+    },
+    {
+      "id": 1870,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1676 避免浮点数",
+      "rating": 1676
+    },
+    {
+      "id": 3453,
+      "section": "二、二分答案 / §2.1 求最小 / 答疑",
+      "stage": "basic",
+      "note": "1735 浮点二分（也可以整数二分）",
+      "rating": 1735
+    },
+    {
+      "id": 275,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2226,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1646",
+      "rating": 1646
+    },
+    {
+      "id": 2982,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1773",
+      "rating": 1773
+    },
+    {
+      "id": 2576,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1843",
+      "rating": 1843
+    },
+    {
+      "id": 1898,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1913",
+      "rating": 1913
+    },
+    {
+      "id": 1802,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1929",
+      "rating": 1929
+    },
+    {
+      "id": 1642,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1962",
+      "rating": 1962
+    },
+    {
+      "id": 2861,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "1981",
+      "rating": 1981
+    },
+    {
+      "id": 3007,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "2258",
+      "rating": 2258
+    },
+    {
+      "id": 2141,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "2265",
+      "rating": 2265
+    },
+    {
+      "id": 2258,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "2347",
+      "rating": 2347
+    },
+    {
+      "id": 2071,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "2648",
+      "rating": 2648
+    },
+    {
+      "id": "LCP 78",
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1618,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1891,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2137,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3344,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 644,
+      "section": "二、二分答案 / §2.2 求最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3143,
+      "section": "二、二分答案 / §2.3 二分间接值",
+      "stage": "basic",
+      "note": "1697",
+      "rating": 1697
+    },
+    {
+      "id": 1648,
+      "section": "二、二分答案 / §2.3 二分间接值",
+      "stage": "basic",
+      "note": "2050",
+      "rating": 2050
+    },
+    {
+      "id": 410,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2064,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "1886",
+      "rating": 1886
+    },
+    {
+      "id": 3613,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "约 1900"
+    },
+    {
+      "id": 1760,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "1940",
+      "rating": 1940
+    },
+    {
+      "id": 1631,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "1948",
+      "rating": 1948
+    },
+    {
+      "id": 2439,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "1965",
+      "rating": 1965
+    },
+    {
+      "id": 2560,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2081",
+      "rating": 2081
+    },
+    {
+      "id": 778,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2097 相当于最小化路径最大值",
+      "rating": 2097
+    },
+    {
+      "id": 2616,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2155",
+      "rating": 2155
+    },
+    {
+      "id": 3419,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2243",
+      "rating": 2243
+    },
+    {
+      "id": 2513,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2302",
+      "rating": 2302
+    },
+    {
+      "id": 3733,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "同 2513 题"
+    },
+    {
+      "id": 3399,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2376",
+      "rating": 2376
+    },
+    {
+      "id": 3605,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "2410",
+      "rating": 2410
+    },
+    {
+      "id": "LCP 12",
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 774,
+      "section": "二、二分答案 / §2.4 最小化最大值",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3281,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "1768",
+      "rating": 1768
+    },
+    {
+      "id": 3620,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "1998",
+      "rating": 1998
+    },
+    {
+      "id": 2517,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2021",
+      "rating": 2021
+    },
+    {
+      "id": 1552,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "同 2517 题"
+    },
+    {
+      "id": 3710,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2135",
+      "rating": 2135
+    },
+    {
+      "id": 2812,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2154",
+      "rating": 2154
+    },
+    {
+      "id": 2528,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2236",
+      "rating": 2236
+    },
+    {
+      "id": 3600,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2301 做法不止一种",
+      "rating": 2301
+    },
+    {
+      "id": 3449,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2748",
+      "rating": 2748
+    },
+    {
+      "id": 3464,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "2806",
+      "rating": 2806
+    },
+    {
+      "id": 1102,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1231,
+      "section": "二、二分答案 / §2.5 最大化最小值",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 668,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 378,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 719,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 878,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "1897",
+      "rating": 1897
+    },
+    {
+      "id": 1201,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2039",
+      "rating": 2039
+    },
+    {
+      "id": 793,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2100",
+      "rating": 2100
+    },
+    {
+      "id": 373,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1439,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2134",
+      "rating": 2134
+    },
+    {
+      "id": 786,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2169",
+      "rating": 2169
+    },
+    {
+      "id": 3971,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2195",
+      "rating": 2195
+    },
+    {
+      "id": 3116,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2387",
+      "rating": 2387
+    },
+    {
+      "id": 3134,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2451",
+      "rating": 2451
+    },
+    {
+      "id": 2040,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2518",
+      "rating": 2518
+    },
+    {
+      "id": 2386,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "2648 转化",
+      "rating": 2648
+    },
+    {
+      "id": 1508,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3691,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "做到时间复杂度与 $k$ 无关"
+    },
+    {
+      "id": 3520,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1918,
+      "section": "二、二分答案 / §2.6 第 K 小/大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1515,
+      "section": "三、三分法",
+      "stage": "basic",
+      "note": "2157 做法不止一种",
+      "rating": 2157
+    },
+    {
+      "id": 69,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "二分求最大的 $m$，满足 $m^2\\le x$（也可以二分求最小的满足 $m^2>x$ 的 $m$，减一得到答案）"
+    },
+    {
+      "id": 278,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 374,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 162,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1901,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 852,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1095,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "1827",
+      "rating": 1827
+    },
+    {
+      "id": 153,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 154,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 33,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 81,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 222,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1539,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3911,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "2156",
+      "rating": 2156
+    },
+    {
+      "id": 540,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1064,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 702,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2936,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1060,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1198,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1428,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1533,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2387,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 302,
+      "section": "四、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    }
+  ]
+}

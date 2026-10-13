@@ -51,15 +51,17 @@ using namespace std;
 class MedianFinder {
 public:
     MedianFinder() {
-
+        // TODO: 在这里实现你的解法。
     }
 
     void addNum(int num) {
-
+        // TODO: 在这里实现你的解法。
+        (void)num;
     }
 
     double findMedian() {
-
+        // TODO: 在这里实现你的解法。
+        return {};
     }
 };
 

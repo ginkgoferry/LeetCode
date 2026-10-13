@@ -1,0 +1,1232 @@
+{
+  "id": "lingcha-graph",
+  "name": "灵茶山艾府 · 图论算法",
+  "source_url": "https://leetcode.cn/discuss/post/3581143/fen-xiang-gun-ti-dan-tu-lun-suan-fa-dfsb-qyux/",
+  "source_updated_at": "2026-09-10T01:24:06.999995+00:00",
+  "source_sha256": "aedb933fff577c0ceb38219d5a1b216895e33f68fe9b9f46543b8467ed7831e9",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 183,
+  "source_entry_count": 182,
+  "source_problem_count": 180,
+  "items": [
+    {
+      "id": 547,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1971,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 797,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1383",
+      "rating": 1383
+    },
+    {
+      "id": 1306,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1397",
+      "rating": 1397
+    },
+    {
+      "id": 841,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1412",
+      "rating": 1412
+    },
+    {
+      "id": 2316,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1604",
+      "rating": 1604
+    },
+    {
+      "id": 1319,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1633",
+      "rating": 1633
+    },
+    {
+      "id": 2492,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1680",
+      "rating": 1680
+    },
+    {
+      "id": 3310,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1711",
+      "rating": 1711
+    },
+    {
+      "id": 2685,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1769",
+      "rating": 1769
+    },
+    {
+      "id": 2192,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1788",
+      "rating": 1788
+    },
+    {
+      "id": 3387,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1788",
+      "rating": 1788
+    },
+    {
+      "id": 924,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1869 附思考题",
+      "rating": 1869
+    },
+    {
+      "id": 2101,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1880",
+      "rating": 1880
+    },
+    {
+      "id": 721,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 207,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "三色标记法判环"
+    },
+    {
+      "id": 802,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1962",
+      "rating": 1962
+    },
+    {
+      "id": 3695,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1984",
+      "rating": 1984
+    },
+    {
+      "id": 928,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1985",
+      "rating": 1985
+    },
+    {
+      "id": 2092,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "2004",
+      "rating": 2004
+    },
+    {
+      "id": 3108,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "2109",
+      "rating": 2109
+    },
+    {
+      "id": "LCP 7",
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 261,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 323,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1298,
+      "section": "一、图的遍历 / §1.1 深度优先搜索（DFS）",
+      "stage": "basic",
+      "note": "1825",
+      "rating": 1825
+    },
+    {
+      "id": 3243,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1568",
+      "rating": 1568
+    },
+    {
+      "id": 1311,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1653",
+      "rating": 1653
+    },
+    {
+      "id": 3015,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1658",
+      "rating": 1658
+    },
+    {
+      "id": 1129,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1780",
+      "rating": 1780
+    },
+    {
+      "id": 2039,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1865",
+      "rating": 1865
+    },
+    {
+      "id": 2608,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1904",
+      "rating": 1904
+    },
+    {
+      "id": 815,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1964",
+      "rating": 1964
+    },
+    {
+      "id": 3807,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 322,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 279,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3877,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1745",
+      "rating": 1745
+    },
+    {
+      "id": 433,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1284,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 773,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1815",
+      "rating": 1815
+    },
+    {
+      "id": 752,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1878",
+      "rating": 1878
+    },
+    {
+      "id": 3690,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1982",
+      "rating": 1982
+    },
+    {
+      "id": 301,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 514,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 847,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "2201",
+      "rating": 2201
+    },
+    {
+      "id": 854,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "2377",
+      "rating": 2377
+    },
+    {
+      "id": 127,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "双向广搜"
+    },
+    {
+      "id": 488,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3991,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3141,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2998,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1795",
+      "rating": 1795
+    },
+    {
+      "id": 1345,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1810",
+      "rating": 1810
+    },
+    {
+      "id": 2059,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "1850",
+      "rating": 1850
+    },
+    {
+      "id": 1654,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "2124",
+      "rating": 2124
+    },
+    {
+      "id": 3629,
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": "2139",
+      "rating": 2139
+    },
+    {
+      "id": "LCP 9",
+      "section": "§1.3 图论建模 + BFS 最短路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1557,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "，有助于理解拓扑排序。",
+      "reference_only": true
+    },
+    {
+      "id": 210,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2115,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1679",
+      "rating": 1679
+    },
+    {
+      "id": 2392,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1961",
+      "rating": 1961
+    },
+    {
+      "id": 802,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1962",
+      "rating": 1962
+    },
+    {
+      "id": 1591,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2291",
+      "rating": 2291
+    },
+    {
+      "id": 1203,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2419",
+      "rating": 2419
+    },
+    {
+      "id": 1632,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2530",
+      "rating": 2530
+    },
+    {
+      "id": 2603,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2712",
+      "rating": 2712
+    },
+    {
+      "id": "LCR 114",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 444,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）拓扑序是否唯一"
+    },
+    {
+      "id": 3481,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）也可以记忆化搜索"
+    },
+    {
+      "id": 269,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2371,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）同 1632 题"
+    },
+    {
+      "id": 310,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1361,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 851,
+      "section": "§2.2 在拓扑序上 DP",
+      "stage": "basic",
+      "note": "1783",
+      "rating": 1783
+    },
+    {
+      "id": 2050,
+      "section": "§2.2 在拓扑序上 DP",
+      "stage": "basic",
+      "note": "2084",
+      "rating": 2084
+    },
+    {
+      "id": 3620,
+      "section": "§2.2 在拓扑序上 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1857,
+      "section": "§2.2 在拓扑序上 DP",
+      "stage": "basic",
+      "note": "2313",
+      "rating": 2313
+    },
+    {
+      "id": 1136,
+      "section": "§2.2 在拓扑序上 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2359,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "1715",
+      "rating": 1715
+    },
+    {
+      "id": 2360,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "1897",
+      "rating": 1897
+    },
+    {
+      "id": 684,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 685,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2876,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "2210",
+      "rating": 2210
+    },
+    {
+      "id": 2127,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "2449",
+      "rating": 2449
+    },
+    {
+      "id": 2836,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "2769 做法不止一种",
+      "rating": 2769
+    },
+    {
+      "id": "LCP 21",
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2204,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 287,
+      "section": "§2.3 基环树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 743,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3341,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1721 网格图",
+      "rating": 1721
+    },
+    {
+      "id": 3112,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1757 理解原理",
+      "rating": 1757
+    },
+    {
+      "id": 2642,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 3604,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1845",
+      "rating": 1845
+    },
+    {
+      "id": 1514,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1846",
+      "rating": 1846
+    },
+    {
+      "id": 3650,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1854",
+      "rating": 1854
+    },
+    {
+      "id": 3342,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1862 网格图",
+      "rating": 1862
+    },
+    {
+      "id": 1631,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1948 网格图 做法不止一种",
+      "rating": 1948
+    },
+    {
+      "id": 1786,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 3924,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2080 也可以 0-1 BFS",
+      "rating": 2080
+    },
+    {
+      "id": 3123,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2093",
+      "rating": 2093
+    },
+    {
+      "id": 1976,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2095",
+      "rating": 2095
+    },
+    {
+      "id": 778,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2097 网格图 做法不止一种",
+      "rating": 2097
+    },
+    {
+      "id": 2662,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2154",
+      "rating": 2154
+    },
+    {
+      "id": 3377,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2186",
+      "rating": 2186
+    },
+    {
+      "id": 3928,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2187",
+      "rating": 2187
+    },
+    {
+      "id": 2045,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2202 也可以 BFS",
+      "rating": 2202
+    },
+    {
+      "id": 3419,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2243 做法不止一种",
+      "rating": 2243
+    },
+    {
+      "id": 882,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2328",
+      "rating": 2328
+    },
+    {
+      "id": 2203,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2364",
+      "rating": 2364
+    },
+    {
+      "id": 2577,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2382 网格图",
+      "rating": 2382
+    },
+    {
+      "id": 818,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2392",
+      "rating": 2392
+    },
+    {
+      "id": 1928,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2413",
+      "rating": 2413
+    },
+    {
+      "id": 787,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "类似 1928 题"
+    },
+    {
+      "id": 2699,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2874",
+      "rating": 2874
+    },
+    {
+      "id": 1810,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2093,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2473,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2737,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3970,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1840",
+      "rating": 1840
+    },
+    {
+      "id": 3977,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2103",
+      "rating": 2103
+    },
+    {
+      "id": "LCP 35",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3599,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 3594,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2604",
+      "rating": 2604
+    },
+    {
+      "id": 3778,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2714,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2589,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2381 做法不止一种",
+      "rating": 2381
+    },
+    {
+      "id": 1334,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 2976,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1882",
+      "rating": 1882
+    },
+    {
+      "id": 2959,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2077",
+      "rating": 2077
+    },
+    {
+      "id": 2977,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2696",
+      "rating": 2696
+    },
+    {
+      "id": 1462,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1693",
+      "rating": 1693
+    },
+    {
+      "id": 2101,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1584,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1858",
+      "rating": 1858
+    },
+    {
+      "id": 3600,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2301 做法不止一种",
+      "rating": 2301
+    },
+    {
+      "id": 1489,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2572",
+      "rating": 2572
+    },
+    {
+      "id": 1135,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1168,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3219,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 332,
+      "section": "五、欧拉路径/欧拉回路",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 753,
+      "section": "五、欧拉路径/欧拉回路",
+      "stage": "basic",
+      "note": "2274",
+      "rating": 2274
+    },
+    {
+      "id": 2097,
+      "section": "五、欧拉路径/欧拉回路",
+      "stage": "basic",
+      "note": "2651",
+      "rating": 2651
+    },
+    {
+      "id": 1192,
+      "section": "六、强连通分量/双连通分量",
+      "stage": "basic",
+      "note": "2085",
+      "rating": 2085
+    },
+    {
+      "id": 1568,
+      "section": "六、强连通分量/双连通分量",
+      "stage": "basic",
+      "note": "2209",
+      "rating": 2209
+    },
+    {
+      "id": "LCP 54",
+      "section": "六、强连通分量/双连通分量",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3383,
+      "section": "六、强连通分量/双连通分量",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 785,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1625",
+      "rating": 1625
+    },
+    {
+      "id": 886,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1795",
+      "rating": 1795
+    },
+    {
+      "id": 3710,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2135",
+      "rating": 2135
+    },
+    {
+      "id": 1947,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "1704 一对一",
+      "rating": 1704
+    },
+    {
+      "id": 3376,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "1793 一对一",
+      "rating": 1793
+    },
+    {
+      "id": 2850,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2001 一对多",
+      "rating": 2001
+    },
+    {
+      "id": 1879,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2145 一对一",
+      "rating": 2145
+    },
+    {
+      "id": 1349,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2386 二分图最大独立集",
+      "rating": 2386
+    },
+    {
+      "id": 2172,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2392 多对一",
+      "rating": 2392
+    },
+    {
+      "id": 3276,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2403",
+      "rating": 2403
+    },
+    {
+      "id": 1595,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2538 带权二分图最小边覆盖",
+      "rating": 2538
+    },
+    {
+      "id": 3257,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "2553",
+      "rating": 2553
+    },
+    {
+      "id": "LCP 4",
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "二分图最大匹配·模板题"
+    },
+    {
+      "id": "LCP 38",
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "最小割"
+    },
+    {
+      "id": 1820,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）二分图最大匹配·模板题"
+    },
+    {
+      "id": 2403,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）同 3376 题"
+    },
+    {
+      "id": 3385,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）同 3376 题"
+    },
+    {
+      "id": 1066,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）一对一，但不是完美匹配"
+    },
+    {
+      "id": 4004,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2123,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "（会员题）二分图最大独立集"
+    },
+    {
+      "id": 2463,
+      "section": "八、网络流",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}((n+m)\\log(n+m))$"
+    },
+    {
+      "id": 1042,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "1712",
+      "rating": 1712
+    },
+    {
+      "id": 1761,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2005",
+      "rating": 2005
+    },
+    {
+      "id": 2508,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2060",
+      "rating": 2060
+    },
+    {
+      "id": 1579,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2132",
+      "rating": 2132
+    },
+    {
+      "id": 2065,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2178",
+      "rating": 2178
+    },
+    {
+      "id": 1697,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2300",
+      "rating": 2300
+    },
+    {
+      "id": 2242,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2304",
+      "rating": 2304
+    },
+    {
+      "id": 2493,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2415 **推荐**",
+      "rating": 2415
+    },
+    {
+      "id": 1782,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2457",
+      "rating": 2457
+    },
+    {
+      "id": 3666,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2477 进阶 BFS / Gale-Ryser 定理",
+      "rating": 2477
+    },
+    {
+      "id": 2612,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "2824 进阶 BFS",
+      "rating": 2824
+    },
+    {
+      "id": 3435,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "3028",
+      "rating": 3028
+    },
+    {
+      "id": 466,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": ")$"
+    },
+    {
+      "id": "LCP 16",
+      "section": "九、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 277,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1724,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2077,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "（会员题）三元环计数"
+    },
+    {
+      "id": 3656,
+      "section": "九、其他",
+      "stage": "basic",
+      "note": "（会员题）Erdős–Gallai 定理"
+    }
+  ],
+  "repeated_references": [
+    {
+      "id": 2642,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1811 动态加边",
+      "rating": 1811
+    }
+  ]
+}

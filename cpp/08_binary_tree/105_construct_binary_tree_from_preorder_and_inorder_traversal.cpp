@@ -62,7 +62,10 @@ using namespace std;
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-
+        // TODO: 在这里实现你的解法。
+        (void)preorder;
+        (void)inorder;
+        return {};
     }
 };
 

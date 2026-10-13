@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-
+        // TODO: 在这里实现你的解法。
+        (void)prices;
+        return {};
     }
 };
 

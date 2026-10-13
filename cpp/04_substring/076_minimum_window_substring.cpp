@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     string minWindow(string s, string t) {
-
+        // TODO: 在这里实现你的解法。
+        (void)s;
+        (void)t;
+        return {};
     }
 };
 

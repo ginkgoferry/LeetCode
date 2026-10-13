@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-
+        // TODO: 在这里实现你的解法。
+        (void)coins;
+        (void)amount;
+        return {};
     }
 };
 

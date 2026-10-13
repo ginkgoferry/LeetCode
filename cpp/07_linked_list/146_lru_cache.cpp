@@ -51,15 +51,20 @@ using namespace std;
 class LRUCache {
 public:
     LRUCache(int capacity) {
-
+        // TODO: 在这里实现你的解法。
+        (void)capacity;
     }
 
     int get(int key) {
-
+        // TODO: 在这里实现你的解法。
+        (void)key;
+        return {};
     }
 
     void put(int key, int value) {
-
+        // TODO: 在这里实现你的解法。
+        (void)key;
+        (void)value;
     }
 };
 

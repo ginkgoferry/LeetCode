@@ -51,19 +51,24 @@ using namespace std;
 class Trie {
 public:
     Trie() {
-
+        // TODO: 在这里实现你的解法。
     }
 
     void insert(string word) {
-
+        // TODO: 在这里实现你的解法。
+        (void)word;
     }
 
     bool search(string word) {
-
+        // TODO: 在这里实现你的解法。
+        (void)word;
+        return {};
     }
 
     bool startsWith(string prefix) {
-
+        // TODO: 在这里实现你的解法。
+        (void)prefix;
+        return {};
     }
 };
 

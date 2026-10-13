@@ -61,7 +61,10 @@ using namespace std;
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-
+        // TODO: 在这里实现你的解法。
+        (void)list1;
+        (void)list2;
+        return {};
     }
 };
 

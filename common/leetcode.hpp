@@ -1,14 +1,48 @@
 #pragma once
 
 #include <algorithm>
+#include <cassert>
 #include <cmath>
 #include <optional>
 #include <queue>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 #include <utility>
 #include <vector>
 using namespace std;
+
+// Local simulations of LeetCode's platform callbacks. Configure these in main().
+inline int localBadVersion = 1;
+inline int localGuessTarget = 1;
+inline bool isBadVersion(int version) { return version >= localBadVersion; }
+inline int guess(int value) {
+    return value == localGuessTarget ? 0 : (value > localGuessTarget ? -1 : 1);
+}
+
+class MountainArray {
+    vector<int> values;
+    int calls = 0;
+public:
+    explicit MountainArray(vector<int> data) : values(std::move(data)) {}
+    int get(int index) {
+        assert(index >= 0 && static_cast<size_t>(index) < values.size());
+        assert(++calls <= 100);
+        return values[index];
+    }
+    int length() const { return static_cast<int>(values.size()); }
+};
+
+inline bool approxEqual(double actual, double expected, double tolerance = 1e-5) {
+    return abs(actual - expected) <= tolerance * max(1.0, abs(expected));
+}
+template <class T>
+inline bool approxEqual(const vector<T>& actual, const vector<T>& expected, double tolerance = 1e-5) {
+    if (actual.size() != expected.size()) return false;
+    for (size_t i = 0; i < actual.size(); ++i)
+        if (!approxEqual(actual[i], expected[i], tolerance)) return false;
+    return true;
+}
 
 struct ListNode {
     int val;
@@ -26,6 +60,21 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
+
+inline void collectListNodes(ListNode* head, unordered_set<ListNode*>& owned) {
+    unordered_set<ListNode*> visited;
+    while (head && visited.insert(head).second) { owned.insert(head); head = head->next; }
+}
+
+inline void collectTreeNodes(TreeNode* root, unordered_set<TreeNode*>& owned) {
+    unordered_set<TreeNode*> visited;
+    vector<TreeNode*> pending{root};
+    while (!pending.empty()) {
+        TreeNode* node = pending.back(); pending.pop_back();
+        if (!node || !visited.insert(node).second) continue;
+        owned.insert(node); pending.push_back(node->left); pending.push_back(node->right);
+    }
+}
 
 struct Node {
     int val;

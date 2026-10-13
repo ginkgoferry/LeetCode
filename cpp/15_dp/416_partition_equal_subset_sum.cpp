@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-
+        // TODO: 在这里实现你的解法。
+        (void)nums;
+        return {};
     }
 };
 

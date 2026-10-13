@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     string decodeString(string s) {
-
+        // TODO: 在这里实现你的解法。
+        (void)s;
+        return {};
     }
 };
 
@@ -72,6 +74,12 @@ int main() {
     {
         string s = "2[abc]3[cd]ef";
         assert((solution.decodeString(s) == "abcabccdcdcdef"));
+    }
+
+    {
+        // 官方示例 4
+        string s = "abc3[cd]xyz";
+        assert(solution.decodeString(s) == "abccdcdcdxyz");
     }
 
     cout << "All tests passed.\n";

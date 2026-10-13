@@ -1,0 +1,1232 @@
+{
+  "id": "lingcha-basic",
+  "name": "灵茶山艾府 · 基础算法精讲",
+  "source_url": "https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md",
+  "source_updated_at": null,
+  "source_sha256": "f4e4e61d1328e508924b143d7a80b30d0875a6743ae55229c9d621221f00b5f3",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 174,
+  "source_entry_count": 174,
+  "source_problem_count": 172,
+  "items": [
+    {
+      "id": 167,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 15,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "包含两个优化",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 2824,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 16,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 18,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 611,
+      "section": "相向双指针（一）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bP411c7oJ/"
+    },
+    {
+      "id": 11,
+      "section": "相向双指针（二）",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1Qg411q7ia/"
+    },
+    {
+      "id": 42,
+      "section": "相向双指针（二）",
+      "stage": "basic",
+      "note": "额外讲了**前后缀分解**",
+      "video_url": "https://www.bilibili.com/video/BV1Qg411q7ia/"
+    },
+    {
+      "id": 125,
+      "section": "相向双指针（二）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Qg411q7ia/"
+    },
+    {
+      "id": 2105,
+      "section": "相向双指针（二）",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Qg411q7ia/"
+    },
+    {
+      "id": 209,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "最短",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 3,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "最长",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 713,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "方案数",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 3090,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 2958,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 2730,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 2779,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 1004,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 2962,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 2302,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 1658,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 1234,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 3795,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 76,
+      "section": "滑动窗口",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hd4y1r7Gq/"
+    },
+    {
+      "id": 34,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "三种写法",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2529,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2300,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 1385,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2080,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2563,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 875,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2187,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 275,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2861,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2439,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 2517,
+      "section": "二分查找",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1AP41137w7/"
+    },
+    {
+      "id": 162,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 153,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 33,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "两种方法",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 74,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 1901,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 154,
+      "section": "二分查找 - 变形",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1QK411d76w/"
+    },
+    {
+      "id": 206,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 92,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 25,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 24,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 445,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 2816,
+      "section": "链表 - 反转系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1sd4y1x7KN/"
+    },
+    {
+      "id": 876,
+      "section": "链表 - 快慢指针",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1KG4y1G7cu/"
+    },
+    {
+      "id": 141,
+      "section": "链表 - 快慢指针",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1KG4y1G7cu/"
+    },
+    {
+      "id": 142,
+      "section": "链表 - 快慢指针",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1KG4y1G7cu/"
+    },
+    {
+      "id": 143,
+      "section": "链表 - 快慢指针",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1KG4y1G7cu/"
+    },
+    {
+      "id": 234,
+      "section": "链表 - 快慢指针",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1KG4y1G7cu/"
+    },
+    {
+      "id": 237,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "脑筋急转弯",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 19,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "前后指针",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 83,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 82,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 203,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 3217,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 2487,
+      "section": "链表 - 删除系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VP4y1Q71e/"
+    },
+    {
+      "id": 104,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "两种方法",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 111,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 404,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 112,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 129,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 1448,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 987,
+      "section": "二叉树与递归 - 深入理解",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1UD4y1Y769/"
+    },
+    {
+      "id": 100,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 101,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 110,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 199,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 226,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 617,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 1026,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 1080,
+      "section": "二叉树与递归 - 灵活运用",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV18M411z7bb/"
+    },
+    {
+      "id": 98,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "三种方法",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 938,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 2476,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 230,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 1373,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 105,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 106,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 889,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 1110,
+      "section": "二叉树与递归 - 前序/中序/后序",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV14G411P7C1/"
+    },
+    {
+      "id": 236,
+      "section": "二叉树与递归 - 最近公共祖先",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1W44y1Z7AR/"
+    },
+    {
+      "id": 235,
+      "section": "二叉树与递归 - 最近公共祖先",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1W44y1Z7AR/"
+    },
+    {
+      "id": 1123,
+      "section": "二叉树与递归 - 最近公共祖先",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1W44y1Z7AR/"
+    },
+    {
+      "id": 102,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 103,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 513,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 107,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 116,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 117,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 2415,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 2641,
+      "section": "二叉树 - BFS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1hG4y1277i/"
+    },
+    {
+      "id": 17,
+      "section": "回溯 - 子集型",
+      "stage": "basic",
+      "note": "引入回溯概念用",
+      "video_url": "https://www.bilibili.com/video/BV1mG4y1A7Gu/"
+    },
+    {
+      "id": 78,
+      "section": "回溯 - 子集型",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1mG4y1A7Gu/"
+    },
+    {
+      "id": 131,
+      "section": "回溯 - 子集型",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1mG4y1A7Gu/"
+    },
+    {
+      "id": 2698,
+      "section": "回溯 - 子集型",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1mG4y1A7Gu/"
+    },
+    {
+      "id": 77,
+      "section": "回溯 - 组合型与剪枝",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1xG4y1F7nC/"
+    },
+    {
+      "id": 216,
+      "section": "回溯 - 组合型与剪枝",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1xG4y1F7nC/"
+    },
+    {
+      "id": 22,
+      "section": "回溯 - 组合型与剪枝",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1xG4y1F7nC/"
+    },
+    {
+      "id": 39,
+      "section": "回溯 - 组合型与剪枝",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1xG4y1F7nC/"
+    },
+    {
+      "id": 93,
+      "section": "回溯 - 组合型与剪枝",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1xG4y1F7nC/"
+    },
+    {
+      "id": 46,
+      "section": "回溯 - 排列型",
+      "stage": "basic",
+      "note": "精确计算搜索树的节点个数",
+      "video_url": "https://www.bilibili.com/video/BV1mY411D7f6/"
+    },
+    {
+      "id": 51,
+      "section": "回溯 - 排列型",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1mY411D7f6/"
+    },
+    {
+      "id": 52,
+      "section": "回溯 - 排列型",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1mY411D7f6/"
+    },
+    {
+      "id": 2850,
+      "section": "回溯 - 排列型",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1mY411D7f6/"
+    },
+    {
+      "id": 198,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 70,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 746,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 3693,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 377,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 2466,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 2266,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 213,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 64,
+      "section": "动态规划 - 从记忆化搜索到递推",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Xj411K7oF/"
+    },
+    {
+      "id": 494,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 322,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 2915,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 416,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 518,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 279,
+      "section": "0-1 背包 完全背包 至多/恰好/至少",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV16Y411v7Y6/"
+    },
+    {
+      "id": 1143,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 72,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 712,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 97,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 1458,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 1092,
+      "section": "最长公共子序列 LCS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1TM4y1o7ug/"
+    },
+    {
+      "id": 300,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "包括贪心二分 + $O(1)$ 空间",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 2826,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 1671,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 354,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 1626,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 1187,
+      "section": "最长递增子序列 LIS",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ub411Q7sB/"
+    },
+    {
+      "id": 122,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 309,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 188,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "变形：恰好/至少",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 714,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 2826,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 2786,
+      "section": "状态机 DP - 买卖股票系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1ho4y1W7QK/"
+    },
+    {
+      "id": 516,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "包含空间优化",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 1039,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 3472,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 3040,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 1771,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 1547,
+      "section": "区间 DP",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1Gs4y1E7EU/"
+    },
+    {
+      "id": 543,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 124,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 2246,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 687,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 3203,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 1617,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 2538,
+      "section": "树形 DP - 直径系列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV17o4y187h1/"
+    },
+    {
+      "id": 337,
+      "section": "树形 DP - 最大独立集",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1vu4y1f7dn/"
+    },
+    {
+      "id": 1377,
+      "section": "树形 DP - 最大独立集",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1vu4y1f7dn/"
+    },
+    {
+      "id": 2646,
+      "section": "树形 DP - 最大独立集",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1vu4y1f7dn/"
+    },
+    {
+      "id": 968,
+      "section": "树形 DP - 最小支配集",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1oF411U7qL/"
+    },
+    {
+      "id": 739,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "两种写法",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 42,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 496,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 503,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 901,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 1019,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 1944,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 84,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 1793,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 85,
+      "section": "单调栈",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1VN411J7S7/"
+    },
+    {
+      "id": 239,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    },
+    {
+      "id": 2398,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    },
+    {
+      "id": 862,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    },
+    {
+      "id": 1499,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    },
+    {
+      "id": 1696,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    },
+    {
+      "id": 2944,
+      "section": "单调队列",
+      "stage": "basic",
+      "note": "*课后作业",
+      "video_url": "https://www.bilibili.com/video/BV1bM411X72E/"
+    }
+  ]
+}

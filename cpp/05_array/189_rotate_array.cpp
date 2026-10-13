@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
-
+        // TODO: 在这里实现你的解法。
+        (void)nums;
+        (void)k;
     }
 };
 

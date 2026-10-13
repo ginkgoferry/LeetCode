@@ -51,23 +51,26 @@ using namespace std;
 class MinStack {
 public:
     MinStack() {
-
+        // TODO: 在这里实现你的解法。
     }
 
     void push(int value) {
-
+        // TODO: 在这里实现你的解法。
+        (void)value;
     }
 
     void pop() {
-
+        // TODO: 在这里实现你的解法。
     }
 
     int top() {
-
+        // TODO: 在这里实现你的解法。
+        return {};
     }
 
     int getMin() {
-
+        // TODO: 在这里实现你的解法。
+        return {};
     }
 };
 

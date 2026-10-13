@@ -1,0 +1,4923 @@
+{
+  "id": "lingcha-dp",
+  "name": "灵茶山艾府 · 动态规划",
+  "source_url": "https://leetcode.cn/discuss/post/3581838/fen-xiang-gun-ti-dan-dong-tai-gui-hua-ru-007o/",
+  "source_updated_at": "2026-08-17T09:34:24.887732+00:00",
+  "source_sha256": "707a37e7859b523a810b91d3962c368a951a259c305f31fedc2f754bde413546",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 740,
+  "source_entry_count": 737,
+  "source_problem_count": 633,
+  "items": [
+    {
+      "id": 70,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 746,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "约 1500"
+    },
+    {
+      "id": 3693,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "1560 注意：虽然题目说下标从 $1$ 开始，但实际输入的数组还是从 $0$ 开始的",
+      "rating": 1560
+    },
+    {
+      "id": 377,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "约 1600"
+    },
+    {
+      "id": 2466,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "1694",
+      "rating": 1694
+    },
+    {
+      "id": 2266,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "1857",
+      "rating": 1857
+    },
+    {
+      "id": 2533,
+      "section": "一、入门 DP / §1.1 爬楼梯",
+      "stage": "basic",
+      "note": "（会员题）同 2466 题"
+    },
+    {
+      "id": 198,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 213,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": "环形数组"
+    },
+    {
+      "id": 2320,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": "1608",
+      "rating": 1608
+    },
+    {
+      "id": 3840,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": "1619",
+      "rating": 1619
+    },
+    {
+      "id": 740,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3186,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": "1841",
+      "rating": 1841
+    },
+    {
+      "id": 2140,
+      "section": "一、入门 DP / §1.2 打家劫舍 / 答疑",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 121,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "。"
+    },
+    {
+      "id": 53,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "可以看看我题解中的**思考题**"
+    },
+    {
+      "id": 2606,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1422",
+      "rating": 1422
+    },
+    {
+      "id": 1749,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1542",
+      "rating": 1542
+    },
+    {
+      "id": 1191,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1748",
+      "rating": 1748
+    },
+    {
+      "id": 918,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1777 环形数组",
+      "rating": 1777
+    },
+    {
+      "id": 2321,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1791",
+      "rating": 1791
+    },
+    {
+      "id": 152,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1186,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1799",
+      "rating": 1799
+    },
+    {
+      "id": 3381,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1943",
+      "rating": 1943
+    },
+    {
+      "id": 3984,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "1944",
+      "rating": 1944
+    },
+    {
+      "id": 3938,
+      "section": "一、入门 DP / §1.3 最大子数组和（最大子段和）",
+      "stage": "basic",
+      "note": "2252",
+      "rating": 2252
+    },
+    {
+      "id": 64,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 62,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 63,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 120,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3393,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1573",
+      "rating": 1573
+    },
+    {
+      "id": 931,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1573",
+      "rating": 1573
+    },
+    {
+      "id": 3603,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1639",
+      "rating": 1639
+    },
+    {
+      "id": 2304,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1658",
+      "rating": 1658
+    },
+    {
+      "id": 1289,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1697 优化",
+      "rating": 1697
+    },
+    {
+      "id": 3882,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1771",
+      "rating": 1771
+    },
+    {
+      "id": 3418,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1798",
+      "rating": 1798
+    },
+    {
+      "id": 3742,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1804",
+      "rating": 1804
+    },
+    {
+      "id": 2684,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1626",
+      "rating": 1626
+    },
+    {
+      "id": 1824,
+      "section": "二、网格图 DP / §2.1 基础",
+      "stage": "basic",
+      "note": "1778",
+      "rating": 1778
+    },
+    {
+      "id": 1594,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "1807",
+      "rating": 1807
+    },
+    {
+      "id": 1301,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "1853",
+      "rating": 1853
+    },
+    {
+      "id": 3665,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "1883",
+      "rating": 1883
+    },
+    {
+      "id": 2435,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "1952",
+      "rating": 1952
+    },
+    {
+      "id": 174,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 329,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2328,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "2001",
+      "rating": 2001
+    },
+    {
+      "id": 2267,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "2085",
+      "rating": 2085
+    },
+    {
+      "id": 1937,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "2106",
+      "rating": 2106
+    },
+    {
+      "id": 3363,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "实际难度 2200"
+    },
+    {
+      "id": 1463,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 741,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3459,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "2337 状态设计",
+      "rating": 2337
+    },
+    {
+      "id": 2510,
+      "section": "二、网格图 DP / §2.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 416,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 494,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2915,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "1659",
+      "rating": 1659
+    },
+    {
+      "id": 3877,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "1745",
+      "rating": 1745
+    },
+    {
+      "id": 2787,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "1818",
+      "rating": 1818
+    },
+    {
+      "id": 474,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "二维背包"
+    },
+    {
+      "id": 3946,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "1728",
+      "rating": 1728
+    },
+    {
+      "id": 3180,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "1849",
+      "rating": 1849
+    },
+    {
+      "id": 3489,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2068",
+      "rating": 2068
+    },
+    {
+      "id": 1774,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3685,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2073",
+      "rating": 2073
+    },
+    {
+      "id": 1049,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2092",
+      "rating": 2092
+    },
+    {
+      "id": 879,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2204",
+      "rating": 2204
+    },
+    {
+      "id": 3082,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2242",
+      "rating": 2242
+    },
+    {
+      "id": 956,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2381",
+      "rating": 2381
+    },
+    {
+      "id": 2518,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2415",
+      "rating": 2415
+    },
+    {
+      "id": 2742,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2425 至少装满",
+      "rating": 2425
+    },
+    {
+      "id": 3287,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2545",
+      "rating": 2545
+    },
+    {
+      "id": 3181,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "2688 bitset 优化",
+      "rating": 2688
+    },
+    {
+      "id": "LCP 47",
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2291,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2431,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3647,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "（会员题）多背包"
+    },
+    {
+      "id": 2189,
+      "section": "三、背包 / §3.1 0-1 背包",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 322,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 518,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 279,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3610,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3183,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": "（会员题）混合背包"
+    },
+    {
+      "id": 3592,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": "1701",
+      "rating": 1701
+    },
+    {
+      "id": 1449,
+      "section": "三、背包 / §3.2 完全背包",
+      "stage": "basic",
+      "note": "1927",
+      "rating": 1927
+    },
+    {
+      "id": 2585,
+      "section": "三、背包 / §3.3 多重背包（选做）",
+      "stage": "advanced",
+      "note": "1910",
+      "rating": 1910
+    },
+    {
+      "id": 3333,
+      "section": "三、背包 / §3.3 多重背包（选做）",
+      "stage": "advanced",
+      "note": "2629",
+      "rating": 2629
+    },
+    {
+      "id": 2902,
+      "section": "三、背包 / §3.3 多重背包（选做）",
+      "stage": "advanced",
+      "note": "2759",
+      "rating": 2759
+    },
+    {
+      "id": 3489,
+      "section": "三、背包 / §3.3 多重背包（选做）",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1155,
+      "section": "三、背包 / §3.4 分组背包",
+      "stage": "basic",
+      "note": "1654",
+      "rating": 1654
+    },
+    {
+      "id": 1981,
+      "section": "三、背包 / §3.4 分组背包",
+      "stage": "basic",
+      "note": "2010",
+      "rating": 2010
+    },
+    {
+      "id": 2218,
+      "section": "三、背包 / §3.4 分组背包",
+      "stage": "basic",
+      "note": "2158",
+      "rating": 2158
+    },
+    {
+      "id": 3939,
+      "section": "三、背包 / §3.5 树上背包（选做）",
+      "stage": "advanced",
+      "note": "2354",
+      "rating": 2354
+    },
+    {
+      "id": 3562,
+      "section": "三、背包 / §3.5 树上背包（选做）",
+      "stage": "advanced",
+      "note": "2458",
+      "rating": 2458
+    },
+    {
+      "id": 1143,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 583,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 712,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 72,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1035,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": "1806",
+      "rating": 1806
+    },
+    {
+      "id": 718,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3290,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "1692",
+      "rating": 1692
+    },
+    {
+      "id": 115,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3628,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "1754",
+      "rating": 1754
+    },
+    {
+      "id": 1458,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "1824 如何表达「子序列非空」",
+      "rating": 1824
+    },
+    {
+      "id": 3836,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "1988",
+      "rating": 1988
+    },
+    {
+      "id": 3316,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "2062",
+      "rating": 2062
+    },
+    {
+      "id": 1639,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": "2082",
+      "rating": 2082
+    },
+    {
+      "id": 97,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1092,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 44,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "section": "四、经典线性 DP / §4.1 最长公共子序列（LCS） / §4.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2407,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS）",
+      "stage": "basic",
+      "note": "）"
+    },
+    {
+      "id": 300,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 334,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2826,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.1 基础",
+      "stage": "basic",
+      "note": "1721",
+      "rating": 1721
+    },
+    {
+      "id": 1964,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.1 基础",
+      "stage": "basic",
+      "note": "1933",
+      "rating": 1933
+    },
+    {
+      "id": 2111,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.1 基础",
+      "stage": "basic",
+      "note": "1941 包含进阶问题",
+      "rating": 1941
+    },
+    {
+      "id": 3825,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "1846",
+      "rating": 1846
+    },
+    {
+      "id": 1671,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "1913",
+      "rating": 1913
+    },
+    {
+      "id": 354,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1626,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2027",
+      "rating": 2027
+    },
+    {
+      "id": 1691,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2172",
+      "rating": 2172
+    },
+    {
+      "id": 960,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2247",
+      "rating": 2247
+    },
+    {
+      "id": 3920,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2264",
+      "rating": 2264
+    },
+    {
+      "id": 2407,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2280",
+      "rating": 2280
+    },
+    {
+      "id": 673,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1187,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2316",
+      "rating": 2316
+    },
+    {
+      "id": 1713,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2351 用 LIS 求 LCS",
+      "rating": 2351
+    },
+    {
+      "id": 3288,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2450",
+      "rating": 2450
+    },
+    {
+      "id": 368,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "约 1800"
+    },
+    {
+      "id": 2901,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "1899",
+      "rating": 1899
+    },
+    {
+      "id": 3981,
+      "section": "四、经典线性 DP / §4.2 最长递增子序列（LIS） / §4.2.2 进阶",
+      "stage": "advanced",
+      "note": "2128",
+      "rating": 2128
+    },
+    {
+      "id": 2369,
+      "section": "五、划分型 DP / §5.1 判定能否划分",
+      "stage": "basic",
+      "note": "1780",
+      "rating": 1780
+    },
+    {
+      "id": 139,
+      "section": "五、划分型 DP / §5.1 判定能否划分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 132,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2707,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1736",
+      "rating": 1736
+    },
+    {
+      "id": 3196,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1847 也有状态机 DP 做法",
+      "rating": 1847
+    },
+    {
+      "id": 2767,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1865",
+      "rating": 1865
+    },
+    {
+      "id": 91,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 639,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCR 165",
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1043,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1916",
+      "rating": 1916
+    },
+    {
+      "id": 3144,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 1416,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "1920",
+      "rating": 1920
+    },
+    {
+      "id": 2472,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2013",
+      "rating": 2013
+    },
+    {
+      "id": 1105,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2014",
+      "rating": 2014
+    },
+    {
+      "id": 2547,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2020",
+      "rating": 2020
+    },
+    {
+      "id": 3578,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2033 优化",
+      "rating": 2033
+    },
+    {
+      "id": 2430,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2102",
+      "rating": 2102
+    },
+    {
+      "id": 2463,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2454",
+      "rating": 2454
+    },
+    {
+      "id": 3579,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2493 可以做到 $\\mathcal{O}(n^2)$",
+      "rating": 2493
+    },
+    {
+      "id": 3500,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2569 式子变形",
+      "rating": 2569
+    },
+    {
+      "id": 2977,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2696",
+      "rating": 2696
+    },
+    {
+      "id": 3441,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "2765",
+      "rating": 2765
+    },
+    {
+      "id": 2052,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2464,
+      "section": "五、划分型 DP / §5.2 最优划分",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 813,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "1937",
+      "rating": 1937
+    },
+    {
+      "id": 3599,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "1955 做法不止一种",
+      "rating": 1955
+    },
+    {
+      "id": 410,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1278,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "1979",
+      "rating": 1979
+    },
+    {
+      "id": 1745,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1335,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2035",
+      "rating": 2035
+    },
+    {
+      "id": 1473,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2056",
+      "rating": 2056
+    },
+    {
+      "id": 2209,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2106",
+      "rating": 2106
+    },
+    {
+      "id": 1478,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2190",
+      "rating": 2190
+    },
+    {
+      "id": 3473,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2274 优化",
+      "rating": 2274
+    },
+    {
+      "id": 1959,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2310",
+      "rating": 2310
+    },
+    {
+      "id": 2478,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2344",
+      "rating": 2344
+    },
+    {
+      "id": 3538,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2461 相邻相关",
+      "rating": 2461
+    },
+    {
+      "id": 3505,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2539",
+      "rating": 2539
+    },
+    {
+      "id": 3077,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2557 做法不止一种",
+      "rating": 2557
+    },
+    {
+      "id": 2911,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2608",
+      "rating": 2608
+    },
+    {
+      "id": 3117,
+      "section": "五、划分型 DP / §5.3 约束划分个数",
+      "stage": "basic",
+      "note": "2735",
+      "rating": 2735
+    },
+    {
+      "id": 121,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易 $1$ 次"
+    },
+    {
+      "id": 122,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易次数不限"
+    },
+    {
+      "id": 123,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易 $2$ 次"
+    },
+    {
+      "id": 188,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易 $k$ 次"
+    },
+    {
+      "id": 3573,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易 $k$ 次 1777"
+    },
+    {
+      "id": 309,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易次数不限"
+    },
+    {
+      "id": 714,
+      "section": "六、状态机 DP / §6.1 买卖股票",
+      "stage": "basic",
+      "note": "交易次数不限"
+    },
+    {
+      "id": 198,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3259,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1484",
+      "rating": 1484
+    },
+    {
+      "id": 2222,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1657",
+      "rating": 1657
+    },
+    {
+      "id": 2708,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$ 时间（联系 152 题）"
+    },
+    {
+      "id": 1567,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1710",
+      "rating": 1710
+    },
+    {
+      "id": 2786,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1733",
+      "rating": 1733
+    },
+    {
+      "id": 3952,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1763",
+      "rating": 1763
+    },
+    {
+      "id": 1911,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "1786",
+      "rating": 1786
+    },
+    {
+      "id": 376,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3466,
+      "section": "六、状态机 DP / §6.2 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3628,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1754",
+      "rating": 1754
+    },
+    {
+      "id": 3983,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1755",
+      "rating": 1755
+    },
+    {
+      "id": 2771,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1792",
+      "rating": 1792
+    },
+    {
+      "id": 1186,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1799",
+      "rating": 1799
+    },
+    {
+      "id": 1594,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1807",
+      "rating": 1807
+    },
+    {
+      "id": 3738,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 3980,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1846 做法不止一种",
+      "rating": 1846
+    },
+    {
+      "id": 3196,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1847 做法不止一种",
+      "rating": 1847
+    },
+    {
+      "id": 935,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3891,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1953",
+      "rating": 1953
+    },
+    {
+      "id": 1537,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1961",
+      "rating": 1961
+    },
+    {
+      "id": 3976,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "1981",
+      "rating": 1981
+    },
+    {
+      "id": 3811,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2006 做法不止一种",
+      "rating": 2006
+    },
+    {
+      "id": 2919,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2031",
+      "rating": 2031
+    },
+    {
+      "id": 3872,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 801,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2066",
+      "rating": 2066
+    },
+    {
+      "id": 3434,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2094",
+      "rating": 2094
+    },
+    {
+      "id": 1955,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2125",
+      "rating": 2125
+    },
+    {
+      "id": 3830,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 3068,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2268",
+      "rating": 2268
+    },
+    {
+      "id": 3640,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2278",
+      "rating": 2278
+    },
+    {
+      "id": 2272,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2516",
+      "rating": 2516
+    },
+    {
+      "id": 3661,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2525",
+      "rating": 2525
+    },
+    {
+      "id": 3077,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "2557 做法不止一种",
+      "rating": 2557
+    },
+    {
+      "id": 3743,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "3125 环形数组",
+      "rating": 3125
+    },
+    {
+      "id": "LCP 19",
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 276,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1746,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2036,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2361,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3269,
+      "section": "六、状态机 DP / §6.3 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3147,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1460",
+      "rating": 1460
+    },
+    {
+      "id": 2944,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 2140,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1709 可以用刷表法",
+      "rating": 1709
+    },
+    {
+      "id": 983,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1786 有 $\\mathcal{O}(n)$ 做法",
+      "rating": 1786
+    },
+    {
+      "id": 3989,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "约 1800"
+    },
+    {
+      "id": 368,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "约 1850"
+    },
+    {
+      "id": 2901,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1899",
+      "rating": 1899
+    },
+    {
+      "id": 650,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "约 2000"
+    },
+    {
+      "id": 871,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2074",
+      "rating": 2074
+    },
+    {
+      "id": 3995,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2101",
+      "rating": 2101
+    },
+    {
+      "id": 32,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2167,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2219",
+      "rating": 2219
+    },
+    {
+      "id": 2188,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2315",
+      "rating": 2315
+    },
+    {
+      "id": 2896,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 818,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2392",
+      "rating": 2392
+    },
+    {
+      "id": 3389,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "2940",
+      "rating": 2940
+    },
+    {
+      "id": 3464,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3205,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "（会员题）有 $\\mathcal{O}(n)$ 做法"
+    },
+    {
+      "id": 1259,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2597,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "用 DP 解决"
+    },
+    {
+      "id": 2638,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "（会员题）上面这题的加强版"
+    },
+    {
+      "id": 4008,
+      "section": "七、其他线性 DP / §7.1 一维 DP",
+      "stage": "basic",
+      "note": "1776",
+      "rating": 1776
+    },
+    {
+      "id": 2830,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "1851",
+      "rating": 1851
+    },
+    {
+      "id": 2008,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "1872",
+      "rating": 1872
+    },
+    {
+      "id": 2054,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "1883",
+      "rating": 1883
+    },
+    {
+      "id": 1235,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "2023 做法不止一种",
+      "rating": 2023
+    },
+    {
+      "id": 1751,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "2041",
+      "rating": 2041
+    },
+    {
+      "id": 3414,
+      "section": "七、其他线性 DP / §7.2 不相交区间",
+      "stage": "basic",
+      "note": "2723",
+      "rating": 2723
+    },
+    {
+      "id": 53,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 152,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1186,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "1799",
+      "rating": 1799
+    },
+    {
+      "id": 3738,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 3524,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2008 刷表法",
+      "rating": 2008
+    },
+    {
+      "id": 3872,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 3830,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 3448,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2387 刷表法",
+      "rating": 2387
+    },
+    {
+      "id": 2262,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2033",
+      "rating": 2033
+    },
+    {
+      "id": 828,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": "2034",
+      "rating": 2034
+    },
+    {
+      "id": 467,
+      "section": "七、其他线性 DP / §7.3 子数组 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2501,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1480",
+      "rating": 1480
+    },
+    {
+      "id": 1218,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1597",
+      "rating": 1597
+    },
+    {
+      "id": 2826,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1721 做法不止一种",
+      "rating": 1721
+    },
+    {
+      "id": 1027,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 2370,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1835",
+      "rating": 1835
+    },
+    {
+      "id": 873,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1911",
+      "rating": 1911
+    },
+    {
+      "id": 3686,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1969",
+      "rating": 1969
+    },
+    {
+      "id": 3202,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1974",
+      "rating": 1974
+    },
+    {
+      "id": 446,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "求个数"
+    },
+    {
+      "id": 3811,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2006 做法不止一种",
+      "rating": 2006
+    },
+    {
+      "id": 3351,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2086 求和",
+      "rating": 2086
+    },
+    {
+      "id": 3041,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2231",
+      "rating": 2231
+    },
+    {
+      "id": 3409,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2500 状态设计",
+      "rating": 2500
+    },
+    {
+      "id": 3098,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2553",
+      "rating": 2553
+    },
+    {
+      "id": 2901,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "做到线性复杂度"
+    },
+    {
+      "id": 3299,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1048,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1599",
+      "rating": 1599
+    },
+    {
+      "id": 940,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "1985",
+      "rating": 1985
+    },
+    {
+      "id": 1987,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": "2422 思考方式同 940 题",
+      "rating": 2422
+    },
+    {
+      "id": 730,
+      "section": "七、其他线性 DP / §7.4 合法子序列 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3148,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": "1820",
+      "rating": 1820
+    },
+    {
+      "id": 221,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4016,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": "1959",
+      "rating": 1959
+    },
+    {
+      "id": 1277,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2088,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": "2105",
+      "rating": 2105
+    },
+    {
+      "id": 3197,
+      "section": "七、其他线性 DP / §7.5 子矩形 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(mn)$"
+    },
+    {
+      "id": 2222,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1657 把 $3$ 改成 $k$ 怎么做？",
+      "rating": 1657
+    },
+    {
+      "id": 2826,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1721 做法不止一种",
+      "rating": 1721
+    },
+    {
+      "id": 2400,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1751",
+      "rating": 1751
+    },
+    {
+      "id": 1262,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 3780,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "通用做法"
+    },
+    {
+      "id": 3332,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1828",
+      "rating": 1828
+    },
+    {
+      "id": 3176,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1849",
+      "rating": 1849
+    },
+    {
+      "id": 1269,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1854",
+      "rating": 1854
+    },
+    {
+      "id": 3250,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1898",
+      "rating": 1898
+    },
+    {
+      "id": 3218,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "也有贪心做法"
+    },
+    {
+      "id": 3122,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1905",
+      "rating": 1905
+    },
+    {
+      "id": 576,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 403,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3850,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1965",
+      "rating": 1965
+    },
+    {
+      "id": 3725,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "1982",
+      "rating": 1982
+    },
+    {
+      "id": 1223,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2008",
+      "rating": 2008
+    },
+    {
+      "id": 1320,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2028",
+      "rating": 2028
+    },
+    {
+      "id": 3366,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2040",
+      "rating": 2040
+    },
+    {
+      "id": 1575,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2055",
+      "rating": 2055
+    },
+    {
+      "id": 3154,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2071",
+      "rating": 2071
+    },
+    {
+      "id": 2318,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2090",
+      "rating": 2090
+    },
+    {
+      "id": 3469,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2112 状态设计",
+      "rating": 2112
+    },
+    {
+      "id": 2746,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2126",
+      "rating": 2126
+    },
+    {
+      "id": 1444,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2127",
+      "rating": 2127
+    },
+    {
+      "id": 3320,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2153",
+      "rating": 2153
+    },
+    {
+      "id": 3429,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2166",
+      "rating": 2166
+    },
+    {
+      "id": 2896,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2172",
+      "rating": 2172
+    },
+    {
+      "id": 1420,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2176",
+      "rating": 2176
+    },
+    {
+      "id": 3193,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2266",
+      "rating": 2266
+    },
+    {
+      "id": 3892,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2280",
+      "rating": 2280
+    },
+    {
+      "id": 2312,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2363",
+      "rating": 2363
+    },
+    {
+      "id": 3177,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2365",
+      "rating": 2365
+    },
+    {
+      "id": 1884,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 887,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2377",
+      "rating": 2377
+    },
+    {
+      "id": 920,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2400",
+      "rating": 2400
+    },
+    {
+      "id": 514,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(nm)$"
+    },
+    {
+      "id": 3336,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2403",
+      "rating": 2403
+    },
+    {
+      "id": 1388,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2410",
+      "rating": 2410
+    },
+    {
+      "id": 903,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2433",
+      "rating": 2433
+    },
+    {
+      "id": 1900,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2455",
+      "rating": 2455
+    },
+    {
+      "id": 4009,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2499",
+      "rating": 2499
+    },
+    {
+      "id": 1531,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2576",
+      "rating": 2576
+    },
+    {
+      "id": 1883,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2588 避免浮点运算的技巧",
+      "rating": 2588
+    },
+    {
+      "id": 964,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2594",
+      "rating": 2594
+    },
+    {
+      "id": 1787,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2640",
+      "rating": 2640
+    },
+    {
+      "id": 3509,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2703",
+      "rating": 2703
+    },
+    {
+      "id": 3441,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2765",
+      "rating": 2765
+    },
+    {
+      "id": 2060,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2804",
+      "rating": 2804
+    },
+    {
+      "id": 2809,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "2979",
+      "rating": 2979
+    },
+    {
+      "id": 3003,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "3039 如何分析时间复杂度",
+      "rating": 3039
+    },
+    {
+      "id": 3225,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "3028 IOI2022 原题",
+      "rating": 3028
+    },
+    {
+      "id": "LCP 57",
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 43",
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 65",
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 36",
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 38",
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 256,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 265,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3339,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 568,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1692,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2143,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3269,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 638,
+      "section": "七、其他线性 DP / §7.6 多维 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1079,
+      "section": "七、其他线性 DP / §7.7 计数 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 1866,
+      "section": "七、其他线性 DP / §7.7 计数 DP",
+      "stage": "basic",
+      "note": "2333",
+      "rating": 2333
+    },
+    {
+      "id": 3317,
+      "section": "七、其他线性 DP / §7.7 计数 DP",
+      "stage": "basic",
+      "note": "2414",
+      "rating": 2414
+    },
+    {
+      "id": 3343,
+      "section": "七、其他线性 DP / §7.7 计数 DP",
+      "stage": "basic",
+      "note": "2615",
+      "rating": 2615
+    },
+    {
+      "id": 3539,
+      "section": "七、其他线性 DP / §7.7 计数 DP",
+      "stage": "basic",
+      "note": "2694",
+      "rating": 2694
+    },
+    {
+      "id": 516,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1312,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "1787",
+      "rating": 1787
+    },
+    {
+      "id": 3472,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "1884",
+      "rating": 1884
+    },
+    {
+      "id": 1771,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "2182",
+      "rating": 2182
+    },
+    {
+      "id": 730,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1682,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1216,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1246,
+      "section": "八、区间 DP / §8.1 最长回文子序列",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 5,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 647,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3040,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 1130,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "1919",
+      "rating": 1919
+    },
+    {
+      "id": 96,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 375,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1770,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2068",
+      "rating": 2068
+    },
+    {
+      "id": 1547,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2116",
+      "rating": 2116
+    },
+    {
+      "id": 1039,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2130",
+      "rating": 2130
+    },
+    {
+      "id": 1000,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2423",
+      "rating": 2423
+    },
+    {
+      "id": 2019,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2584",
+      "rating": 2584
+    },
+    {
+      "id": "面试题 08.14",
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3563,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2585",
+      "rating": 2585
+    },
+    {
+      "id": 3277,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "2693",
+      "rating": 2693
+    },
+    {
+      "id": 87,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 312,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 664,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 546,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "同 CF1107E"
+    },
+    {
+      "id": 471,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3018,
+      "section": "八、区间 DP / §8.2 区间 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 526,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3376,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1879,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "2145",
+      "rating": 2145
+    },
+    {
+      "id": 2850,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1947,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1799,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3533,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "2257 字典序 暴搜",
+      "rating": 2257
+    },
+    {
+      "id": 3530,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "2353 拓扑序",
+      "rating": 2353
+    },
+    {
+      "id": 2172,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "2392",
+      "rating": 2392
+    },
+    {
+      "id": 2992,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2403,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "（会员题）同 3376 题"
+    },
+    {
+      "id": 1066,
+      "section": "九、状态压缩 DP（状压 DP） / §9.1 排列型状压 DP ① 相邻无关",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2741,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": "2021",
+      "rating": 2021
+    },
+    {
+      "id": 996,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1681,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": "2390 见我在官解下的评论",
+      "rating": 2390
+    },
+    {
+      "id": 3615,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": "2463",
+      "rating": 2463
+    },
+    {
+      "id": 3283,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": "2473",
+      "rating": 2473
+    },
+    {
+      "id": 3149,
+      "section": "九、状态压缩 DP（状压 DP） / §9.2 排列型状压 DP ② 相邻相关",
+      "stage": "basic",
+      "note": "2642",
+      "rating": 2642
+    },
+    {
+      "id": 943,
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": "2186",
+      "rating": 2186
+    },
+    {
+      "id": 847,
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": "2201",
+      "rating": 2201
+    },
+    {
+      "id": "LCP 13",
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2247,
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3568,
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": "2143",
+      "rating": 2143
+    },
+    {
+      "id": 864,
+      "section": "九、状态压缩 DP（状压 DP） / §9.3 旅行商问题（TSP）",
+      "stage": "basic",
+      "note": "2259",
+      "rating": 2259
+    },
+    {
+      "id": 2305,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "1887",
+      "rating": 1887
+    },
+    {
+      "id": 1986,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "1995",
+      "rating": 1995
+    },
+    {
+      "id": 3670,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2234",
+      "rating": 2234
+    },
+    {
+      "id": 1723,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2284",
+      "rating": 2284
+    },
+    {
+      "id": 1655,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2307",
+      "rating": 2307
+    },
+    {
+      "id": 3444,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2337",
+      "rating": 2337
+    },
+    {
+      "id": 3575,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2360",
+      "rating": 2360
+    },
+    {
+      "id": 1349,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2386",
+      "rating": 2386
+    },
+    {
+      "id": 1681,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2390 有 $\\mathcal{O}(n^2\\cdot 2^n)$ 做法",
+      "rating": 2390
+    },
+    {
+      "id": 3801,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2399",
+      "rating": 2399
+    },
+    {
+      "id": 2572,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2420",
+      "rating": 2420
+    },
+    {
+      "id": 1994,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2465",
+      "rating": 2465
+    },
+    {
+      "id": 1494,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 4",
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 53",
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 465,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2152,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3594,
+      "section": "九、状态压缩 DP（状压 DP） / §9.4 子集状压 DP",
+      "stage": "basic",
+      "note": "2604",
+      "rating": 2604
+    },
+    {
+      "id": 1411,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "1845",
+      "rating": 1845
+    },
+    {
+      "id": 1931,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "2170",
+      "rating": 2170
+    },
+    {
+      "id": 1349,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "2386",
+      "rating": 2386
+    },
+    {
+      "id": 1659,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "2655",
+      "rating": 2655
+    },
+    {
+      "id": 980,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 4",
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 76",
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2184,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 756,
+      "section": "九、状态压缩 DP（状压 DP） / §9.5 轮廓线 DP",
+      "stage": "basic",
+      "note": "1990",
+      "rating": 1990
+    },
+    {
+      "id": 3670,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2234",
+      "rating": 2234
+    },
+    {
+      "id": 2002,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2044,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2732,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3757,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2519",
+      "rating": 2519
+    },
+    {
+      "id": 473,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 698,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1125,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "2251",
+      "rating": 2251
+    },
+    {
+      "id": 1434,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "2273",
+      "rating": 2273
+    },
+    {
+      "id": 464,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 691,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3276,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "2403 横看成岭侧成峰",
+      "rating": 2403
+    },
+    {
+      "id": 1595,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "2538",
+      "rating": 2538
+    },
+    {
+      "id": 1815,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "2559",
+      "rating": 2559
+    },
+    {
+      "id": "LCP 69",
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 82",
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 351,
+      "section": "§9.7 其他状压 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3747,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1848",
+      "rating": 1848
+    },
+    {
+      "id": 2719,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 762,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1399,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1742,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 788,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 902,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1990",
+      "rating": 1990
+    },
+    {
+      "id": 600,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3966,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2006",
+      "rating": 2006
+    },
+    {
+      "id": 2376,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2120",
+      "rating": 2120
+    },
+    {
+      "id": 357,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "同 2376 题"
+    },
+    {
+      "id": 3791,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2132",
+      "rating": 2132
+    },
+    {
+      "id": 3906,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2160",
+      "rating": 2160
+    },
+    {
+      "id": 1012,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2230",
+      "rating": 2230
+    },
+    {
+      "id": 3519,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2246 进制转换",
+      "rating": 2246
+    },
+    {
+      "id": 3869,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2255",
+      "rating": 2255
+    },
+    {
+      "id": 2827,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2324",
+      "rating": 2324
+    },
+    {
+      "id": 2999,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2351",
+      "rating": 2351
+    },
+    {
+      "id": 2801,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2367",
+      "rating": 2367
+    },
+    {
+      "id": 2843,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3352,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2451",
+      "rating": 2451
+    },
+    {
+      "id": 3621,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "同 3352 题"
+    },
+    {
+      "id": 3490,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2502",
+      "rating": 2502
+    },
+    {
+      "id": 1397,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2667",
+      "rating": 2667
+    },
+    {
+      "id": 1215,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3032,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3704,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2419 数对",
+      "rating": 2419
+    },
+    {
+      "id": 3871,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 233,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 17.06",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3954,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3007,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2258",
+      "rating": 2258
+    },
+    {
+      "id": 3753,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2297",
+      "rating": 2297
+    },
+    {
+      "id": 1067,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3677,
+      "section": "§10.3 其他数位 DP",
+      "stage": "basic",
+      "note": "2223",
+      "rating": 2223
+    },
+    {
+      "id": 3348,
+      "section": "§10.3 其他数位 DP",
+      "stage": "basic",
+      "note": "3101 只有下界",
+      "rating": 3101
+    },
+    {
+      "id": 1871,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "1896 做法不止一种",
+      "rating": 1896
+    },
+    {
+      "id": 2327,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 3699,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2123",
+      "rating": 2123
+    },
+    {
+      "id": 3883,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2172",
+      "rating": 2172
+    },
+    {
+      "id": 1997,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2260",
+      "rating": 2260
+    },
+    {
+      "id": 629,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3193,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2266",
+      "rating": 2266
+    },
+    {
+      "id": 3473,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2274 划分型",
+      "rating": 2274
+    },
+    {
+      "id": 3251,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2323 做法不止一种",
+      "rating": 2323
+    },
+    {
+      "id": 2478,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2344",
+      "rating": 2344
+    },
+    {
+      "id": 837,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2350 也可以用滑动窗口",
+      "rating": 2350
+    },
+    {
+      "id": 3797,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2376",
+      "rating": 2376
+    },
+    {
+      "id": 3077,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2557 划分型",
+      "rating": 2557
+    },
+    {
+      "id": 3333,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2629 做法不止一种",
+      "rating": 2629
+    },
+    {
+      "id": 2902,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2759",
+      "rating": 2759
+    },
+    {
+      "id": 1977,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2817",
+      "rating": 2817
+    },
+    {
+      "id": 3130,
+      "section": "十一、优化 DP / §11.1 前缀和优化 DP",
+      "stage": "basic",
+      "note": "2825 做法不止一种",
+      "rating": 2825
+    },
+    {
+      "id": 1335,
+      "section": "十一、优化 DP / §11.2 单调栈优化 DP",
+      "stage": "basic",
+      "note": "2035",
+      "rating": 2035
+    },
+    {
+      "id": 2866,
+      "section": "十一、优化 DP / §11.2 单调栈优化 DP",
+      "stage": "basic",
+      "note": "2072",
+      "rating": 2072
+    },
+    {
+      "id": 2617,
+      "section": "十一、优化 DP / §11.2 单调栈优化 DP",
+      "stage": "basic",
+      "note": "2582",
+      "rating": 2582
+    },
+    {
+      "id": 2355,
+      "section": "十一、优化 DP / §11.2 单调栈优化 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2944,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "1709 做到 $\\mathcal{O}(n)$",
+      "rating": 1709
+    },
+    {
+      "id": 1696,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "1954",
+      "rating": 1954
+    },
+    {
+      "id": 1425,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2032",
+      "rating": 2032
+    },
+    {
+      "id": 3578,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2033",
+      "rating": 2033
+    },
+    {
+      "id": 3956,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2061",
+      "rating": 2061
+    },
+    {
+      "id": 1140,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 375,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 1687,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2610",
+      "rating": 2610
+    },
+    {
+      "id": 2463,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(nm)$"
+    },
+    {
+      "id": 3117,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2735",
+      "rating": 2735
+    },
+    {
+      "id": 2945,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "2943",
+      "rating": 2943
+    },
+    {
+      "id": 2969,
+      "section": "十一、优化 DP / §11.3 单调队列优化 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1626,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2027",
+      "rating": 2027
+    },
+    {
+      "id": 2407,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2280",
+      "rating": 2280
+    },
+    {
+      "id": 3915,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2288",
+      "rating": 2288
+    },
+    {
+      "id": 2770,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 2926,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2448 LIS 最大和",
+      "rating": 2448
+    },
+    {
+      "id": 2547,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3671,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2647",
+      "rating": 2647
+    },
+    {
+      "id": 2916,
+      "section": "十一、优化 DP / §11.4 树状数组/线段树优化 DP",
+      "stage": "basic",
+      "note": "2816 思路类似 2547 题",
+      "rating": 2816
+    },
+    {
+      "id": 139,
+      "section": "十一、优化 DP / §11.5 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2707,
+      "section": "十一、优化 DP / §11.5 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 17.13",
+      "section": "十一、优化 DP / §11.5 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 472,
+      "section": "十一、优化 DP / §11.5 字典树优化 DP",
+      "stage": "basic",
+      "note": "约 2300"
+    },
+    {
+      "id": 2977,
+      "section": "十一、优化 DP / §11.5 字典树优化 DP",
+      "stage": "basic",
+      "note": "2696",
+      "rating": 2696
+    },
+    {
+      "id": 70,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "，[1137](https://leetcode.cn/problems/n-th-tribonacci-number/)。[讲解（含模板代码）](https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/)。"
+    },
+    {
+      "id": 1137,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "。[讲解（含模板代码）](https://leetcode.cn/problems/climbing-stairs/solutions/2560716/jiao-ni-yi-bu-bu-si-kao-dong-tai-gui-hua-7zm1/)。"
+    },
+    {
+      "id": 935,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "。[讲解（含模板代码）](https://leetcode.cn/problems/knight-dialer/solutions/3004116/jiao-ni-yi-bu-bu-si-kao-dpcong-ji-yi-hua-x06l/)。"
+    },
+    {
+      "id": 509,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1220,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 552,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 790,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1411,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1931,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3337,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "2412",
+      "rating": 2412
+    },
+    {
+      "id": 3700,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "2435",
+      "rating": 2435
+    },
+    {
+      "id": 2851,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "2858",
+      "rating": 2858
+    },
+    {
+      "id": 2912,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3826,
+      "section": "十一、优化 DP / §11.7 斜率优化 DP",
+      "stage": "basic",
+      "note": "2345",
+      "rating": 2345
+    },
+    {
+      "id": 3494,
+      "section": "十一、优化 DP / §11.7 斜率优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3500,
+      "section": "十一、优化 DP / §11.7 斜率优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3693,
+      "section": "十一、优化 DP / §11.7 斜率优化 DP",
+      "stage": "basic",
+      "note": "与 $K=3$ 无关的做法"
+    },
+    {
+      "id": 188,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3573,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2209,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3957,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": "2611",
+      "rating": 2611
+    },
+    {
+      "id": 3826,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3743,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3929,
+      "section": "十一、优化 DP / §11.8 WQS 二分优化 DP",
+      "stage": "basic",
+      "note": "（会员题）同 3826 题"
+    },
+    {
+      "id": 3654,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "2039",
+      "rating": 2039
+    },
+    {
+      "id": 1937,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "2106",
+      "rating": 2106
+    },
+    {
+      "id": 2713,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "2387",
+      "rating": 2387
+    },
+    {
+      "id": 3651,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "2411",
+      "rating": 2411
+    },
+    {
+      "id": 2318,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "容斥优化（类似 CF1943D2）"
+    },
+    {
+      "id": 1563,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "单调性优化，可以做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 3181,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "2688 bitset 优化",
+      "rating": 2688
+    },
+    {
+      "id": 2267,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "可以进一步地用 bitset 优化"
+    },
+    {
+      "id": 3213,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "字符串哈希 / 后缀数组 / AC 自动机优化"
+    },
+    {
+      "id": 3292,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "字符串哈希 / AC 自动机优化"
+    },
+    {
+      "id": 3743,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "闵可夫斯基和"
+    },
+    {
+      "id": "LCP 14",
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 59",
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "Slope Trick"
+    },
+    {
+      "id": 2263,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "（会员题）Slope Trick"
+    },
+    {
+      "id": 3916,
+      "section": "十一、优化 DP / §11.9 其他优化 DP",
+      "stage": "basic",
+      "note": "（会员题）拉格朗日插值"
+    },
+    {
+      "id": 543,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 687,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 124,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2385,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "1711",
+      "rating": 1711
+    },
+    {
+      "id": 2246,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "2126",
+      "rating": 2126
+    },
+    {
+      "id": 3203,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "2266",
+      "rating": 2266
+    },
+    {
+      "id": 1617,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "2309",
+      "rating": 2309
+    },
+    {
+      "id": 2538,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "2398",
+      "rating": 2398
+    },
+    {
+      "id": 1522,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1245,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 549,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3372,
+      "section": "十二、树形 DP / §12.1 树的直径",
+      "stage": "basic",
+      "note": "算法优化"
+    },
+    {
+      "id": 337,
+      "section": "十二、树形 DP / §12.2 树上最大独立集",
+      "stage": "basic",
+      "note": "（没有上司的舞会）"
+    },
+    {
+      "id": 2646,
+      "section": "十二、树形 DP / §12.2 树上最大独立集",
+      "stage": "basic",
+      "note": "2238",
+      "rating": 2238
+    },
+    {
+      "id": 3544,
+      "section": "十二、树形 DP / §12.2 树上最大独立集",
+      "stage": "basic",
+      "note": "2545 记忆化搜索 / 树上刷表法",
+      "rating": 2545
+    },
+    {
+      "id": 2378,
+      "section": "十二、树形 DP / §12.2 树上最大独立集",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3949,
+      "section": "十二、树形 DP / §12.2 树上最大独立集",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 968,
+      "section": "十二、树形 DP / §12.3 树上最小支配集",
+      "stage": "basic",
+      "note": "2124",
+      "rating": 2124
+    },
+    {
+      "id": 834,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "2197",
+      "rating": 2197
+    },
+    {
+      "id": 2581,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "2228",
+      "rating": 2228
+    },
+    {
+      "id": 3772,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "2235",
+      "rating": 2235
+    },
+    {
+      "id": 2858,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "2295",
+      "rating": 2295
+    },
+    {
+      "id": 310,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "也可以用拓扑排序做"
+    },
+    {
+      "id": 3241,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "2522",
+      "rating": 2522
+    },
+    {
+      "id": 3372,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}((n+m)k)$，解决 $n$ 和 $m$ 很大但 $k$ 很小的场景"
+    },
+    {
+      "id": 3967,
+      "section": "十二、树形 DP / §12.4 换根 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2925,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "1940",
+      "rating": 1940
+    },
+    {
+      "id": 3068,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2268",
+      "rating": 2268
+    },
+    {
+      "id": 2920,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2351 记忆化搜索",
+      "rating": 2351
+    },
+    {
+      "id": 3575,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2360",
+      "rating": 2360
+    },
+    {
+      "id": 3562,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2458 背包",
+      "rating": 2458
+    },
+    {
+      "id": 1916,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2486",
+      "rating": 2486
+    },
+    {
+      "id": 3367,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "2602",
+      "rating": 2602
+    },
+    {
+      "id": "LCP 10",
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 34",
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 64",
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2313,
+      "section": "十二、树形 DP / §12.5 其他树形 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3243,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "1568",
+      "rating": 1568
+    },
+    {
+      "id": 787,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "1786",
+      "rating": 1786
+    },
+    {
+      "id": 3620,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "1998",
+      "rating": 1998
+    },
+    {
+      "id": 1786,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 2050,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2084",
+      "rating": 2084
+    },
+    {
+      "id": 1976,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2095",
+      "rating": 2095
+    },
+    {
+      "id": 3977,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2103",
+      "rating": 2103
+    },
+    {
+      "id": 3543,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2110 bitset",
+      "rating": 2110
+    },
+    {
+      "id": 1857,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2313",
+      "rating": 2313
+    },
+    {
+      "id": 1928,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2413",
+      "rating": 2413
+    },
+    {
+      "id": 913,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2800 拓扑序",
+      "rating": 2800
+    },
+    {
+      "id": 1728,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "2849 拓扑序",
+      "rating": 2849
+    },
+    {
+      "id": "LCP 7",
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1548,
+      "section": "十三、图 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1025,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "1435 有数学做法",
+      "rating": 1435
+    },
+    {
+      "id": 486,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 877,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "1590 有数学做法",
+      "rating": 1590
+    },
+    {
+      "id": 1510,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "1787",
+      "rating": 1787
+    },
+    {
+      "id": 1690,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "1951",
+      "rating": 1951
+    },
+    {
+      "id": 1406,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2027",
+      "rating": 2027
+    },
+    {
+      "id": 1140,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2035",
+      "rating": 2035
+    },
+    {
+      "id": 1563,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2087",
+      "rating": 2087
+    },
+    {
+      "id": 464,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1872,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2440",
+      "rating": 2440
+    },
+    {
+      "id": 913,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2800",
+      "rating": 2800
+    },
+    {
+      "id": 1728,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "2849",
+      "rating": 2849
+    },
+    {
+      "id": 294,
+      "section": "十四、博弈 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 688,
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 837,
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": "2350",
+      "rating": 2350
+    },
+    {
+      "id": 1467,
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": "2357",
+      "rating": 2357
+    },
+    {
+      "id": 808,
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": "2397",
+      "rating": 2397
+    },
+    {
+      "id": "LCR 185",
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1230,
+      "section": "十五、概率 DP、期望 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 368,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1363,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "1823 字典序",
+      "rating": 1823
+    },
+    {
+      "id": 1449,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "1927 字典序",
+      "rating": 1927
+    },
+    {
+      "id": 1092,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "1977",
+      "rating": 1977
+    },
+    {
+      "id": 943,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2186",
+      "rating": 2186
+    },
+    {
+      "id": 1125,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2251",
+      "rating": 2251
+    },
+    {
+      "id": 3533,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2257 字典序 暴搜",
+      "rating": 2257
+    },
+    {
+      "id": 3260,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2370 字典序 暴搜",
+      "rating": 2370
+    },
+    {
+      "id": 3149,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2642 字典序",
+      "rating": 2642
+    },
+    {
+      "id": 3441,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "2765 字典序",
+      "rating": 2765
+    },
+    {
+      "id": 3348,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "3101 字典序 暴搜",
+      "rating": 3101
+    },
+    {
+      "id": 656,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "（会员题）字典序"
+    },
+    {
+      "id": 471,
+      "section": "专题：输出具体方案（打印方案）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 724,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1991,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "同 724 题"
+    },
+    {
+      "id": 2574,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1206",
+      "rating": 1206
+    },
+    {
+      "id": 3707,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1262",
+      "rating": 1262
+    },
+    {
+      "id": 3912,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1273",
+      "rating": 1273
+    },
+    {
+      "id": 3788,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1306",
+      "rating": 1306
+    },
+    {
+      "id": 2270,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1334",
+      "rating": 1334
+    },
+    {
+      "id": 3904,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1352",
+      "rating": 1352
+    },
+    {
+      "id": 2256,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1395",
+      "rating": 1395
+    },
+    {
+      "id": 1422,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 238,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1493,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1423",
+      "rating": 1423
+    },
+    {
+      "id": 334,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 845,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1437 也可以分组循环",
+      "rating": 1437
+    },
+    {
+      "id": 2012,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1468",
+      "rating": 1468
+    },
+    {
+      "id": 2909,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1479",
+      "rating": 1479
+    },
+    {
+      "id": 2483,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1495",
+      "rating": 1495
+    },
+    {
+      "id": 1525,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1500",
+      "rating": 1500
+    },
+    {
+      "id": 3583,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1510",
+      "rating": 1510
+    },
+    {
+      "id": 3354,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1930,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1533",
+      "rating": 1533
+    },
+    {
+      "id": 2780,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1550",
+      "rating": 1550
+    },
+    {
+      "id": 2874,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1583",
+      "rating": 1583
+    },
+    {
+      "id": 1664,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1590",
+      "rating": 1590
+    },
+    {
+      "id": 926,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1602",
+      "rating": 1602
+    },
+    {
+      "id": 3698,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1649",
+      "rating": 1649
+    },
+    {
+      "id": 3598,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1655",
+      "rating": 1655
+    },
+    {
+      "id": 2222,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1657",
+      "rating": 1657
+    },
+    {
+      "id": 1031,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1680",
+      "rating": 1680
+    },
+    {
+      "id": 689,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2420,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1695",
+      "rating": 1695
+    },
+    {
+      "id": 3862,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1697",
+      "rating": 1697
+    },
+    {
+      "id": 123,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "拆分成两个 121 题"
+    },
+    {
+      "id": 2100,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1702",
+      "rating": 1702
+    },
+    {
+      "id": 3983,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1755 子序列匹配",
+      "rating": 1755
+    },
+    {
+      "id": 1653,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1794",
+      "rating": 1794
+    },
+    {
+      "id": 1186,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1799",
+      "rating": 1799
+    },
+    {
+      "id": 3738,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1811",
+      "rating": 1811
+    },
+    {
+      "id": 42,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "（[讲解](https://www.bilibili.com/video/BV1Qg411q7ia/?t=3m05s)）"
+    },
+    {
+      "id": 2711,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(mn)$"
+    },
+    {
+      "id": 1477,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1851",
+      "rating": 1851
+    },
+    {
+      "id": 2680,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1912",
+      "rating": 1912
+    },
+    {
+      "id": 1671,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1913",
+      "rating": 1913
+    },
+    {
+      "id": 3891,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "1953",
+      "rating": 1953
+    },
+    {
+      "id": 3872,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 2906,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2075",
+      "rating": 2075
+    },
+    {
+      "id": 3334,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3830,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 2167,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2219",
+      "rating": 2219
+    },
+    {
+      "id": 2484,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2223",
+      "rating": 2223
+    },
+    {
+      "id": 2163,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2225",
+      "rating": 2225
+    },
+    {
+      "id": 2565,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2432",
+      "rating": 2432
+    },
+    {
+      "id": 1995,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "四个数"
+    },
+    {
+      "id": 2552,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2433 四个数",
+      "rating": 2433
+    },
+    {
+      "id": 3302,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2474 第 2565 题的进阶版本",
+      "rating": 2474
+    },
+    {
+      "id": 3404,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2445 四个数",
+      "rating": 2445
+    },
+    {
+      "id": 3303,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2509",
+      "rating": 2509
+    },
+    {
+      "id": 3287,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2545",
+      "rating": 2545
+    },
+    {
+      "id": 3257,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2553",
+      "rating": 2553
+    },
+    {
+      "id": 3410,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "2844",
+      "rating": 2844
+    },
+    {
+      "id": 3003,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "3039",
+      "rating": 3039
+    },
+    {
+      "id": 487,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1746,
+      "section": "专题：前后缀分解",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1306,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "1397",
+      "rating": 1397
+    },
+    {
+      "id": 2770,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "1533",
+      "rating": 1533
+    },
+    {
+      "id": 403,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1340,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "1866",
+      "rating": 1866
+    },
+    {
+      "id": 1871,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "1896",
+      "rating": 1896
+    },
+    {
+      "id": 1696,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "1954",
+      "rating": 1954
+    },
+    {
+      "id": 975,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 1654,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "2124",
+      "rating": 2124
+    },
+    {
+      "id": "LCP 9",
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 20",
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 656,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2297,
+      "section": "专题：跳跃游戏",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1387,
+      "section": "其他",
+      "stage": "basic",
+      "note": "1507",
+      "rating": 1507
+    },
+    {
+      "id": 397,
+      "section": "其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2998,
+      "section": "其他",
+      "stage": "basic",
+      "note": "1795",
+      "rating": 1795
+    },
+    {
+      "id": 823,
+      "section": "其他",
+      "stage": "basic",
+      "note": "1900",
+      "rating": 1900
+    },
+    {
+      "id": 1553,
+      "section": "其他",
+      "stage": "basic",
+      "note": "2048",
+      "rating": 2048
+    },
+    {
+      "id": 2930,
+      "section": "其他",
+      "stage": "basic",
+      "note": "2227",
+      "rating": 2227
+    },
+    {
+      "id": 1896,
+      "section": "其他",
+      "stage": "basic",
+      "note": "2532",
+      "rating": 2532
+    }
+  ],
+  "repeated_references": [
+    {
+      "id": 70,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1137,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 935,
+      "section": "十一、优化 DP / §11.6 矩阵快速幂优化 DP",
+      "stage": "basic",
+      "note": ""
+    }
+  ]
+}

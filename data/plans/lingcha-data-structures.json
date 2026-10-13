@@ -1,0 +1,4345 @@
+{
+  "id": "lingcha-data-structures",
+  "name": "灵茶山艾府 · 常用数据结构",
+  "source_url": "https://leetcode.cn/discuss/post/3583665/fen-xiang-gun-ti-dan-chang-yong-shu-ju-j-bvmv/",
+  "source_updated_at": "2026-10-03T23:38:25.418237+00:00",
+  "source_sha256": "8e6bb47909d3f5623209b497e5873a690f4fd7f96d0c92fabfe0fc61ea96d9e3",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 657,
+  "source_entry_count": 653,
+  "source_problem_count": 610,
+  "items": [
+    {
+      "id": 1,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1512,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1161 相当于两数之差等于 $0$",
+      "rating": 1161
+    },
+    {
+      "id": 2441,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1168 相当于两数之和等于 $0$",
+      "rating": 1168
+    },
+    {
+      "id": 121,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2016,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1246",
+      "rating": 1246
+    },
+    {
+      "id": 624,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3880,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1257",
+      "rating": 1257
+    },
+    {
+      "id": 2342,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1309",
+      "rating": 1309
+    },
+    {
+      "id": 3979,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1328",
+      "rating": 1328
+    },
+    {
+      "id": 1679,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1346",
+      "rating": 1346
+    },
+    {
+      "id": "面试题 16.24",
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 219,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2260,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1365",
+      "rating": 1365
+    },
+    {
+      "id": 2001,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1436",
+      "rating": 1436
+    },
+    {
+      "id": 2815,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3623,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1580",
+      "rating": 1580
+    },
+    {
+      "id": 2364,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1622",
+      "rating": 1622
+    },
+    {
+      "id": 3805,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1624",
+      "rating": 1624
+    },
+    {
+      "id": 3371,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1644",
+      "rating": 1644
+    },
+    {
+      "id": 3761,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1669",
+      "rating": 1669
+    },
+    {
+      "id": 1014,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1730",
+      "rating": 1730
+    },
+    {
+      "id": 1814,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1738",
+      "rating": 1738
+    },
+    {
+      "id": 3584,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1763",
+      "rating": 1763
+    },
+    {
+      "id": 2905,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "1764 思考题：求下标对的个数",
+      "rating": 1764
+    },
+    {
+      "id": 3837,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3907,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1010,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3185,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "同 1010 题"
+    },
+    {
+      "id": 2748,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2506,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2874,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "1583",
+      "rating": 1583
+    },
+    {
+      "id": 1497,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "1787",
+      "rating": 1787
+    },
+    {
+      "id": 1477,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "1851",
+      "rating": 1851
+    },
+    {
+      "id": 1031,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2555,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2081",
+      "rating": 2081
+    },
+    {
+      "id": 1995,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "四个数"
+    },
+    {
+      "id": 3404,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2445 四个数",
+      "rating": 2445
+    },
+    {
+      "id": 3267,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2545",
+      "rating": 2545
+    },
+    {
+      "id": 3480,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2764",
+      "rating": 2764
+    },
+    {
+      "id": 1214,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2964,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3917,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2078,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 454,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 220,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3027,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2020",
+      "rating": 2020
+    },
+    {
+      "id": 3548,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "2245 代码复用",
+      "rating": 2245
+    },
+    {
+      "id": 3713,
+      "section": "零、常用枚举技巧 / §0.1 枚举右，维护左 / §0.1.2 进阶",
+      "stage": "advanced",
+      "note": "非暴力写法"
+    },
+    {
+      "id": 3583,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.1 基础",
+      "stage": "basic",
+      "note": "1510 也可以一次遍历",
+      "rating": 1510
+    },
+    {
+      "id": 1930,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.1 基础",
+      "stage": "basic",
+      "note": "1533",
+      "rating": 1533
+    },
+    {
+      "id": 3128,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.1 基础",
+      "stage": "basic",
+      "note": "1541",
+      "rating": 1541
+    },
+    {
+      "id": 2909,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "1479",
+      "rating": 1479
+    },
+    {
+      "id": 2874,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "1583 也可以一次遍历",
+      "rating": 1583
+    },
+    {
+      "id": 456,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3067,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "1909",
+      "rating": 1909
+    },
+    {
+      "id": 1534,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 3455,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "2303",
+      "rating": 2303
+    },
+    {
+      "id": 2242,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "2304",
+      "rating": 2304
+    },
+    {
+      "id": 2867,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "2428",
+      "rating": 2428
+    },
+    {
+      "id": 2552,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "2433 做法不止一种",
+      "rating": 2433
+    },
+    {
+      "id": 3257,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "2553",
+      "rating": 2553
+    },
+    {
+      "id": 3073,
+      "section": "零、常用枚举技巧 / §0.2 枚举中间 / §0.2.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3446,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "1373",
+      "rating": 1373
+    },
+    {
+      "id": 2711,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "1429",
+      "rating": 1429
+    },
+    {
+      "id": 1329,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "1548",
+      "rating": 1548
+    },
+    {
+      "id": 498,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 17.23",
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2\\log n)$，难度约 2800"
+    },
+    {
+      "id": 562,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1424,
+      "section": "零、常用枚举技巧 / §0.3 遍历对角线",
+      "stage": "basic",
+      "note": "1780",
+      "rating": 1780
+    },
+    {
+      "id": 303,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "模板题"
+    },
+    {
+      "id": 3427,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2559,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1435",
+      "rating": 1435
+    },
+    {
+      "id": 1310,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1460",
+      "rating": 1460
+    },
+    {
+      "id": 3152,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1523",
+      "rating": 1523
+    },
+    {
+      "id": 1749,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1542",
+      "rating": 1542
+    },
+    {
+      "id": 53,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3652,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1557",
+      "rating": 1557
+    },
+    {
+      "id": 3361,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3511,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3540,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1523,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1209",
+      "rating": 1209
+    },
+    {
+      "id": 848,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1353",
+      "rating": 1353
+    },
+    {
+      "id": 4044,
+      "section": "一、前缀和 / §1.1 基础",
+      "stage": "basic",
+      "note": "1418",
+      "rating": 1418
+    },
+    {
+      "id": 560,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "我的题解包含**变形题**"
+    },
+    {
+      "id": 930,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1592 同 560 题",
+      "rating": 1592
+    },
+    {
+      "id": 1524,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1611",
+      "rating": 1611
+    },
+    {
+      "id": 974,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1676",
+      "rating": 1676
+    },
+    {
+      "id": 523,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "类似 974 题"
+    },
+    {
+      "id": 2588,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1697",
+      "rating": 1697
+    },
+    {
+      "id": 525,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "$0$ 和 $1$ 个数相同的最长子数组"
+    },
+    {
+      "id": "面试题 17.05",
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "同 525 题"
+    },
+    {
+      "id": 4063,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1740",
+      "rating": 1740
+    },
+    {
+      "id": 3755,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "pair"
+    },
+    {
+      "id": 3026,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1817",
+      "rating": 1817
+    },
+    {
+      "id": 1546,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 4058,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1899",
+      "rating": 1899
+    },
+    {
+      "id": 1124,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1908",
+      "rating": 1908
+    },
+    {
+      "id": 3728,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1909 pair 长度有下界",
+      "rating": 1909
+    },
+    {
+      "id": 3381,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1943",
+      "rating": 1943
+    },
+    {
+      "id": 2488,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "1999",
+      "rating": 1999
+    },
+    {
+      "id": 1590,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2039",
+      "rating": 2039
+    },
+    {
+      "id": 2845,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2073",
+      "rating": 2073
+    },
+    {
+      "id": 3739,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2090",
+      "rating": 2090
+    },
+    {
+      "id": 3900,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2135",
+      "rating": 2135
+    },
+    {
+      "id": 1074,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2189 二维版本的 560 题",
+      "rating": 2189
+    },
+    {
+      "id": 1442,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 3714,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2202 pair",
+      "rating": 2202
+    },
+    {
+      "id": 2025,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2218",
+      "rating": 2218
+    },
+    {
+      "id": 3729,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2248 子数组去重 / 避免重复统计",
+      "rating": 2248
+    },
+    {
+      "id": 4064,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2284",
+      "rating": 2284
+    },
+    {
+      "id": 3969,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2949,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2445 pair",
+      "rating": 2445
+    },
+    {
+      "id": 325,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 548,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1983,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2489,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2031,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2950,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）做到 $\\mathcal{O}(kn)$，其中 $k=9$。"
+    },
+    {
+      "id": 3364,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 363,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4051,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2140",
+      "rating": 2140
+    },
+    {
+      "id": 437,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1685,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "1496",
+      "rating": 1496
+    },
+    {
+      "id": 2615,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "1793",
+      "rating": 1793
+    },
+    {
+      "id": 2602,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "1903",
+      "rating": 1903
+    },
+    {
+      "id": 3937,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 2968,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "2444",
+      "rating": 2444
+    },
+    {
+      "id": 1703,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "2467",
+      "rating": 2467
+    },
+    {
+      "id": 3086,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "2673",
+      "rating": 2673
+    },
+    {
+      "id": 3422,
+      "section": "一、前缀和 / §1.3 距离和",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1177,
+      "section": "一、前缀和 / §1.4 状态压缩前缀和",
+      "stage": "basic",
+      "note": "1848",
+      "rating": 1848
+    },
+    {
+      "id": 1371,
+      "section": "一、前缀和 / §1.4 状态压缩前缀和",
+      "stage": "basic",
+      "note": "2041",
+      "rating": 2041
+    },
+    {
+      "id": 1542,
+      "section": "一、前缀和 / §1.4 状态压缩前缀和",
+      "stage": "basic",
+      "note": "2222",
+      "rating": 2222
+    },
+    {
+      "id": 1915,
+      "section": "一、前缀和 / §1.4 状态压缩前缀和",
+      "stage": "basic",
+      "note": "2235",
+      "rating": 2235
+    },
+    {
+      "id": 2791,
+      "section": "一、前缀和 / §1.4 状态压缩前缀和",
+      "stage": "basic",
+      "note": "2677",
+      "rating": 2677
+    },
+    {
+      "id": 2389,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3709,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1648",
+      "rating": 1648
+    },
+    {
+      "id": 3919,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1777",
+      "rating": 1777
+    },
+    {
+      "id": 1895,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1781 斜向前缀和 可以优化到 $\\mathcal{O}(N^3)$",
+      "rating": 1781
+    },
+    {
+      "id": 2055,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1819",
+      "rating": 1819
+    },
+    {
+      "id": 1744,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1859",
+      "rating": 1859
+    },
+    {
+      "id": 1878,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1898 斜向前缀和",
+      "rating": 1898
+    },
+    {
+      "id": 3756,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "1968",
+      "rating": 1968
+    },
+    {
+      "id": 1031,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2245,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2037",
+      "rating": 2037
+    },
+    {
+      "id": 1712,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2079",
+      "rating": 2079
+    },
+    {
+      "id": 1862,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2170",
+      "rating": 2170
+    },
+    {
+      "id": 3748,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2209 包含进阶问题",
+      "rating": 2209
+    },
+    {
+      "id": 2281,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2621",
+      "rating": 2621
+    },
+    {
+      "id": 3445,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2694",
+      "rating": 2694
+    },
+    {
+      "id": 2983,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "2780",
+      "rating": 2780
+    },
+    {
+      "id": 2955,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1788,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2819,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2300,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1534,
+      "section": "一、前缀和 / §1.5 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 304,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1314,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1484",
+      "rating": 1484
+    },
+    {
+      "id": 3070,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1499",
+      "rating": 1499
+    },
+    {
+      "id": 1738,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1671",
+      "rating": 1671
+    },
+    {
+      "id": 3212,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1673",
+      "rating": 1673
+    },
+    {
+      "id": 1292,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1735 可以优化到 $\\mathcal{O}(mn)$",
+      "rating": 1735
+    },
+    {
+      "id": 3148,
+      "section": "一、前缀和 / §1.6 二维前缀和",
+      "stage": "basic",
+      "note": "1820",
+      "rating": 1820
+    },
+    {
+      "id": 2848,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1230",
+      "rating": 1230
+    },
+    {
+      "id": 1893,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1307",
+      "rating": 1307
+    },
+    {
+      "id": 1854,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1370",
+      "rating": 1370
+    },
+    {
+      "id": "面试题 16.10",
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "同 1854 题"
+    },
+    {
+      "id": 2960,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "差分思想"
+    },
+    {
+      "id": 1094,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1441",
+      "rating": 1441
+    },
+    {
+      "id": 1109,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1570",
+      "rating": 1570
+    },
+    {
+      "id": 3964,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1572",
+      "rating": 1572
+    },
+    {
+      "id": 3355,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 370,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3914,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1662 差分思想",
+      "rating": 1662
+    },
+    {
+      "id": 3453,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1735",
+      "rating": 1735
+    },
+    {
+      "id": 2381,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1793",
+      "rating": 1793
+    },
+    {
+      "id": 995,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1835",
+      "rating": 1835
+    },
+    {
+      "id": 1589,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1871",
+      "rating": 1871
+    },
+    {
+      "id": 1526,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1872 差分思想",
+      "rating": 1872
+    },
+    {
+      "id": 1871,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1896 做法不止一种",
+      "rating": 1896
+    },
+    {
+      "id": 3356,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1913 做法不止一种",
+      "rating": 1913
+    },
+    {
+      "id": 1943,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1969",
+      "rating": 1969
+    },
+    {
+      "id": 3224,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1996 做法不止一种",
+      "rating": 1996
+    },
+    {
+      "id": 2327,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2251,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2022",
+      "rating": 2022
+    },
+    {
+      "id": 2772,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2029",
+      "rating": 2029
+    },
+    {
+      "id": 3229,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2067 差分思想",
+      "rating": 2067
+    },
+    {
+      "id": 3529,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2105",
+      "rating": 2105
+    },
+    {
+      "id": 798,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2130",
+      "rating": 2130
+    },
+    {
+      "id": 3347,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2156",
+      "rating": 2156
+    },
+    {
+      "id": 2528,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2236",
+      "rating": 2236
+    },
+    {
+      "id": 1674,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2333",
+      "rating": 2333
+    },
+    {
+      "id": 3362,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2424",
+      "rating": 2424
+    },
+    {
+      "id": 3655,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2454 **商分**",
+      "rating": 2454
+    },
+    {
+      "id": 3017,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "2709",
+      "rating": 2709
+    },
+    {
+      "id": 2021,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2015,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2237,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3009,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3279,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 56,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "做法见 [我的评论](https://leetcode.cn/problems/merge-intervals/solutions/2798138/jian-dan-zuo-fa-yi-ji-wei-shi-yao-yao-zh-f2b3/comments/2323402/?parent=2316868)"
+    },
+    {
+      "id": 57,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 732,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2406,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "1713",
+      "rating": 1713
+    },
+    {
+      "id": 253,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 759,
+      "section": "二、差分 / §2.1 一维差分 / §2.1.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2536,
+      "section": "二、差分 / §2.2 二维差分",
+      "stage": "basic",
+      "note": "1583",
+      "rating": 1583
+    },
+    {
+      "id": 850,
+      "section": "二、差分 / §2.2 二维差分",
+      "stage": "basic",
+      "note": "2236 暴力做法",
+      "rating": 2236
+    },
+    {
+      "id": 2132,
+      "section": "二、差分 / §2.2 二维差分",
+      "stage": "basic",
+      "note": "2364",
+      "rating": 2364
+    },
+    {
+      "id": "LCP 74",
+      "section": "二、差分 / §2.2 二维差分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3888,
+      "section": "二、差分 / §2.2 二维差分",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1441,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1180",
+      "rating": 1180
+    },
+    {
+      "id": 844,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1228",
+      "rating": 1228
+    },
+    {
+      "id": 682,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2390,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1348",
+      "rating": 1348
+    },
+    {
+      "id": 1472,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1454",
+      "rating": 1454
+    },
+    {
+      "id": 946,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1462",
+      "rating": 1462
+    },
+    {
+      "id": 3412,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": "1578",
+      "rating": 1578
+    },
+    {
+      "id": 71,
+      "section": "三、栈 / §3.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3170,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "1772",
+      "rating": 1772
+    },
+    {
+      "id": 155,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1381,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 636,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2434,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "1953",
+      "rating": 1953
+    },
+    {
+      "id": 895,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "2028",
+      "rating": 2028
+    },
+    {
+      "id": 1172,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "2110",
+      "rating": 2110
+    },
+    {
+      "id": 2589,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "2381 做法不止一种",
+      "rating": 2381
+    },
+    {
+      "id": 2524,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 716,
+      "section": "三、栈 / §3.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2696,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1282",
+      "rating": 1282
+    },
+    {
+      "id": 1047,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1286",
+      "rating": 1286
+    },
+    {
+      "id": 1544,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1344",
+      "rating": 1344
+    },
+    {
+      "id": 3561,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1397",
+      "rating": 1397
+    },
+    {
+      "id": 1003,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1427",
+      "rating": 1427
+    },
+    {
+      "id": 3834,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1429",
+      "rating": 1429
+    },
+    {
+      "id": 3853,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1472",
+      "rating": 1472
+    },
+    {
+      "id": 2216,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1510",
+      "rating": 1510
+    },
+    {
+      "id": 1209,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1542",
+      "rating": 1542
+    },
+    {
+      "id": 3703,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1802 联系 1209 题",
+      "rating": 1802
+    },
+    {
+      "id": 1717,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1868",
+      "rating": 1868
+    },
+    {
+      "id": 4045,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "1888",
+      "rating": 1888
+    },
+    {
+      "id": 2197,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "2057",
+      "rating": 2057
+    },
+    {
+      "id": 735,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2751,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "2092 联系 735 题",
+      "rating": 2092
+    },
+    {
+      "id": 853,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1776,
+      "section": "三、栈 / §3.3 邻项消除",
+      "stage": "basic",
+      "note": "2531",
+      "rating": 2531
+    },
+    {
+      "id": 20,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 921,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1242",
+      "rating": 1242
+    },
+    {
+      "id": 1021,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1311",
+      "rating": 1311
+    },
+    {
+      "id": 1614,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1323",
+      "rating": 1323
+    },
+    {
+      "id": 856,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1563",
+      "rating": 1563
+    },
+    {
+      "id": 1249,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1657",
+      "rating": 1657
+    },
+    {
+      "id": 1963,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1689",
+      "rating": 1689
+    },
+    {
+      "id": 1111,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1749",
+      "rating": 1749
+    },
+    {
+      "id": 1541,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 1190,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2116,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "2038 进阶问题：CF1709C",
+      "rating": 2038
+    },
+    {
+      "id": 678,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "同 2116 题，可以 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 32,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2267,
+      "section": "三、栈 / §3.4 合法括号字符串（RBS）",
+      "stage": "basic",
+      "note": "2085",
+      "rating": 2085
+    },
+    {
+      "id": 1006,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "1408 引入栈的思想",
+      "rating": 1408
+    },
+    {
+      "id": 150,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 394,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "用栈模拟递归"
+    },
+    {
+      "id": 8,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "为下面的题目热身"
+    },
+    {
+      "id": 224,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 227,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 726,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1106,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "1880",
+      "rating": 1880
+    },
+    {
+      "id": 591,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 736,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1096,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "2349",
+      "rating": 2349
+    },
+    {
+      "id": 1896,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "2532",
+      "rating": 2532
+    },
+    {
+      "id": 65,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 770,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "2863",
+      "rating": 2863
+    },
+    {
+      "id": 439,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3749,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 772,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1087,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1597,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1628,
+      "section": "三、栈 / §3.5 表达式解析",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2296,
+      "section": "三、栈 / §3.6 对顶栈",
+      "stage": "basic",
+      "note": "1912 也可以用 Splay 树",
+      "rating": 1912
+    },
+    {
+      "id": 933,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "1338",
+      "rating": 1338
+    },
+    {
+      "id": 3829,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "1594",
+      "rating": 1594
+    },
+    {
+      "id": 950,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "1686",
+      "rating": 1686
+    },
+    {
+      "id": 649,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 346,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 362,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3851,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 379,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1429,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2534,
+      "section": "四、队列 / §4.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1670,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": "1610",
+      "rating": 1610
+    },
+    {
+      "id": 3508,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": "1851",
+      "rating": 1851
+    },
+    {
+      "id": 225,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 232,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 622,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 641,
+      "section": "四、队列 / §4.2 设计",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2810,
+      "section": "四、队列 / §4.3 双端队列",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2071,
+      "section": "四、队列 / §4.3 双端队列",
+      "stage": "basic",
+      "note": "2648",
+      "rating": 2648
+    },
+    {
+      "id": 239,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCR 184",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1438,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1672",
+      "rating": 1672
+    },
+    {
+      "id": 2762,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "同 1438 题"
+    },
+    {
+      "id": 3835,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 2398,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 3589,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2235",
+      "rating": 2235
+    },
+    {
+      "id": 862,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2307",
+      "rating": 2307
+    },
+    {
+      "id": 1499,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2456",
+      "rating": 2456
+    },
+    {
+      "id": 1046,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1173",
+      "rating": 1173
+    },
+    {
+      "id": 3264,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1178",
+      "rating": 1178
+    },
+    {
+      "id": 2558,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1277",
+      "rating": 1277
+    },
+    {
+      "id": 2336,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1375",
+      "rating": 1375
+    },
+    {
+      "id": 2530,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1386",
+      "rating": 1386
+    },
+    {
+      "id": 3066,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1400",
+      "rating": 1400
+    },
+    {
+      "id": 1962,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1419",
+      "rating": 1419
+    },
+    {
+      "id": 703,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "经典题"
+    },
+    {
+      "id": 3275,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1420",
+      "rating": 1420
+    },
+    {
+      "id": 1845,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1429 你能做到复杂度与 $n$ 无关吗？",
+      "rating": 1429
+    },
+    {
+      "id": 2208,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1550",
+      "rating": 1550
+    },
+    {
+      "id": 2233,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1686",
+      "rating": 1686
+    },
+    {
+      "id": 3296,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1695",
+      "rating": 1695
+    },
+    {
+      "id": 1942,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1695",
+      "rating": 1695
+    },
+    {
+      "id": 1801,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1711",
+      "rating": 1711
+    },
+    {
+      "id": 2406,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1713 经典题",
+      "rating": 1713
+    },
+    {
+      "id": 3478,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1753",
+      "rating": 1753
+    },
+    {
+      "id": 2462,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1764",
+      "rating": 1764
+    },
+    {
+      "id": 1834,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1798",
+      "rating": 1798
+    },
+    {
+      "id": 1792,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "1818",
+      "rating": 1818
+    },
+    {
+      "id": 1167,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 253,
+      "section": "五、堆（优先队列） / §5.1 基础",
+      "stage": "basic",
+      "note": "（会员题）经典题"
+    },
+    {
+      "id": 23,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2931,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "1822",
+      "rating": 1822
+    },
+    {
+      "id": 3781,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "1823 两种方法",
+      "rating": 1823
+    },
+    {
+      "id": 502,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1705,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "1930",
+      "rating": 1930
+    },
+    {
+      "id": 778,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1631,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "1948",
+      "rating": 1948
+    },
+    {
+      "id": 1882,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "1979",
+      "rating": 1979
+    },
+    {
+      "id": 1354,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2015",
+      "rating": 2015
+    },
+    {
+      "id": 1353,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2016",
+      "rating": 2016
+    },
+    {
+      "id": 1235,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2023 做法不止一种",
+      "rating": 2023
+    },
+    {
+      "id": 632,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "做法不止一种"
+    },
+    {
+      "id": 2542,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2056",
+      "rating": 2056
+    },
+    {
+      "id": 1383,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2091",
+      "rating": 2091
+    },
+    {
+      "id": 2402,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2093",
+      "rating": 2093
+    },
+    {
+      "id": 2503,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2196",
+      "rating": 2196
+    },
+    {
+      "id": 2163,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2225",
+      "rating": 2225
+    },
+    {
+      "id": 857,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2260",
+      "rating": 2260
+    },
+    {
+      "id": 1606,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2276",
+      "rating": 2276
+    },
+    {
+      "id": 1851,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2286",
+      "rating": 2286
+    },
+    {
+      "id": 407,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2940,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2327",
+      "rating": 2327
+    },
+    {
+      "id": 3399,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2376",
+      "rating": 2376
+    },
+    {
+      "id": 3266,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2509",
+      "rating": 2509
+    },
+    {
+      "id": 1675,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2533",
+      "rating": 2533
+    },
+    {
+      "id": 2617,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2582",
+      "rating": 2582
+    },
+    {
+      "id": 2532,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2589",
+      "rating": 2589
+    },
+    {
+      "id": "LCP 33",
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "思考：更快的做法"
+    },
+    {
+      "id": 1500,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1199,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3506,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1348,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2037",
+      "rating": 2037
+    },
+    {
+      "id": 855,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2067",
+      "rating": 2067
+    },
+    {
+      "id": 1912,
+      "section": "五、堆（优先队列） / §5.2 进阶",
+      "stage": "advanced",
+      "note": "2182",
+      "rating": 2182
+    },
+    {
+      "id": 264,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 378,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 23,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 373,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1439,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": "2134",
+      "rating": 2134
+    },
+    {
+      "id": 786,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": "2169",
+      "rating": 2169
+    },
+    {
+      "id": 3691,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": "2469",
+      "rating": 2469
+    },
+    {
+      "id": 2386,
+      "section": "五、堆（优先队列） / §5.3 第 K 小/大",
+      "stage": "basic",
+      "note": "2648",
+      "rating": 2648
+    },
+    {
+      "id": 984,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "1474 不需要堆，这题的目的是引入贪心思想",
+      "rating": 1474
+    },
+    {
+      "id": 767,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "1681",
+      "rating": 1681
+    },
+    {
+      "id": 1054,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "1702",
+      "rating": 1702
+    },
+    {
+      "id": 1405,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "1821",
+      "rating": 1821
+    },
+    {
+      "id": 3081,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "1905",
+      "rating": 1905
+    },
+    {
+      "id": 621,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 358,
+      "section": "五、堆（优先队列） / §5.4 重排元素",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": "LCP 30",
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1642,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "1962",
+      "rating": 1962
+    },
+    {
+      "id": 630,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 871,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "2074",
+      "rating": 2074
+    },
+    {
+      "id": 3362,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "2424 虽然没有反悔的过程，但思路和 871 是类似的",
+      "rating": 2424
+    },
+    {
+      "id": 2813,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "2582 也可以不用堆",
+      "rating": 2582
+    },
+    {
+      "id": 1388,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3892,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3049,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "3111",
+      "rating": 3111
+    },
+    {
+      "id": 3711,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2599,
+      "section": "五、堆（优先队列） / §5.5 反悔堆",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2349,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1540",
+      "rating": 1540
+    },
+    {
+      "id": 3885,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1548",
+      "rating": 1548
+    },
+    {
+      "id": 3607,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1700",
+      "rating": 1700
+    },
+    {
+      "id": 2353,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1782",
+      "rating": 1782
+    },
+    {
+      "id": 3092,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1793",
+      "rating": 1793
+    },
+    {
+      "id": 3408,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1807",
+      "rating": 1807
+    },
+    {
+      "id": 2034,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1832",
+      "rating": 1832
+    },
+    {
+      "id": 3815,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1854",
+      "rating": 1854
+    },
+    {
+      "id": 1172,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2110",
+      "rating": 2110
+    },
+    {
+      "id": 218,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "扫描线"
+    },
+    {
+      "id": 3510,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2608",
+      "rating": 2608
+    },
+    {
+      "id": 3672,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3391,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 716,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2102,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2159",
+      "rating": 2159
+    },
+    {
+      "id": 295,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 480,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2653,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1825,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2396",
+      "rating": 2396
+    },
+    {
+      "id": 3505,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2539 滑动窗口中位数的距离和",
+      "rating": 2539
+    },
+    {
+      "id": 3013,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2540",
+      "rating": 2540
+    },
+    {
+      "id": 3321,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2598",
+      "rating": 2598
+    },
+    {
+      "id": 3962,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "2672",
+      "rating": 2672
+    },
+    {
+      "id": "LCP 24",
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3369,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3422,
+      "section": "§5.7 对顶堆（动态第 K 小/大）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 208,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3597,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3043,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 648,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 720,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2416,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "1725",
+      "rating": 1725
+    },
+    {
+      "id": 677,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1268,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1233,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 820,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2261,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 1804,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2168,
+      "section": "六、字典树（trie） / §6.1 基础",
+      "stage": "basic",
+      "note": "（会员题）同 2261 题"
+    },
+    {
+      "id": 211,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 676,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 212,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3093,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "2118",
+      "rating": 2118
+    },
+    {
+      "id": 745,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3045,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "2328",
+      "rating": 2328
+    },
+    {
+      "id": 336,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1948,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "2534",
+      "rating": 2534
+    },
+    {
+      "id": 425,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 527,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 588,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 616,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 758,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 642,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1065,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1166,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1858,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）"
+    },
+    {
+      "id": 440,
+      "section": "六、字典树（trie） / §6.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 139,
+      "section": "六、字典树（trie） / §6.3 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 140,
+      "section": "六、字典树（trie） / §6.3 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 17.13",
+      "section": "六、字典树（trie） / §6.3 字典树优化 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 472,
+      "section": "六、字典树（trie） / §6.3 字典树优化 DP",
+      "stage": "basic",
+      "note": "约 2300"
+    },
+    {
+      "id": 2977,
+      "section": "六、字典树（trie） / §6.3 字典树优化 DP",
+      "stage": "basic",
+      "note": "2696",
+      "rating": 2696
+    },
+    {
+      "id": 421,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "约 2000"
+    },
+    {
+      "id": 2935,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "2349",
+      "rating": 2349
+    },
+    {
+      "id": 3845,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1707,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "2359",
+      "rating": 2359
+    },
+    {
+      "id": 1803,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "2479",
+      "rating": 2479
+    },
+    {
+      "id": 1938,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "2503",
+      "rating": 2503
+    },
+    {
+      "id": 3632,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2479,
+      "section": "六、字典树（trie） / §6.4 0-1 字典树（异或字典树）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 684,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3493,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "1565",
+      "rating": 1565
+    },
+    {
+      "id": 990,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "1638",
+      "rating": 1638
+    },
+    {
+      "id": 721,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3532,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "有更简单的做法"
+    },
+    {
+      "id": 737,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1101,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1258,
+      "section": "§7.1 基础",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3551,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1507 置换环",
+      "rating": 1507
+    },
+    {
+      "id": 2471,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1635 置换环",
+      "rating": 1635
+    },
+    {
+      "id": 1202,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 1061,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 1722,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1892",
+      "rating": 1892
+    },
+    {
+      "id": 3608,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1893",
+      "rating": 1893
+    },
+    {
+      "id": 3613,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "类似 3608 题"
+    },
+    {
+      "id": 778,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 3695,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1984 证明",
+      "rating": 1984
+    },
+    {
+      "id": 765,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "1999",
+      "rating": 1999
+    },
+    {
+      "id": 2092,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2004",
+      "rating": 2004
+    },
+    {
+      "id": 839,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2054",
+      "rating": 2054
+    },
+    {
+      "id": 685,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1970,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2124",
+      "rating": 2124
+    },
+    {
+      "id": 2076,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2131",
+      "rating": 2131
+    },
+    {
+      "id": 1579,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2132",
+      "rating": 2132
+    },
+    {
+      "id": 959,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2136",
+      "rating": 2136
+    },
+    {
+      "id": 2812,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2154",
+      "rating": 2154
+    },
+    {
+      "id": 2503,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2196",
+      "rating": 2196
+    },
+    {
+      "id": 3600,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2301",
+      "rating": 2301
+    },
+    {
+      "id": 2867,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2428",
+      "rating": 2428
+    },
+    {
+      "id": 2421,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2445",
+      "rating": 2445
+    },
+    {
+      "id": 2157,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2499",
+      "rating": 2499
+    },
+    {
+      "id": 803,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "2765",
+      "rating": 2765
+    },
+    {
+      "id": 3235,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": "LCP 71",
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": ""
+    },
+    {
+      "id": 2459,
+      "section": "§7.2 进阶",
+      "stage": "advanced",
+      "note": "（会员题）置换"
+    },
+    {
+      "id": 947,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2035",
+      "rating": 2035
+    },
+    {
+      "id": 3873,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "类似 947 题"
+    },
+    {
+      "id": 2709,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2172",
+      "rating": 2172
+    },
+    {
+      "id": 1627,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2221",
+      "rating": 2221
+    },
+    {
+      "id": 952,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2272",
+      "rating": 2272
+    },
+    {
+      "id": 1998,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2429",
+      "rating": 2429
+    },
+    {
+      "id": 1632,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2530",
+      "rating": 2530
+    },
+    {
+      "id": 3378,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "2532 思路类似 1627 题",
+      "rating": 2532
+    },
+    {
+      "id": 2371,
+      "section": "§7.3 中介并查集",
+      "stage": "basic",
+      "note": "（会员题）同 1632 题"
+    },
+    {
+      "id": 1562,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "1928",
+      "rating": 1928
+    },
+    {
+      "id": 1488,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "1974",
+      "rating": 1974
+    },
+    {
+      "id": 1353,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "2016",
+      "rating": 2016
+    },
+    {
+      "id": 2382,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "2136",
+      "rating": 2136
+    },
+    {
+      "id": 2334,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "2381",
+      "rating": 2381
+    },
+    {
+      "id": 3666,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "2477",
+      "rating": 2477
+    },
+    {
+      "id": 2612,
+      "section": "§7.4 数组上的并查集",
+      "stage": "basic",
+      "note": "2824",
+      "rating": 2824
+    },
+    {
+      "id": 3244,
+      "section": "§7.5 区间并查集",
+      "stage": "basic",
+      "note": "2270",
+      "rating": 2270
+    },
+    {
+      "id": 1851,
+      "section": "§7.5 区间并查集",
+      "stage": "basic",
+      "note": "2286",
+      "rating": 2286
+    },
+    {
+      "id": "LCP 52",
+      "section": "§7.5 区间并查集",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2158,
+      "section": "§7.5 区间并查集",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 399,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "**模板题**"
+    },
+    {
+      "id": 3887,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2128",
+      "rating": 2128
+    },
+    {
+      "id": 3710,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2135",
+      "rating": 2135
+    },
+    {
+      "id": 2307,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1331,
+      "section": "八、树状数组和线段树",
+      "stage": "basic",
+      "note": "。",
+      "reference_only": true
+    },
+    {
+      "id": 307,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3072,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2053 离散化",
+      "rating": 2053
+    },
+    {
+      "id": 3624,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2086",
+      "rating": 2086
+    },
+    {
+      "id": 3187,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2154",
+      "rating": 2154
+    },
+    {
+      "id": 3777,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2202 做法不止一种",
+      "rating": 2202
+    },
+    {
+      "id": 1649,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2208",
+      "rating": 2208
+    },
+    {
+      "id": 1626,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1409,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2250,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2179,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2272",
+      "rating": 2272
+    },
+    {
+      "id": 1395,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2659,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2282",
+      "rating": 2282
+    },
+    {
+      "id": 3915,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2288",
+      "rating": 2288
+    },
+    {
+      "id": 2653,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "树状数组二分"
+    },
+    {
+      "id": 3515,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2312 差分树状数组",
+      "rating": 2312
+    },
+    {
+      "id": "LCP 5",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "同 3515 题"
+    },
+    {
+      "id": 4033,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2314",
+      "rating": 2314
+    },
+    {
+      "id": 1505,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2337",
+      "rating": 2337
+    },
+    {
+      "id": 3841,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2384 差分树状数组",
+      "rating": 2384
+    },
+    {
+      "id": 2926,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2448",
+      "rating": 2448
+    },
+    {
+      "id": 2736,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2533",
+      "rating": 2533
+    },
+    {
+      "id": 3671,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2647 时间戳 懒初始化",
+      "rating": 2647
+    },
+    {
+      "id": 3962,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2672 前 $k$ 小之和",
+      "rating": 2672
+    },
+    {
+      "id": 3382,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2723 静态二维数点",
+      "rating": 2723
+    },
+    {
+      "id": 3590,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "第 $k$ 小"
+    },
+    {
+      "id": 3245,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "3112 环形数组",
+      "rating": 3112
+    },
+    {
+      "id": 1756,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 60,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "康托展开，可以做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3109,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）60 题的数据加强版"
+    },
+    {
+      "id": 2519,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2613,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）曼哈顿最近点对"
+    },
+    {
+      "id": 2921,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 308,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）二维树状数组"
+    },
+    {
+      "id": 3994,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "1705 入门题（不需要树状数组）",
+      "rating": 1705
+    },
+    {
+      "id": "LCR 170",
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 315,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 493,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 327,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2426,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "2030",
+      "rating": 2030
+    },
+    {
+      "id": 4051,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "2140",
+      "rating": 2140
+    },
+    {
+      "id": 4013,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "2156",
+      "rating": 2156
+    },
+    {
+      "id": 3768,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "2158",
+      "rating": 2158
+    },
+    {
+      "id": 1850,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2193,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1885,
+      "section": "§8.2 逆序对",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 104,
+      "section": "§8.3 线段树（无区间更新）",
+      "stage": "basic",
+      "note": "和 [111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)（自底向上写法），当作热身。",
+      "reference_only": true
+    },
+    {
+      "id": 111,
+      "section": "§8.3 线段树（无区间更新）",
+      "stage": "basic",
+      "note": "（自底向上写法），当作热身。",
+      "reference_only": true
+    },
+    {
+      "id": 3479,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2178 线段树二分",
+      "rating": 2178
+    },
+    {
+      "id": 2940,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2327 线段树二分",
+      "rating": 2327
+    },
+    {
+      "id": 2286,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2470 线段树二分",
+      "rating": 2470
+    },
+    {
+      "id": 3161,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2513",
+      "rating": 2513
+    },
+    {
+      "id": 3901,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2545",
+      "rating": 2545
+    },
+    {
+      "id": 2213,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2629 分治思想",
+      "rating": 2629
+    },
+    {
+      "id": 4017,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "分治思想"
+    },
+    {
+      "id": 3525,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2645 分治思想",
+      "rating": 2645
+    },
+    {
+      "id": 3165,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2697 分治思想",
+      "rating": 2697
+    },
+    {
+      "id": 3410,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2844 分治思想",
+      "rating": 2844
+    },
+    {
+      "id": 3501,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2941 也可以用 ST 表做",
+      "rating": 2941
+    },
+    {
+      "id": "LCP 81",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1157,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2205",
+      "rating": 2205
+    },
+    {
+      "id": 2407,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2280",
+      "rating": 2280
+    },
+    {
+      "id": 2770,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 2569,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2398",
+      "rating": 2398
+    },
+    {
+      "id": 1622,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2476 做法不止一种",
+      "rating": 2476
+    },
+    {
+      "id": 2502,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2589,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2547,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 850,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "矩形面积并 扫描线 离散化"
+    },
+    {
+      "id": 3454,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2671 同 850 题",
+      "rating": 2671
+    },
+    {
+      "id": 3569,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2697",
+      "rating": 2697
+    },
+    {
+      "id": 3721,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2724 HH 项链 trick",
+      "rating": 2724
+    },
+    {
+      "id": 2916,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2816",
+      "rating": 2816
+    },
+    {
+      "id": "LCP 52",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "也可以用珂朵莉树或者并查集"
+    },
+    {
+      "id": 699,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 715,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 729,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 731,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 732,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2276,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": "2222",
+      "rating": 2222
+    },
+    {
+      "id": 3590,
+      "section": "§8.5 动态开点线段树",
+      "stage": "basic",
+      "note": "2646 线段树合并",
+      "rating": 2646
+    },
+    {
+      "id": 3762,
+      "section": "§8.6 可持久化线段树",
+      "stage": "basic",
+      "note": "2497",
+      "rating": 2497
+    },
+    {
+      "id": 3691,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2469",
+      "rating": 2469
+    },
+    {
+      "id": 3933,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "**模板题**"
+    },
+    {
+      "id": 2296,
+      "section": "九、伸展树（Splay 树）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3526,
+      "section": "九、伸展树（Splay 树）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3027,
+      "section": "十、CDQ 分治 / 值域分治",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 4055,
+      "section": "十、CDQ 分治 / 值域分治",
+      "stage": "basic",
+      "note": "2631",
+      "rating": 2631
+    },
+    {
+      "id": 307,
+      "section": "十一、根号算法 / §11.1 分块",
+      "stage": "basic",
+      "note": "。"
+    },
+    {
+      "id": 3943,
+      "section": "十一、根号算法 / §11.1 分块",
+      "stage": "basic",
+      "note": "2410",
+      "rating": 2410
+    },
+    {
+      "id": 4033,
+      "section": "十一、根号算法 / §11.2 莫队算法",
+      "stage": "basic",
+      "note": "2314",
+      "rating": 2314
+    },
+    {
+      "id": 3636,
+      "section": "十一、根号算法 / §11.2 莫队算法",
+      "stage": "basic",
+      "note": "2451 回滚莫队",
+      "rating": 2451
+    },
+    {
+      "id": 3590,
+      "section": "十一、根号算法 / §11.2 莫队算法",
+      "stage": "basic",
+      "note": "2646 做法不止一种",
+      "rating": 2646
+    },
+    {
+      "id": 2846,
+      "section": "十一、根号算法 / §11.2 莫队算法",
+      "stage": "basic",
+      "note": "树上莫队 和边权范围无关的做法"
+    },
+    {
+      "id": 3655,
+      "section": "十一、根号算法 / §11.3 根号分解（Sqrt Decomposition）",
+      "stage": "basic",
+      "note": "2454",
+      "rating": 2454
+    },
+    {
+      "id": "LCP 16",
+      "section": "十一、根号算法 / §11.3 根号分解（Sqrt Decomposition）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1714,
+      "section": "十一、根号算法 / §11.3 根号分解（Sqrt Decomposition）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3400,
+      "section": "十一、根号算法 / §11.3 根号分解（Sqrt Decomposition）",
+      "stage": "basic",
+      "note": "（会员题）非暴力做法"
+    },
+    {
+      "id": 3234,
+      "section": "十一、根号算法 / §11.4 其他",
+      "stage": "basic",
+      "note": "2557",
+      "rating": 2557
+    },
+    {
+      "id": 2343,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "1652",
+      "rating": 1652
+    },
+    {
+      "id": 3607,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "1700",
+      "rating": 1700
+    },
+    {
+      "id": 2070,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "1724",
+      "rating": 1724
+    },
+    {
+      "id": 1847,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2082",
+      "rating": 2082
+    },
+    {
+      "id": 2503,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2196",
+      "rating": 2196
+    },
+    {
+      "id": 1851,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2286",
+      "rating": 2286
+    },
+    {
+      "id": 1697,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2300",
+      "rating": 2300
+    },
+    {
+      "id": 4033,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2314",
+      "rating": 2314
+    },
+    {
+      "id": 2940,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2327",
+      "rating": 2327
+    },
+    {
+      "id": 2747,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2405",
+      "rating": 2405
+    },
+    {
+      "id": 1938,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2503",
+      "rating": 2503
+    },
+    {
+      "id": 2736,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2533",
+      "rating": 2533
+    },
+    {
+      "id": 3590,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2646",
+      "rating": 2646
+    },
+    {
+      "id": 3382,
+      "section": "专题：离线算法",
+      "stage": "basic",
+      "note": "2723 静态二维数点",
+      "rating": 2723
+    },
+    {
+      "id": 13,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 12,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 273,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 68,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 420,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": "为 65 题热身"
+    },
+    {
+      "id": 65,
+      "section": "编程能力强化训练 / Part A",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 146,
+      "section": "编程能力强化训练 / Part B",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 460,
+      "section": "编程能力强化训练 / Part B",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 432,
+      "section": "编程能力强化训练 / Part B",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1206,
+      "section": "编程能力强化训练 / Part B",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3197,
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": "2541",
+      "rating": 2541
+    },
+    {
+      "id": 2532,
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": "2589",
+      "rating": 2589
+    },
+    {
+      "id": 2056,
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": "2611",
+      "rating": 2611
+    },
+    {
+      "id": "LCP 48",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 21",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 58",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 13",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 69",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 76",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 82",
+      "section": "编程能力强化训练 / Part C",
+      "stage": "basic",
+      "note": ""
+    }
+  ],
+  "repeated_references": [
+    {
+      "id": 3739,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "2090",
+      "rating": 2090
+    },
+    {
+      "id": 2031,
+      "section": "一、前缀和 / §1.2 前缀和与哈希表",
+      "stage": "basic",
+      "note": "（会员题）有 $\\mathcal{O}(n)$ 做法"
+    },
+    {
+      "id": 3777,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "分治思想"
+    },
+    {
+      "id": 3501,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2941",
+      "rating": 2941
+    }
+  ]
+}

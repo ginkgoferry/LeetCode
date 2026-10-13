@@ -59,7 +59,10 @@ using namespace std;
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-
+        // TODO: 在这里实现你的解法。
+        (void)headA;
+        (void)headB;
+        return {};
     }
 };
 

@@ -62,7 +62,8 @@ using namespace std;
 class Solution {
 public:
     void flatten(TreeNode* root) {
-
+        // TODO: 在这里实现你的解法。
+        (void)root;
     }
 };
 

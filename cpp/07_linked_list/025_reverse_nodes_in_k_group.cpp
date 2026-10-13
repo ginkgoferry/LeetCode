@@ -61,7 +61,10 @@ using namespace std;
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-
+        // TODO: 在这里实现你的解法。
+        (void)head;
+        (void)k;
+        return {};
     }
 };
 

@@ -1,0 +1,2803 @@
+{
+  "id": "lingcha-tree-backtracking",
+  "name": "灵茶山艾府 · 链表、树与回溯",
+  "source_url": "https://leetcode.cn/discuss/post/3142882/fen-xiang-gun-ti-dan-lian-biao-er-cha-sh-6srp/",
+  "source_updated_at": "2026-10-03T06:44:29.814958+00:00",
+  "source_sha256": "70710a707cebfe97c807931099db810643a46d7022affb38effd3f6bea956af9",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 439,
+  "source_entry_count": 439,
+  "source_problem_count": 424,
+  "items": [
+    {
+      "id": 1290,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2058,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2181,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 725,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 817,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3263,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3294,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3062,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3063,
+      "section": "一、链表 / §1.1 遍历链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 203,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3217,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 83,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 82,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1669,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2487,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1836,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 237,
+      "section": "一、链表 / §1.2 删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2807,
+      "section": "一、链表 / §1.3 插入节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 147,
+      "section": "一、链表 / §1.3 插入节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCR 29",
+      "section": "一、链表 / §1.3 插入节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 708,
+      "section": "一、链表 / §1.3 插入节点",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2046,
+      "section": "一、链表 / §1.3 插入节点",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 206,
+      "section": "一、链表 / §1.4 反转链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 92,
+      "section": "一、链表 / §1.4 反转链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 24,
+      "section": "一、链表 / §1.4 反转链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 25,
+      "section": "一、链表 / §1.4 反转链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2074,
+      "section": "一、链表 / §1.4 反转链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 19,
+      "section": "一、链表 / §1.5 前后指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1721,
+      "section": "一、链表 / §1.5 前后指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1474,
+      "section": "一、链表 / §1.5 前后指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 876,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2095,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 234,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2130,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 143,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 141,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 142,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 457,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2674,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 287,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1015,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3790,
+      "section": "一、链表 / §1.6 快慢指针",
+      "stage": "basic",
+      "note": "同 1015 题"
+    },
+    {
+      "id": 328,
+      "section": "一、链表 / §1.7 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 86,
+      "section": "一、链表 / §1.7 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 160,
+      "section": "一、链表 / §1.7 双指针",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 445,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2816,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 21,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 369,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1634,
+      "section": "一、链表 / §1.8 合并链表",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 23,
+      "section": "一、链表 / §1.9 分治",
+      "stage": "basic",
+      "note": "也可以用堆"
+    },
+    {
+      "id": 148,
+      "section": "一、链表 / §1.9 分治",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1019,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1171,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 707,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 146,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 460,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 432,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1206,
+      "section": "一、链表 / §1.10 综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 61,
+      "section": "一、链表 / §1.11 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 138,
+      "section": "一、链表 / §1.11 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 382,
+      "section": "一、链表 / §1.11 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 430,
+      "section": "一、链表 / §1.11 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1265,
+      "section": "一、链表 / §1.11 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 144,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 94,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 145,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 872,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": "1288",
+      "rating": 1288
+    },
+    {
+      "id": "LCP 44",
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 404,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 671,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1469,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1214,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2764,
+      "section": "二、二叉树 / §2.1 遍历二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 104,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 111,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 112,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 129,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 199,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1448,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1360",
+      "rating": 1360
+    },
+    {
+      "id": 1315,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1427",
+      "rating": 1427
+    },
+    {
+      "id": 988,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1429",
+      "rating": 1429
+    },
+    {
+      "id": 1026,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1446",
+      "rating": 1446
+    },
+    {
+      "id": 1022,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1462",
+      "rating": 1462
+    },
+    {
+      "id": 623,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1372,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1713",
+      "rating": 1713
+    },
+    {
+      "id": 971,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "1787 有简单做法",
+      "rating": 1787
+    },
+    {
+      "id": 2689,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 298,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1430,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 545,
+      "section": "二、二叉树 / §2.2 自顶向下 DFS（先序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 104,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 111,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 965,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1178",
+      "rating": 1178
+    },
+    {
+      "id": 100,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 101,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 951,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1379,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 110,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 226,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 617,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2331,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1304",
+      "rating": 1304
+    },
+    {
+      "id": 508,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "不使用外部变量"
+    },
+    {
+      "id": 563,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3997,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1427",
+      "rating": 1427
+    },
+    {
+      "id": 606,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2265,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1473",
+      "rating": 1473
+    },
+    {
+      "id": 1026,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "多种做法"
+    },
+    {
+      "id": 3319,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1603",
+      "rating": 1603
+    },
+    {
+      "id": 1339,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1675",
+      "rating": 1675
+    },
+    {
+      "id": 3965,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1699",
+      "rating": 1699
+    },
+    {
+      "id": 1372,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1713",
+      "rating": 1713
+    },
+    {
+      "id": 1145,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "1741",
+      "rating": 1741
+    },
+    {
+      "id": 572,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$ 时间"
+    },
+    {
+      "id": 1530,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "做到低于 $\\mathcal{O}(n^2)$ 时间"
+    },
+    {
+      "id": "LCP 67",
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 298,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 250,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1973,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 663,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1120,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2792,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 333,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 366,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 156,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1612,
+      "section": "二、二叉树 / §2.3 自底向上 DFS（后序遍历）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 814,
+      "section": "二、二叉树 / §2.4 自底向上 DFS：删点",
+      "stage": "basic",
+      "note": "1380",
+      "rating": 1380
+    },
+    {
+      "id": 1325,
+      "section": "二、二叉树 / §2.4 自底向上 DFS：删点",
+      "stage": "basic",
+      "note": "1407",
+      "rating": 1407
+    },
+    {
+      "id": 1110,
+      "section": "二、二叉树 / §2.4 自底向上 DFS：删点",
+      "stage": "basic",
+      "note": "1511",
+      "rating": 1511
+    },
+    {
+      "id": 538,
+      "section": "二、二叉树 / §2.5 有递有归",
+      "stage": "basic",
+      "note": "1375 也可以用外部变量记录和",
+      "rating": 1375
+    },
+    {
+      "id": 1038,
+      "section": "二、二叉树 / §2.5 有递有归",
+      "stage": "basic",
+      "note": "同 538 题"
+    },
+    {
+      "id": 865,
+      "section": "二、二叉树 / §2.5 有递有归",
+      "stage": "basic",
+      "note": "1534 也可以自底向上",
+      "rating": 1534
+    },
+    {
+      "id": 1080,
+      "section": "二、二叉树 / §2.5 有递有归",
+      "stage": "basic",
+      "note": "1805",
+      "rating": 1805
+    },
+    {
+      "id": 543,
+      "section": "二、二叉树 / §2.6 二叉树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 687,
+      "section": "二、二叉树 / §2.6 二叉树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 124,
+      "section": "二、二叉树 / §2.6 二叉树的直径",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2385,
+      "section": "二、二叉树 / §2.6 二叉树的直径",
+      "stage": "basic",
+      "note": "1711",
+      "rating": 1711
+    },
+    {
+      "id": 549,
+      "section": "二、二叉树 / §2.6 二叉树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 257,
+      "section": "二、二叉树 / §2.7 回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 113,
+      "section": "二、二叉树 / §2.7 回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1457,
+      "section": "二、二叉树 / §2.7 回溯",
+      "stage": "basic",
+      "note": "1405",
+      "rating": 1405
+    },
+    {
+      "id": 437,
+      "section": "二、二叉树 / §2.7 回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3879,
+      "section": "二、二叉树 / §2.7 回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 235,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 236,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1123,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "1607",
+      "rating": 1607
+    },
+    {
+      "id": 2096,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "1805",
+      "rating": 1805
+    },
+    {
+      "id": 1740,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1644,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1650,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1676,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1257,
+      "section": "二、二叉树 / §2.8 最近公共祖先",
+      "stage": "basic",
+      "note": "（会员题）思维扩展"
+    },
+    {
+      "id": 700,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 530,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "1303",
+      "rating": 1303
+    },
+    {
+      "id": 783,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "同 530 题"
+    },
+    {
+      "id": 938,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "1335",
+      "rating": 1335
+    },
+    {
+      "id": 501,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 230,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 98,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "有前序、中序和后序三种做法"
+    },
+    {
+      "id": 1305,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 99,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 897,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "1473",
+      "rating": 1473
+    },
+    {
+      "id": 2476,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "1597",
+      "rating": 1597
+    },
+    {
+      "id": 653,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1373,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "1914",
+      "rating": 1914
+    },
+    {
+      "id": 1932,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "2484",
+      "rating": 2484
+    },
+    {
+      "id": 285,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 510,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 270,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 272,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 255,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1902,
+      "section": "二、二叉树 / §2.9 二叉搜索树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 108,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 654,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 998,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "1498",
+      "rating": 1498
+    },
+    {
+      "id": 1008,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "1563",
+      "rating": 1563
+    },
+    {
+      "id": 1382,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2196,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "1644",
+      "rating": 1644
+    },
+    {
+      "id": 105,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 106,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 889,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "1732",
+      "rating": 1732
+    },
+    {
+      "id": 1028,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "1797",
+      "rating": 1797
+    },
+    {
+      "id": 536,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1628,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1597,
+      "section": "二、二叉树 / §2.10 创建二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 701,
+      "section": "二、二叉树 / §2.11 插入/删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 450,
+      "section": "二、二叉树 / §2.11 插入/删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 669,
+      "section": "二、二叉树 / §2.11 插入/删除节点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 776,
+      "section": "二、二叉树 / §2.11 插入/删除节点",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1666,
+      "section": "二、二叉树 / §2.11 插入/删除节点",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 337,
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 968,
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 10",
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 34",
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 64",
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2313,
+      "section": "二、二叉树 / §2.12 树形 DP",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 102,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 103,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 107,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 199,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "也可以 DFS"
+    },
+    {
+      "id": 513,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 515,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 637,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1161,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1250",
+      "rating": 1250
+    },
+    {
+      "id": 993,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1288",
+      "rating": 1288
+    },
+    {
+      "id": 2583,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1374",
+      "rating": 1374
+    },
+    {
+      "id": 1302,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1388",
+      "rating": 1388
+    },
+    {
+      "id": 2415,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1431",
+      "rating": 1431
+    },
+    {
+      "id": 1609,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1438",
+      "rating": 1438
+    },
+    {
+      "id": 623,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2471,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1635",
+      "rating": 1635
+    },
+    {
+      "id": 2641,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1677",
+      "rating": 1677
+    },
+    {
+      "id": 919,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1691",
+      "rating": 1691
+    },
+    {
+      "id": 958,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "1703",
+      "rating": 1703
+    },
+    {
+      "id": 863,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 662,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3157,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3831,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1602,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3902,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 742,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1660,
+      "section": "二、二叉树 / §2.13 二叉树 BFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 114,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1367,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": "1650",
+      "rating": 1650
+    },
+    {
+      "id": 109,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 116,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(1)$ 空间"
+    },
+    {
+      "id": 117,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(1)$ 空间"
+    },
+    {
+      "id": 426,
+      "section": "二、二叉树 / §2.14 链表+二叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 589,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 590,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 559,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 429,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 427,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 558,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 428,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1490,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1506,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1522,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1516,
+      "section": "二、二叉树 / §2.15 N 叉树",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1261,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1440",
+      "rating": 1440
+    },
+    {
+      "id": 1104,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1545",
+      "rating": 1545
+    },
+    {
+      "id": 987,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1676",
+      "rating": 1676
+    },
+    {
+      "id": 655,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 979,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1709 贡献法",
+      "rating": 1709
+    },
+    {
+      "id": 222,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "做到低于 $\\mathcal{O}(n)$ 时间"
+    },
+    {
+      "id": 297,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "通信题"
+    },
+    {
+      "id": 449,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "通信题"
+    },
+    {
+      "id": 331,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 652,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 173,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2049,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1912",
+      "rating": 1912
+    },
+    {
+      "id": 2673,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 2509,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "1948",
+      "rating": 1948
+    },
+    {
+      "id": 2458,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "2299 推荐",
+      "rating": 2299
+    },
+    {
+      "id": "LCP 26",
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 60",
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 314,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 666,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1586,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2773,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1485,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2445,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 431,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2005,
+      "section": "二、二叉树 / §2.16 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2368,
+      "section": "三、一般树 / §3.1 遍历",
+      "stage": "basic",
+      "note": "1477",
+      "rating": 1477
+    },
+    {
+      "id": 1466,
+      "section": "三、一般树 / §3.1 遍历",
+      "stage": "basic",
+      "note": "1634",
+      "rating": 1634
+    },
+    {
+      "id": 582,
+      "section": "三、一般树 / §3.1 遍历",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 4015,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1534",
+      "rating": 1534
+    },
+    {
+      "id": 1376,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1561",
+      "rating": 1561
+    },
+    {
+      "id": 3528,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1580",
+      "rating": 1580
+    },
+    {
+      "id": 1443,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1683",
+      "rating": 1683
+    },
+    {
+      "id": 3820,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1725",
+      "rating": 1725
+    },
+    {
+      "id": 1377,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1824",
+      "rating": 1824
+    },
+    {
+      "id": 3067,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1909",
+      "rating": 1909
+    },
+    {
+      "id": 3372,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "1927",
+      "rating": 1927
+    },
+    {
+      "id": 2467,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "2053",
+      "rating": 2053
+    },
+    {
+      "id": 3373,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 1766,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "2232",
+      "rating": 2232
+    },
+    {
+      "id": 2791,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "2677",
+      "rating": 2677
+    },
+    {
+      "id": 3535,
+      "section": "三、一般树 / §3.2 自顶向下 DFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 690,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3249,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "1566",
+      "rating": 1566
+    },
+    {
+      "id": 1519,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "1809",
+      "rating": 1809
+    },
+    {
+      "id": 3558,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "1845",
+      "rating": 1845
+    },
+    {
+      "id": 3593,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "1959",
+      "rating": 1959
+    },
+    {
+      "id": 2872,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "1968",
+      "rating": 1968
+    },
+    {
+      "id": 2477,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "2012",
+      "rating": 2012
+    },
+    {
+      "id": 3812,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "2179",
+      "rating": 2179
+    },
+    {
+      "id": 2973,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "2277",
+      "rating": 2277
+    },
+    {
+      "id": 2440,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "2460",
+      "rating": 2460
+    },
+    {
+      "id": 1273,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3004,
+      "section": "三、一般树 / §3.3 自底向上 DFS",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3593,
+      "section": "三、一般树 / §3.4 有递有归",
+      "stage": "basic",
+      "note": "1959 也可以自底向上",
+      "rating": 1959
+    },
+    {
+      "id": 3331,
+      "section": "三、一般树 / §3.4 有递有归",
+      "stage": "basic",
+      "note": "2046",
+      "rating": 2046
+    },
+    {
+      "id": 2246,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "2126",
+      "rating": 2126
+    },
+    {
+      "id": 3203,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "2266",
+      "rating": 2266
+    },
+    {
+      "id": 1617,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "2309",
+      "rating": 2309
+    },
+    {
+      "id": 2538,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "2398",
+      "rating": 2398
+    },
+    {
+      "id": 1245,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3787,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3313,
+      "section": "三、一般树 / §3.5 树的直径",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 310,
+      "section": "三、一般树 / §3.6 树的拓扑排序",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3812,
+      "section": "三、一般树 / §3.6 树的拓扑排序",
+      "stage": "basic",
+      "note": "2179",
+      "rating": 2179
+    },
+    {
+      "id": 2603,
+      "section": "三、一般树 / §3.6 树的拓扑排序",
+      "stage": "basic",
+      "note": "2712",
+      "rating": 2712
+    },
+    {
+      "id": 3515,
+      "section": "三、一般树 / §3.7 DFS 时间戳",
+      "stage": "basic",
+      "note": "2312",
+      "rating": 2312
+    },
+    {
+      "id": "LCP 5",
+      "section": "三、一般树 / §3.7 DFS 时间戳",
+      "stage": "basic",
+      "note": "同 3515 题"
+    },
+    {
+      "id": 2322,
+      "section": "三、一般树 / §3.7 DFS 时间戳",
+      "stage": "basic",
+      "note": "2392",
+      "rating": 2392
+    },
+    {
+      "id": 3327,
+      "section": "三、一般树 / §3.7 DFS 时间戳",
+      "stage": "basic",
+      "note": "2454",
+      "rating": 2454
+    },
+    {
+      "id": 3590,
+      "section": "三、一般树 / §3.7 DFS 时间戳",
+      "stage": "basic",
+      "note": "2646 做法不止一种",
+      "rating": 2646
+    },
+    {
+      "id": 1483,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2115 模板题",
+      "rating": 2115
+    },
+    {
+      "id": 3559,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2146",
+      "rating": 2146
+    },
+    {
+      "id": 3841,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2384",
+      "rating": 2384
+    },
+    {
+      "id": 3553,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2411 结论",
+      "rating": 2411
+    },
+    {
+      "id": 3585,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2429",
+      "rating": 2429
+    },
+    {
+      "id": 2846,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2508",
+      "rating": 2508
+    },
+    {
+      "id": 2646,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "**树上差分**"
+    },
+    {
+      "id": 2277,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3973,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3534,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2507",
+      "rating": 2507
+    },
+    {
+      "id": 2836,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": "2769 做法不止一种",
+      "rating": 2769
+    },
+    {
+      "id": 3464,
+      "section": "三、一般树 / §3.8 最近公共祖先（LCA）、倍增算法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3786,
+      "section": "三、一般树 / §3.9 虚树",
+      "stage": "basic",
+      "note": "与 $20$ 无关的做法"
+    },
+    {
+      "id": 2003,
+      "section": "三、一般树 / §3.10 树上启发式合并",
+      "stage": "basic",
+      "note": "2415",
+      "rating": 2415
+    },
+    {
+      "id": 3590,
+      "section": "三、一般树 / §3.10 树上启发式合并",
+      "stage": "basic",
+      "note": "2646 C++ 需要用 pbds",
+      "rating": 2646
+    },
+    {
+      "id": 3575,
+      "section": "三、一般树 / §3.10 树上启发式合并",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n\\cdot 2^D)$"
+    },
+    {
+      "id": 3372,
+      "section": "三、一般树 / §3.11 点分治",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3425,
+      "section": "三、一般树 / §3.12 树上滑动窗口",
+      "stage": "basic",
+      "note": "2435",
+      "rating": 2435
+    },
+    {
+      "id": 3486,
+      "section": "三、一般树 / §3.12 树上滑动窗口",
+      "stage": "basic",
+      "note": "2925",
+      "rating": 2925
+    },
+    {
+      "id": 2867,
+      "section": "三、一般树 / §3.13 其他",
+      "stage": "basic",
+      "note": "2428",
+      "rating": 2428
+    },
+    {
+      "id": 2421,
+      "section": "三、一般树 / §3.13 其他",
+      "stage": "basic",
+      "note": "2445",
+      "rating": 2445
+    },
+    {
+      "id": 1719,
+      "section": "三、一般树 / §3.13 其他",
+      "stage": "basic",
+      "note": "3018",
+      "rating": 3018
+    },
+    {
+      "id": 2479,
+      "section": "三、一般树 / §3.13 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 78,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1863,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1372",
+      "rating": 1372
+    },
+    {
+      "id": 784,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3955,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1429",
+      "rating": 1429
+    },
+    {
+      "id": 3566,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1459",
+      "rating": 1459
+    },
+    {
+      "id": 2044,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1568",
+      "rating": 1568
+    },
+    {
+      "id": "LCP 51",
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1774,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1702",
+      "rating": 1702
+    },
+    {
+      "id": 2397,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1719",
+      "rating": 1719
+    },
+    {
+      "id": 1239,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1720",
+      "rating": 1720
+    },
+    {
+      "id": 3910,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1859",
+      "rating": 1859
+    },
+    {
+      "id": 2212,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1869",
+      "rating": 1869
+    },
+    {
+      "id": 1255,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1882",
+      "rating": 1882
+    },
+    {
+      "id": 2151,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1980",
+      "rating": 1980
+    },
+    {
+      "id": 2597,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "2023",
+      "rating": 2023
+    },
+    {
+      "id": 2959,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "2077",
+      "rating": 2077
+    },
+    {
+      "id": 1601,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "2119",
+      "rating": 2119
+    },
+    {
+      "id": 1617,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "2309",
+      "rating": 2309
+    },
+    {
+      "id": 2174,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 320,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 254,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 39,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "同一个数可以重复选"
+    },
+    {
+      "id": 2002,
+      "section": "四、回溯 / §4.1 子集型回溯",
+      "stage": "basic",
+      "note": "1869",
+      "rating": 1869
+    },
+    {
+      "id": 131,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2698,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": "1679",
+      "rating": 1679
+    },
+    {
+      "id": 1593,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": "1740",
+      "rating": 1740
+    },
+    {
+      "id": 1849,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": "1747",
+      "rating": 1747
+    },
+    {
+      "id": 93,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 140,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 291,
+      "section": "四、回溯 / §4.2 划分型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 77,
+      "section": "四、回溯 / §4.3 组合型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 216,
+      "section": "四、回溯 / §4.3 组合型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1286,
+      "section": "四、回溯 / §4.3 组合型回溯",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 22,
+      "section": "四、回溯 / §4.3 组合型回溯",
+      "stage": "basic",
+      "note": "本质是从 $2n$ 个位置中选 $n$ 个位置放左括号，剩余 $n$ 个位置放右括号"
+    },
+    {
+      "id": 46,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3799,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "1606",
+      "rating": 1606
+    },
+    {
+      "id": 3376,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "1793",
+      "rating": 1793
+    },
+    {
+      "id": 51,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "本质是枚举列号的全排列"
+    },
+    {
+      "id": 52,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2850,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "2001",
+      "rating": 2001
+    },
+    {
+      "id": 1718,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "2080",
+      "rating": 2080
+    },
+    {
+      "id": 1307,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "2250",
+      "rating": 2250
+    },
+    {
+      "id": 37,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3437,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 267,
+      "section": "四、回溯 / §4.4 排列型回溯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 90,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 40,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 491,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 47,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1079,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": "1741",
+      "rating": 1741
+    },
+    {
+      "id": 301,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3646,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": "2445",
+      "rating": 2445
+    },
+    {
+      "id": 2014,
+      "section": "四、回溯 / §4.5 有重复元素的回溯",
+      "stage": "basic",
+      "note": "2558",
+      "rating": 2558
+    },
+    {
+      "id": 17,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3211,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1353",
+      "rating": 1353
+    },
+    {
+      "id": 967,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1433",
+      "rating": 1433
+    },
+    {
+      "id": 2094,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3483,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "同 2094 题"
+    },
+    {
+      "id": 1415,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1576 也有 $\\mathcal{O}(n)$ 做法",
+      "rating": 1576
+    },
+    {
+      "id": 1219,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 79,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 980,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1830",
+      "rating": 1830
+    },
+    {
+      "id": 2002,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1869",
+      "rating": 1869
+    },
+    {
+      "id": 1255,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1882",
+      "rating": 1882
+    },
+    {
+      "id": 3669,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 756,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "1990",
+      "rating": 1990
+    },
+    {
+      "id": 473,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "子集分割问题，$k=4$"
+    },
+    {
+      "id": 212,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 638,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1240,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "2242",
+      "rating": 2242
+    },
+    {
+      "id": 679,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 282,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 126,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 691,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2056,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "2611",
+      "rating": 2611
+    },
+    {
+      "id": 2386,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "2648",
+      "rating": 2648
+    },
+    {
+      "id": 3509,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "2703",
+      "rating": 2703
+    },
+    {
+      "id": 488,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 58",
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 17.25",
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2664,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3565,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 247,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 248,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 411,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1088,
+      "section": "四、回溯 / §4.6 搜索",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 805,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "1983",
+      "rating": 1983
+    },
+    {
+      "id": 494,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3877,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3566,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3850,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1755,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "2364",
+      "rating": 2364
+    },
+    {
+      "id": 956,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "2381",
+      "rating": 2381
+    },
+    {
+      "id": 2035,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "2490",
+      "rating": 2490
+    },
+    {
+      "id": 3801,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "优化"
+    },
+    {
+      "id": 3267,
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": "优化"
+    },
+    {
+      "id": "LCP 82",
+      "section": "四、回溯 / §4.7 折半搜索",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3537,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "1542",
+      "rating": 1542
+    },
+    {
+      "id": 3864,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "2032",
+      "rating": 2032
+    },
+    {
+      "id": 1545,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3307,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "2232",
+      "rating": 2232
+    },
+    {
+      "id": 880,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3614,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 932,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "约 2500"
+    },
+    {
+      "id": 215,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": "先做这题再做 912 题"
+    },
+    {
+      "id": 912,
+      "section": "五、其他递归/分治",
+      "stage": "basic",
+      "note": ""
+    }
+  ]
+}

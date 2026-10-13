@@ -1,0 +1,508 @@
+{
+  "id": "hot100",
+  "name": "LeetCode Hot 100",
+  "source_url": "https://leetcode.cn/studyplan/top-100-liked/",
+  "scope": "完整 100 题",
+  "items": [
+    {
+      "id": 1,
+      "section": "哈希",
+      "stage": "basic"
+    },
+    {
+      "id": 49,
+      "section": "哈希",
+      "stage": "basic"
+    },
+    {
+      "id": 128,
+      "section": "哈希",
+      "stage": "basic"
+    },
+    {
+      "id": 283,
+      "section": "双指针",
+      "stage": "basic"
+    },
+    {
+      "id": 11,
+      "section": "双指针",
+      "stage": "basic"
+    },
+    {
+      "id": 15,
+      "section": "双指针",
+      "stage": "basic"
+    },
+    {
+      "id": 42,
+      "section": "双指针",
+      "stage": "basic"
+    },
+    {
+      "id": 3,
+      "section": "滑动窗口",
+      "stage": "basic"
+    },
+    {
+      "id": 438,
+      "section": "滑动窗口",
+      "stage": "basic"
+    },
+    {
+      "id": 560,
+      "section": "子串",
+      "stage": "basic"
+    },
+    {
+      "id": 239,
+      "section": "子串",
+      "stage": "basic"
+    },
+    {
+      "id": 76,
+      "section": "子串",
+      "stage": "basic"
+    },
+    {
+      "id": 53,
+      "section": "普通数组",
+      "stage": "basic"
+    },
+    {
+      "id": 56,
+      "section": "普通数组",
+      "stage": "basic"
+    },
+    {
+      "id": 189,
+      "section": "普通数组",
+      "stage": "basic"
+    },
+    {
+      "id": 238,
+      "section": "普通数组",
+      "stage": "basic"
+    },
+    {
+      "id": 41,
+      "section": "普通数组",
+      "stage": "basic"
+    },
+    {
+      "id": 73,
+      "section": "矩阵",
+      "stage": "basic"
+    },
+    {
+      "id": 54,
+      "section": "矩阵",
+      "stage": "basic"
+    },
+    {
+      "id": 48,
+      "section": "矩阵",
+      "stage": "basic"
+    },
+    {
+      "id": 240,
+      "section": "矩阵",
+      "stage": "basic"
+    },
+    {
+      "id": 160,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 206,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 234,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 141,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 142,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 21,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 2,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 19,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 24,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 25,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 138,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 148,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 23,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 146,
+      "section": "链表",
+      "stage": "basic"
+    },
+    {
+      "id": 94,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 104,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 226,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 101,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 543,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 102,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 108,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 98,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 230,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 199,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 114,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 105,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 437,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 236,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 124,
+      "section": "二叉树",
+      "stage": "basic"
+    },
+    {
+      "id": 200,
+      "section": "图论",
+      "stage": "basic"
+    },
+    {
+      "id": 994,
+      "section": "图论",
+      "stage": "basic"
+    },
+    {
+      "id": 207,
+      "section": "图论",
+      "stage": "basic"
+    },
+    {
+      "id": 208,
+      "section": "图论",
+      "stage": "basic"
+    },
+    {
+      "id": 46,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 78,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 17,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 39,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 22,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 79,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 131,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 51,
+      "section": "回溯",
+      "stage": "basic"
+    },
+    {
+      "id": 35,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 74,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 34,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 33,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 153,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 4,
+      "section": "二分查找",
+      "stage": "basic"
+    },
+    {
+      "id": 20,
+      "section": "栈",
+      "stage": "basic"
+    },
+    {
+      "id": 155,
+      "section": "栈",
+      "stage": "basic"
+    },
+    {
+      "id": 394,
+      "section": "栈",
+      "stage": "basic"
+    },
+    {
+      "id": 739,
+      "section": "栈",
+      "stage": "basic"
+    },
+    {
+      "id": 84,
+      "section": "栈",
+      "stage": "basic"
+    },
+    {
+      "id": 215,
+      "section": "堆",
+      "stage": "basic"
+    },
+    {
+      "id": 347,
+      "section": "堆",
+      "stage": "basic"
+    },
+    {
+      "id": 295,
+      "section": "堆",
+      "stage": "basic"
+    },
+    {
+      "id": 121,
+      "section": "贪心算法",
+      "stage": "basic"
+    },
+    {
+      "id": 55,
+      "section": "贪心算法",
+      "stage": "basic"
+    },
+    {
+      "id": 45,
+      "section": "贪心算法",
+      "stage": "basic"
+    },
+    {
+      "id": 763,
+      "section": "贪心算法",
+      "stage": "basic"
+    },
+    {
+      "id": 70,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 118,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 198,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 279,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 322,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 139,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 300,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 152,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 416,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 32,
+      "section": "动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 62,
+      "section": "多维动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 64,
+      "section": "多维动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 5,
+      "section": "多维动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 1143,
+      "section": "多维动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 72,
+      "section": "多维动态规划",
+      "stage": "basic"
+    },
+    {
+      "id": 136,
+      "section": "技巧",
+      "stage": "basic"
+    },
+    {
+      "id": 169,
+      "section": "技巧",
+      "stage": "basic"
+    },
+    {
+      "id": 75,
+      "section": "技巧",
+      "stage": "basic"
+    },
+    {
+      "id": 31,
+      "section": "技巧",
+      "stage": "basic"
+    },
+    {
+      "id": 287,
+      "section": "技巧",
+      "stage": "basic"
+    }
+  ]
+}

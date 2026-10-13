@@ -59,7 +59,9 @@ using namespace std;
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-
+        // TODO: 在这里实现你的解法。
+        (void)head;
+        return {};
     }
 };
 

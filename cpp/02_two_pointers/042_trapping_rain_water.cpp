@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     int trap(vector<int>& height) {
-
+        // TODO: 在这里实现你的解法。
+        (void)height;
+        return {};
     }
 };
 

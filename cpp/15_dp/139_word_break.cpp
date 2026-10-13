@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
-
+        // TODO: 在这里实现你的解法。
+        (void)s;
+        (void)wordDict;
+        return {};
     }
 };
 

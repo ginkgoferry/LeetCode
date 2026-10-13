@@ -1,0 +1,689 @@
+{
+  "id": "lingcha-string",
+  "name": "灵茶山艾府 · 字符串",
+  "source_url": "https://leetcode.cn/discuss/post/3144832/fen-xiang-gun-ti-dan-zi-fu-chuan-kmpzhan-ugt4/",
+  "source_updated_at": "2026-09-05T02:43:00.418966+00:00",
+  "source_sha256": "375549789dcdcb9884153c9194afc4133fab553117653776a32c56fb4c210477",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 105,
+  "source_entry_count": 105,
+  "source_problem_count": 82,
+  "items": [
+    {
+      "id": 28,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "**模板题**"
+    },
+    {
+      "id": 796,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 1392,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1876",
+      "rating": 1876
+    },
+    {
+      "id": 3036,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1895",
+      "rating": 1895
+    },
+    {
+      "id": 1764,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 1668,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 459,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 2800,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 3008,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2016",
+      "rating": 2016
+    },
+    {
+      "id": 214,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "也可以用 Manacher 算法"
+    },
+    {
+      "id": 3529,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2105",
+      "rating": 2105
+    },
+    {
+      "id": 686,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "约 2200"
+    },
+    {
+      "id": 3455,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2303",
+      "rating": 2303
+    },
+    {
+      "id": 1397,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2667",
+      "rating": 2667
+    },
+    {
+      "id": 3037,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）同 28 题"
+    },
+    {
+      "id": 3571,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）联系 2800 题"
+    },
+    {
+      "id": 28,
+      "section": "二、Z 函数（后缀的前缀）",
+      "stage": "basic",
+      "note": "。",
+      "reference_only": true
+    },
+    {
+      "id": 2223,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2220 **模板题**",
+      "rating": 2220
+    },
+    {
+      "id": 3031,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2278",
+      "rating": 2278
+    },
+    {
+      "id": 3045,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2328",
+      "rating": 2328
+    },
+    {
+      "id": 3303,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2509",
+      "rating": 2509
+    },
+    {
+      "id": 3292,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2662",
+      "rating": 2662
+    },
+    {
+      "id": 3474,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 2430,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2102",
+      "rating": 2102
+    },
+    {
+      "id": 3388,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2365",
+      "rating": 2365
+    },
+    {
+      "id": 2573,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2682",
+      "rating": 2682
+    },
+    {
+      "id": 1977,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2817",
+      "rating": 2817
+    },
+    {
+      "id": 5,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 647,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "计算回文子串个数"
+    },
+    {
+      "id": 214,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3985,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "2202",
+      "rating": 2202
+    },
+    {
+      "id": 3327,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "2454",
+      "rating": 2454
+    },
+    {
+      "id": 1745,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 1960,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "2691",
+      "rating": 2691
+    },
+    {
+      "id": 3844,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3504,
+      "section": "三、Manacher 算法（回文串）",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 5,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3844,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1990",
+      "rating": 1990
+    },
+    {
+      "id": 2472,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2013",
+      "rating": 2013
+    },
+    {
+      "id": 3504,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2398",
+      "rating": 2398
+    },
+    {
+      "id": 3615,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2463",
+      "rating": 2463
+    },
+    {
+      "id": 3579,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 2156,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "和 [3756. 连接非零数字并乘以其数字和 II](https://leetcode.cn/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/) 做了，对理解**多项式哈希**的计算方法有帮助。",
+      "reference_only": true
+    },
+    {
+      "id": 3756,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做了，对理解**多项式哈希**的计算方法有帮助。",
+      "reference_only": true
+    },
+    {
+      "id": 28,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 187,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1316,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "1837",
+      "rating": 1837
+    },
+    {
+      "id": 1297,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2261,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^2)$"
+    },
+    {
+      "id": 3722,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3934,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "2163",
+      "rating": 2163
+    },
+    {
+      "id": 3213,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "2171",
+      "rating": 2171
+    },
+    {
+      "id": 1367,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做到线性"
+    },
+    {
+      "id": 1044,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "2429",
+      "rating": 2429
+    },
+    {
+      "id": 718,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1923,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "2661",
+      "rating": 2661
+    },
+    {
+      "id": 3292,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "2662",
+      "rating": 2662
+    },
+    {
+      "id": 3844,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$ 或 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2168,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "（会员题）同 2261 题"
+    },
+    {
+      "id": 1554,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1062,
+      "section": "四、字符串哈希",
+      "stage": "basic",
+      "note": "（会员题）同 1044 题"
+    },
+    {
+      "id": 1163,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "，最小表示法是这题的环形版本。",
+      "reference_only": true
+    },
+    {
+      "id": 899,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3999,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2162",
+      "rating": 2162
+    },
+    {
+      "id": 3403,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1625,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3406,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1708,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）见进阶问题"
+    },
+    {
+      "id": 1032,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "1970 **模板题**",
+      "rating": 1970
+    },
+    {
+      "id": 1967,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "**模板题**"
+    },
+    {
+      "id": "面试题 17.17",
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "**模板题**"
+    },
+    {
+      "id": 1408,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "做到线性时间复杂度"
+    },
+    {
+      "id": 3213,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "2171",
+      "rating": 2171
+    },
+    {
+      "id": 2781,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "2204",
+      "rating": 2204
+    },
+    {
+      "id": 3292,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "2662",
+      "rating": 2662
+    },
+    {
+      "id": 3758,
+      "section": "七、AC 自动机",
+      "stage": "basic",
+      "note": "（会员题）更通用的做法"
+    },
+    {
+      "id": 1163,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "1864",
+      "rating": 1864
+    },
+    {
+      "id": 1754,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 2904,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3722,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3934,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "2163",
+      "rating": 2163
+    },
+    {
+      "id": 3213,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "2171",
+      "rating": 2171
+    },
+    {
+      "id": 1044,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "2429",
+      "rating": 2429
+    },
+    {
+      "id": 718,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1923,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "2661",
+      "rating": 2661
+    },
+    {
+      "id": 1408,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3729,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "不保证数组非递增的做法 本质不同子数组"
+    },
+    {
+      "id": 3076,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3844,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 3504,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+m)$"
+    },
+    {
+      "id": 1316,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3388,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$ 或 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2564,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "见我题解下的 [评论](https://leetcode.cn/problems/substring-xor-queries/solutions/2107060/yu-chu-li-suo-you-s-zhong-de-shu-zi-by-e-yxl2/comments/1922325/)"
+    },
+    {
+      "id": "面试题 16.18",
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "后缀树"
+    },
+    {
+      "id": 1698,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1062,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "（会员题）同 1044 题"
+    },
+    {
+      "id": 3135,
+      "section": "八、后缀数组/后缀自动机",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 792,
+      "section": "九、子序列自动机",
+      "stage": "basic",
+      "note": "1695",
+      "rating": 1695
+    },
+    {
+      "id": 514,
+      "section": "九、子序列自动机",
+      "stage": "basic",
+      "note": "约 2400 做到 $\\mathcal{O}(nm)$"
+    },
+    {
+      "id": 2014,
+      "section": "九、子序列自动机",
+      "stage": "basic",
+      "note": "2558",
+      "rating": 2558
+    },
+    {
+      "id": 1055,
+      "section": "九、子序列自动机",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 727,
+      "section": "九、子序列自动机",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3485,
+      "section": "十、其他",
+      "stage": "basic",
+      "note": "2290 LCP 的性质",
+      "rating": 2290
+    },
+    {
+      "id": 466,
+      "section": "十、其他",
+      "stage": "basic",
+      "note": ")$"
+    },
+    {
+      "id": 3491,
+      "section": "十、其他",
+      "stage": "basic",
+      "note": "（会员题）非暴力做法"
+    }
+  ]
+}

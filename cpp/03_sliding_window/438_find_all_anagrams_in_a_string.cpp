@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
-
+        // TODO: 在这里实现你的解法。
+        (void)s;
+        (void)p;
+        return {};
     }
 };
 

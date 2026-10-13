@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
-
+        // TODO: 在这里实现你的解法。
+        (void)text1;
+        (void)text2;
+        return {};
     }
 };
 

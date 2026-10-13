@@ -1,0 +1,2284 @@
+{
+  "id": "lingcha-math",
+  "name": "灵茶山艾府 · 数学算法",
+  "source_url": "https://leetcode.cn/discuss/post/3584388/fen-xiang-gun-ti-dan-shu-xue-suan-fa-shu-gcai/",
+  "source_updated_at": "2026-09-13T04:24:51.707141+00:00",
+  "source_sha256": "4d36d2d6dec1ed1cab3698f8a487c52c8e828b8f9c5ebdf6fd7a141ed7723cb0",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 344,
+  "source_entry_count": 341,
+  "source_problem_count": 334,
+  "items": [
+    {
+      "id": 3115,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1294",
+      "rating": 1294
+    },
+    {
+      "id": 2614,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1375",
+      "rating": 1375
+    },
+    {
+      "id": 3765,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1378",
+      "rating": 1378
+    },
+    {
+      "id": 3556,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1440",
+      "rating": 1440
+    },
+    {
+      "id": 3044,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1737",
+      "rating": 1737
+    },
+    {
+      "id": 866,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1938",
+      "rating": 1938
+    },
+    {
+      "id": 204,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3618,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1227",
+      "rating": 1227
+    },
+    {
+      "id": 3591,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1235",
+      "rating": 1235
+    },
+    {
+      "id": 3918,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1301",
+      "rating": 1301
+    },
+    {
+      "id": 762,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1383",
+      "rating": 1383
+    },
+    {
+      "id": 3896,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1435",
+      "rating": 1435
+    },
+    {
+      "id": 2761,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1505",
+      "rating": 1505
+    },
+    {
+      "id": 3233,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1509",
+      "rating": 1509
+    },
+    {
+      "id": 3770,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1547",
+      "rating": 1547
+    },
+    {
+      "id": 2523,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1650",
+      "rating": 1650
+    },
+    {
+      "id": 2601,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1779",
+      "rating": 1779
+    },
+    {
+      "id": 2521,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1413",
+      "rating": 1413
+    },
+    {
+      "id": 2507,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1500",
+      "rating": 1500
+    },
+    {
+      "id": 4032,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 3326,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1864",
+      "rating": 1864
+    },
+    {
+      "id": 3984,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1944",
+      "rating": 1944
+    },
+    {
+      "id": 3629,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2139",
+      "rating": 2139
+    },
+    {
+      "id": 2584,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2159",
+      "rating": 2159
+    },
+    {
+      "id": 2709,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2172",
+      "rating": 2172
+    },
+    {
+      "id": 3715,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2235 无平方因子核（core）",
+      "rating": 2235
+    },
+    {
+      "id": 2862,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2292 无平方因子核（core）",
+      "rating": 2292
+    },
+    {
+      "id": 2818,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2397",
+      "rating": 2397
+    },
+    {
+      "id": 1998,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2429",
+      "rating": 2429
+    },
+    {
+      "id": 1735,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2500",
+      "rating": 2500
+    },
+    {
+      "id": 2338,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2615 可以用 Min_25 筛优化",
+      "rating": 2615
+    },
+    {
+      "id": "LCP 14",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 172,
+      "section": "§1.4 阶乘分解",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 793,
+      "section": "§1.4 阶乘分解",
+      "stage": "basic",
+      "note": "2100",
+      "rating": 2100
+    },
+    {
+      "id": 2427,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1172",
+      "rating": 1172
+    },
+    {
+      "id": 1952,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1204",
+      "rating": 1204
+    },
+    {
+      "id": 1492,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1232",
+      "rating": 1232
+    },
+    {
+      "id": 507,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1390,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1478",
+      "rating": 1478
+    },
+    {
+      "id": 1362,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1534",
+      "rating": 1534
+    },
+    {
+      "id": 3927,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1652",
+      "rating": 1652
+    },
+    {
+      "id": 829,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1694",
+      "rating": 1694
+    },
+    {
+      "id": 3447,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1731 调和级数枚举",
+      "rating": 1731
+    },
+    {
+      "id": 3164,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1777 调和级数枚举",
+      "rating": 1777
+    },
+    {
+      "id": 2176,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法约 2200"
+    },
+    {
+      "id": 2183,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2246",
+      "rating": 2246
+    },
+    {
+      "id": 952,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2272",
+      "rating": 2272
+    },
+    {
+      "id": 1627,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2221",
+      "rating": 2221
+    },
+    {
+      "id": 2198,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 625,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2847,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 4005,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1979,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1184",
+      "rating": 1184
+    },
+    {
+      "id": 4010,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1216",
+      "rating": 1216
+    },
+    {
+      "id": 3658,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1220",
+      "rating": 1220
+    },
+    {
+      "id": 2169,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 914,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1371",
+      "rating": 1371
+    },
+    {
+      "id": 1071,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1398",
+      "rating": 1398
+    },
+    {
+      "id": 2344,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1641",
+      "rating": 1641
+    },
+    {
+      "id": 365,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2654,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1929",
+      "rating": 1929
+    },
+    {
+      "id": 1250,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1983 裴蜀定理",
+      "rating": 1983
+    },
+    {
+      "id": 1625,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1992 裴蜀定理",
+      "rating": 1992
+    },
+    {
+      "id": 2607,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2071 裴蜀定理",
+      "rating": 2071
+    },
+    {
+      "id": 2447,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2543,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2221",
+      "rating": 2221
+    },
+    {
+      "id": 3574,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2300",
+      "rating": 2300
+    },
+    {
+      "id": 4037,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2372",
+      "rating": 2372
+    },
+    {
+      "id": 3312,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2533 倍数容斥 附变形题：1) 子序列 GCD 2) 树上路径 GCD",
+      "rating": 2533
+    },
+    {
+      "id": 3725,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "倍数容斥"
+    },
+    {
+      "id": 1819,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2540 调和级数枚举",
+      "rating": 2540
+    },
+    {
+      "id": 3901,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2545 证明",
+      "rating": 2545
+    },
+    {
+      "id": 3671,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "2647 倍数容斥",
+      "rating": 2647
+    },
+    {
+      "id": 2436,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2464,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2941,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2807,
+      "section": "§1.6 最大公约数（GCD）",
+      "stage": "basic",
+      "note": "1279",
+      "rating": 1279
+    },
+    {
+      "id": 2413,
+      "section": "§1.7 最小公倍数（LCM）",
+      "stage": "basic",
+      "note": "1145",
+      "rating": 1145
+    },
+    {
+      "id": 3334,
+      "section": "§1.7 最小公倍数（LCM）",
+      "stage": "basic",
+      "note": "1519",
+      "rating": 1519
+    },
+    {
+      "id": 858,
+      "section": "§1.7 最小公倍数（LCM）",
+      "stage": "basic",
+      "note": "1881",
+      "rating": 1881
+    },
+    {
+      "id": 2197,
+      "section": "§1.7 最小公倍数（LCM）",
+      "stage": "basic",
+      "note": "2057",
+      "rating": 2057
+    },
+    {
+      "id": 2470,
+      "section": "§1.7 最小公倍数（LCM）",
+      "stage": "basic",
+      "note": "logTrick 做到 $\\mathcal{O}(n\\log k)$"
+    },
+    {
+      "id": 2748,
+      "section": "§1.8 互质",
+      "stage": "basic",
+      "note": "1301",
+      "rating": 1301
+    },
+    {
+      "id": 1447,
+      "section": "§1.8 互质",
+      "stage": "basic",
+      "note": "约 1400"
+    },
+    {
+      "id": 1766,
+      "section": "§1.8 互质",
+      "stage": "basic",
+      "note": "2232",
+      "rating": 2232
+    },
+    {
+      "id": 3411,
+      "section": "§1.8 互质",
+      "stage": "basic",
+      "note": "非暴力做法大约 2300"
+    },
+    {
+      "id": 2453,
+      "section": "§1.9 同余",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 2598,
+      "section": "§1.9 同余",
+      "stage": "basic",
+      "note": "1846",
+      "rating": 1846
+    },
+    {
+      "id": 1590,
+      "section": "§1.9 同余",
+      "stage": "basic",
+      "note": "2039",
+      "rating": 2039
+    },
+    {
+      "id": 1925,
+      "section": "§1.10 数论分块",
+      "stage": "basic",
+      "note": "本原勾股数组"
+    },
+    {
+      "id": 3953,
+      "section": "§1.11 莫比乌斯函数",
+      "stage": "basic",
+      "note": "2390",
+      "rating": 2390
+    },
+    {
+      "id": 3336,
+      "section": "§1.11 莫比乌斯函数",
+      "stage": "basic",
+      "note": "更快的做法"
+    },
+    {
+      "id": 1018,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "1376",
+      "rating": 1376
+    },
+    {
+      "id": 326,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(1)$"
+    },
+    {
+      "id": 1387,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "1507 考拉兹猜想 冰雹猜想",
+      "rating": 1507
+    },
+    {
+      "id": 372,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "欧拉定理"
+    },
+    {
+      "id": 1015,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "欧拉定理、欧拉函数"
+    },
+    {
+      "id": 3790,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "同 1015 题"
+    },
+    {
+      "id": 633,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "费马平方和定理"
+    },
+    {
+      "id": 279,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "四平方和定理"
+    },
+    {
+      "id": 2240,
+      "section": "§1.12 其他",
+      "stage": "basic",
+      "note": "类欧几里得算法"
+    },
+    {
+      "id": 3128,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1541",
+      "rating": 1541
+    },
+    {
+      "id": 1573,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 2750,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1598",
+      "rating": 1598
+    },
+    {
+      "id": 2316,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1604",
+      "rating": 1604
+    },
+    {
+      "id": 2550,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 1922,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1675",
+      "rating": 1675
+    },
+    {
+      "id": 3483,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3067,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1909",
+      "rating": 1909
+    },
+    {
+      "id": 2147,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1915",
+      "rating": 1915
+    },
+    {
+      "id": 2963,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "1985",
+      "rating": 1985
+    },
+    {
+      "id": 2306,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "2305",
+      "rating": 2305
+    },
+    {
+      "id": 2867,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "2428",
+      "rating": 2428
+    },
+    {
+      "id": 1617,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n^3)$"
+    },
+    {
+      "id": 2450,
+      "section": "二、组合数学 / §2.1 乘法原理",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 62,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 357,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1175,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1489",
+      "rating": 1489
+    },
+    {
+      "id": 1641,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1519",
+      "rating": 1519
+    },
+    {
+      "id": 3179,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "组合公式"
+    },
+    {
+      "id": 1359,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1723",
+      "rating": 1723
+    },
+    {
+      "id": 2400,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1751",
+      "rating": 1751
+    },
+    {
+      "id": 3881,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1761",
+      "rating": 1761
+    },
+    {
+      "id": 3558,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1845",
+      "rating": 1845
+    },
+    {
+      "id": 4002,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1912",
+      "rating": 1912
+    },
+    {
+      "id": 3821,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2069",
+      "rating": 2069
+    },
+    {
+      "id": 2514,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2070",
+      "rating": 2070
+    },
+    {
+      "id": 3154,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2071",
+      "rating": 2071
+    },
+    {
+      "id": 1643,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2080",
+      "rating": 2080
+    },
+    {
+      "id": 2842,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2092",
+      "rating": 2092
+    },
+    {
+      "id": 1621,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2198",
+      "rating": 2198
+    },
+    {
+      "id": 2221,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "扩展卢卡斯 组合数模 $10$"
+    },
+    {
+      "id": 3463,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2286 扩展卢卡斯 组合数模 $10$",
+      "rating": 2286
+    },
+    {
+      "id": 3519,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2246",
+      "rating": 2246
+    },
+    {
+      "id": 3906,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "类似 3519 题"
+    },
+    {
+      "id": 1569,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2288",
+      "rating": 2288
+    },
+    {
+      "id": 3405,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2310",
+      "rating": 2310
+    },
+    {
+      "id": 1866,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2333 第一类斯特林数",
+      "rating": 2333
+    },
+    {
+      "id": 1467,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2357",
+      "rating": 2357
+    },
+    {
+      "id": 3518,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2375 试填法 多重集排列数",
+      "rating": 2375
+    },
+    {
+      "id": 3272,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2382",
+      "rating": 2382
+    },
+    {
+      "id": 3317,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2414 第二类斯特林数",
+      "rating": 2414
+    },
+    {
+      "id": 3470,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2474 构造，字典序第 $k$ 小",
+      "rating": 2474
+    },
+    {
+      "id": 1916,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2486 拓扑序方案数",
+      "rating": 2486
+    },
+    {
+      "id": 3343,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2615 多重集排列数",
+      "rating": 2615
+    },
+    {
+      "id": 1830,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2620",
+      "rating": 2620
+    },
+    {
+      "id": 2954,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2645",
+      "rating": 2645
+    },
+    {
+      "id": 3539,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2694 多重集排列数",
+      "rating": 2694
+    },
+    {
+      "id": 3395,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2800 做到 $\\mathcal{O}(n)$ 时间",
+      "rating": 2800
+    },
+    {
+      "id": 1575,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3251,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$ 时间"
+    },
+    {
+      "id": "LCP 25",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2539,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 634,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1692,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）第二类斯特林数"
+    },
+    {
+      "id": 3669,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "不是组合数学题，但分析算法的计算量需要用到组合数学"
+    },
+    {
+      "id": 2652,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 878,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "1897",
+      "rating": 1897
+    },
+    {
+      "id": 1201,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2039",
+      "rating": 2039
+    },
+    {
+      "id": 2929,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2930,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2513,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2302",
+      "rating": 2302
+    },
+    {
+      "id": 3733,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "同 2513 题"
+    },
+    {
+      "id": 3116,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2387",
+      "rating": 2387
+    },
+    {
+      "id": 3953,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2390 莫比乌斯函数",
+      "rating": 2390
+    },
+    {
+      "id": 3757,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2519",
+      "rating": 2519
+    },
+    {
+      "id": 3130,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "2825",
+      "rating": 2825
+    },
+    {
+      "id": 920,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "更快的做法"
+    },
+    {
+      "id": 3336,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "倍数容斥 莫比乌斯函数"
+    },
+    {
+      "id": 2927,
+      "section": "§2.3 容斥原理",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1155,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 629,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3193,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3082,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2518,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3333,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3850,
+      "section": "§2.4 生成函数（母函数）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1227,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 688,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 837,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": "2350",
+      "rating": 2350
+    },
+    {
+      "id": 1467,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": "2357",
+      "rating": 2357
+    },
+    {
+      "id": 808,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": "2397",
+      "rating": 2397
+    },
+    {
+      "id": "LCR 185",
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 11",
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1230,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3494,
+      "section": "三、概率期望",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 292,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "巴什博弈"
+    },
+    {
+      "id": 1025,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1435",
+      "rating": 1435
+    },
+    {
+      "id": 3227,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1452",
+      "rating": 1452
+    },
+    {
+      "id": 2038,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1468",
+      "rating": 1468
+    },
+    {
+      "id": 877,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1590",
+      "rating": 1590
+    },
+    {
+      "id": 3828,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 486,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1510,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1787",
+      "rating": 1787
+    },
+    {
+      "id": 1690,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "1951",
+      "rating": 1951
+    },
+    {
+      "id": 1686,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2001",
+      "rating": 2001
+    },
+    {
+      "id": 1927,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2005",
+      "rating": 2005
+    },
+    {
+      "id": 1406,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2027",
+      "rating": 2027
+    },
+    {
+      "id": 1140,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2035",
+      "rating": 2035
+    },
+    {
+      "id": 1563,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2087",
+      "rating": 2087
+    },
+    {
+      "id": 464,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2029,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2277",
+      "rating": 2277
+    },
+    {
+      "id": 810,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2341",
+      "rating": 2341
+    },
+    {
+      "id": 1872,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2440",
+      "rating": 2440
+    },
+    {
+      "id": 913,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "实际约 2800"
+    },
+    {
+      "id": 1728,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "2849",
+      "rating": 2849
+    },
+    {
+      "id": "LCP 48",
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 294,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1908,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2005,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2868,
+      "section": "四、博弈论",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1232,
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": "1247",
+      "rating": 1247
+    },
+    {
+      "id": 2280,
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": "1681",
+      "rating": 1681
+    },
+    {
+      "id": 1610,
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": "2147",
+      "rating": 2147
+    },
+    {
+      "id": "面试题 16.03",
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 16.13",
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "面试题 16.14",
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 37",
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2152,
+      "section": "五、计算几何 / §5.1 点、线",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1401,
+      "section": "五、计算几何 / §5.2 圆",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 1453,
+      "section": "五、计算几何 / §5.2 圆",
+      "stage": "basic",
+      "note": "2202",
+      "rating": 2202
+    },
+    {
+      "id": "LCP 42",
+      "section": "五、计算几何 / §5.2 圆",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3235,
+      "section": "五、计算几何 / §5.2 圆",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1924,
+      "section": "五、计算几何 / §5.2 圆",
+      "stage": "basic",
+      "note": "（会员题）最小圆覆盖 Welzl 算法"
+    },
+    {
+      "id": 836,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": "1443",
+      "rating": 1443
+    },
+    {
+      "id": 223,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 593,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 939,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": "1752",
+      "rating": 1752
+    },
+    {
+      "id": 963,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": "1991",
+      "rating": 1991
+    },
+    {
+      "id": 3625,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": "2643",
+      "rating": 2643
+    },
+    {
+      "id": 469,
+      "section": "五、计算几何 / §5.3 矩形、多边形",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 587,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 812,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "旋转卡壳"
+    },
+    {
+      "id": "LCP 15",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3899,
+      "section": "§5.5 其他",
+      "stage": "basic",
+      "note": "1407",
+      "rating": 1407
+    },
+    {
+      "id": 398,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 382,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 384,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 380,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 381,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 528,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 470,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 710,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 478,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 497,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 519,
+      "section": "六、随机算法 / §6.1 随机数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 961,
+      "section": "六、随机算法 / §6.2 随机化技巧",
+      "stage": "basic",
+      "note": "1162",
+      "rating": 1162
+    },
+    {
+      "id": 1317,
+      "section": "六、随机算法 / §6.2 随机化技巧",
+      "stage": "basic",
+      "note": "1278",
+      "rating": 1278
+    },
+    {
+      "id": 1968,
+      "section": "六、随机算法 / §6.2 随机化技巧",
+      "stage": "basic",
+      "note": "1499",
+      "rating": 1499
+    },
+    {
+      "id": 1157,
+      "section": "六、随机算法 / §6.2 随机化技巧",
+      "stage": "basic",
+      "note": "2205",
+      "rating": 2205
+    },
+    {
+      "id": 3680,
+      "section": "六、随机算法 / §6.2 随机化技巧",
+      "stage": "basic",
+      "note": "2378",
+      "rating": 2378
+    },
+    {
+      "id": 4033,
+      "section": "六、随机算法 / §6.3 异或哈希（XOR hashing）",
+      "stage": "basic",
+      "note": "2314",
+      "rating": 2314
+    },
+    {
+      "id": 9,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2396,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "1329",
+      "rating": 1329
+    },
+    {
+      "id": 2217,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "1822",
+      "rating": 1822
+    },
+    {
+      "id": 866,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "1938",
+      "rating": 1938
+    },
+    {
+      "id": 3766,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 564,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2967,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2116",
+      "rating": 2116
+    },
+    {
+      "id": 906,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2140",
+      "rating": 2140
+    },
+    {
+      "id": 2081,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2210",
+      "rating": 2210
+    },
+    {
+      "id": 3677,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2223",
+      "rating": 2223
+    },
+    {
+      "id": 3260,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2370",
+      "rating": 2370
+    },
+    {
+      "id": 3272,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2382",
+      "rating": 2382
+    },
+    {
+      "id": 3646,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": "2445",
+      "rating": 2445
+    },
+    {
+      "id": 479,
+      "section": "七、杂项 / §7.1 回文数",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 343,
+      "section": "七、杂项 / §7.2 整数拆分",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1808,
+      "section": "七、杂项 / §7.2 整数拆分",
+      "stage": "basic",
+      "note": "2070",
+      "rating": 2070
+    },
+    {
+      "id": 1266,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "1303",
+      "rating": 1303
+    },
+    {
+      "id": 3443,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "1856",
+      "rating": 1856
+    },
+    {
+      "id": 1131,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "2059",
+      "rating": 2059
+    },
+    {
+      "id": 3102,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "2216 曼哈顿距离 $\\to$ 切比雪夫距离",
+      "rating": 2216
+    },
+    {
+      "id": 1330,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "2482",
+      "rating": 2482
+    },
+    {
+      "id": 3464,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "2806",
+      "rating": 2806
+    },
+    {
+      "id": 1956,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2613,
+      "section": "七、杂项 / §7.3 曼哈顿距离与切比雪夫距离",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 611,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+U\\log U)$"
+    },
+    {
+      "id": 923,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n+U\\log U)$"
+    },
+    {
+      "id": 835,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4021,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3549,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "（会员题）FFT 模板"
+    },
+    {
+      "id": 259,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "（会员题）做到 $\\mathcal{O}(n+U\\log U)$"
+    },
+    {
+      "id": 3078,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3400,
+      "section": "七、杂项 / §7.4 卷积",
+      "stage": "basic",
+      "note": "（会员题）根号分解"
+    },
+    {
+      "id": 3514,
+      "section": "七、杂项 / §7.5 快速沃尔什变换（FWT）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1723,
+      "section": "七、杂项 / §7.5 快速沃尔什变换（FWT）",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3916,
+      "section": "七、杂项 / §7.6 拉格朗日插值",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 169,
+      "section": "七、杂项 / §7.8 摩尔投票法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 961,
+      "section": "七、杂项 / §7.8 摩尔投票法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2780,
+      "section": "七、杂项 / §7.8 摩尔投票法",
+      "stage": "basic",
+      "note": "1550",
+      "rating": 1550
+    },
+    {
+      "id": 229,
+      "section": "七、杂项 / §7.8 摩尔投票法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1157,
+      "section": "七、杂项 / §7.8 摩尔投票法",
+      "stage": "basic",
+      "note": "2205",
+      "rating": 2205
+    },
+    {
+      "id": 400,
+      "section": "七、杂项 / §7.9 确定数位",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 4022,
+      "section": "七、杂项 / §7.9 确定数位",
+      "stage": "basic",
+      "note": "1915",
+      "rating": 1915
+    },
+    {
+      "id": 1523,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1209",
+      "rating": 1209
+    },
+    {
+      "id": 1716,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1295",
+      "rating": 1295
+    },
+    {
+      "id": 2829,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1347",
+      "rating": 1347
+    },
+    {
+      "id": 2579,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1356",
+      "rating": 1356
+    },
+    {
+      "id": 3648,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1396",
+      "rating": 1396
+    },
+    {
+      "id": 2834,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1409",
+      "rating": 1409
+    },
+    {
+      "id": 1414,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1466",
+      "rating": 1466
+    },
+    {
+      "id": 319,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "约 1500"
+    },
+    {
+      "id": 1780,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1506",
+      "rating": 1506
+    },
+    {
+      "id": 3091,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1522",
+      "rating": 1522
+    },
+    {
+      "id": 3468,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1545 数学推导",
+      "rating": 1545
+    },
+    {
+      "id": 2310,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1559",
+      "rating": 1559
+    },
+    {
+      "id": 2145,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1614 数学推导",
+      "rating": 1614
+    },
+    {
+      "id": 2541,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1620",
+      "rating": 1620
+    },
+    {
+      "id": 1502,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2195,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1659",
+      "rating": 1659
+    },
+    {
+      "id": 2457,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1680",
+      "rating": 1680
+    },
+    {
+      "id": 1017,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1698",
+      "rating": 1698
+    },
+    {
+      "id": 3649,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1716 绝对值的几何意义",
+      "rating": 1716
+    },
+    {
+      "id": 1954,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 1073,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1807",
+      "rating": 1807
+    },
+    {
+      "id": 1823,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "约瑟夫环"
+    },
+    {
+      "id": 166,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "有数学做法，可以不用哈希表"
+    },
+    {
+      "id": 3012,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "1833",
+      "rating": 1833
+    },
+    {
+      "id": 483,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3782,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2074",
+      "rating": 2074
+    },
+    {
+      "id": 390,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "类似 3782 题"
+    },
+    {
+      "id": 1680,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(\\log^2 n)$"
+    },
+    {
+      "id": 972,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2121",
+      "rating": 2121
+    },
+    {
+      "id": 1515,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2157 凸优化 梯度下降法",
+      "rating": 2157
+    },
+    {
+      "id": 1862,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2170 调和级数枚举",
+      "rating": 2170
+    },
+    {
+      "id": 1739,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2198",
+      "rating": 2198
+    },
+    {
+      "id": 2443,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1806,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 458,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 31,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 60,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2117,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2477",
+      "rating": 2477
+    },
+    {
+      "id": 3666,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "2477 Gale-Ryser 定理",
+      "rating": 2477
+    },
+    {
+      "id": "xh-10.2",
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 2",
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "连分数"
+    },
+    {
+      "id": "LCP 29",
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 46",
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "解方程"
+    },
+    {
+      "id": 800,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 660,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2979,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2647,
+      "section": "七、杂项 / §7.10 其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    }
+  ],
+  "repeated_references": [
+    {
+      "id": 762,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1735,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2500",
+      "rating": 2500
+    },
+    {
+      "id": 2338,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2615",
+      "rating": 2615
+    }
+  ]
+}

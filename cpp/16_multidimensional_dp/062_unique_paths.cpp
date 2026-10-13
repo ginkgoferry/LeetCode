@@ -51,7 +51,10 @@ using namespace std;
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-
+        // TODO: 在这里实现你的解法。
+        (void)m;
+        (void)n;
+        return {};
     }
 };
 
@@ -69,6 +72,16 @@ int main() {
         int m = 3;
         int n = 2;
         assert((solution.uniquePaths(m, n) == 3));
+    }
+
+    {
+        // 官方示例 3
+        assert(solution.uniquePaths(7, 3) == 28);
+    }
+
+    {
+        // 官方示例 4
+        assert(solution.uniquePaths(3, 3) == 6);
     }
 
     cout << "All tests passed.\n";

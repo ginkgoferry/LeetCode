@@ -1,0 +1,5728 @@
+{
+  "1": {
+    "source_url": "https://leetcode.cn/problems/two-sum/",
+    "metadata": {
+      "name": "twoSum",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer[]",
+        "size": 2
+      },
+      "manual": false
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            7,
+            11,
+            15
+          ],
+          9
+        ],
+        "expected": [
+          0,
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            3,
+            2,
+            4
+          ],
+          6
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            3,
+            3
+          ],
+          6
+        ],
+        "expected": [
+          0,
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {2, 7, 11, 15};\n        int target = 9;\n        auto result = solution.twoSum(nums, target);\n        auto expected = vector<int>{0, 1};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        vector<int> nums = {3, 2, 4};\n        int target = 6;\n        auto result = solution.twoSum(nums, target);\n        auto expected = vector<int>{1, 2};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        vector<int> nums = {3, 3};\n        int target = 6;\n        auto result = solution.twoSum(nums, target);\n        auto expected = vector<int>{0, 1};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "fa25785dce980048f2f1a677c38bc14f5fcc388b4b37950788de11ee59ef65aa"
+  },
+  "49": {
+    "source_url": "https://leetcode.cn/problems/group-anagrams/",
+    "metadata": {
+      "name": "groupAnagrams",
+      "params": [
+        {
+          "name": "strs",
+          "type": "string[]"
+        }
+      ],
+      "return": {
+        "type": "list<list<string>>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            "eat",
+            "tea",
+            "tan",
+            "ate",
+            "nat",
+            "bat"
+          ]
+        ],
+        "expected": [
+          [
+            "bat"
+          ],
+          [
+            "nat",
+            "tan"
+          ],
+          [
+            "ate",
+            "eat",
+            "tea"
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            ""
+          ]
+        ],
+        "expected": [
+          [
+            ""
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            "a"
+          ]
+        ],
+        "expected": [
+          [
+            "a"
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<string>> groupAnagrams(vector<string>& strs) {\n        // TODO: 在这里实现你的解法。\n        (void)strs;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<string>> groupAnagrams(vector<string>& strs) {\n        // TODO: 在这里实现你的解法。\n        (void)strs;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<string> strs = {\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"};\n        assert((sortedInnerAndOuter(solution.groupAnagrams(strs)) == sortedInnerAndOuter(vector<vector<string>>{{\"bat\"}, {\"nat\", \"tan\"}, {\"ate\", \"eat\", \"tea\"}})));\n    }\n\n    {\n        vector<string> strs = {\"\"};\n        assert((sortedInnerAndOuter(solution.groupAnagrams(strs)) == sortedInnerAndOuter(vector<vector<string>>{{\"\"}})));\n    }\n\n    {\n        vector<string> strs = {\"a\"};\n        assert((sortedInnerAndOuter(solution.groupAnagrams(strs)) == sortedInnerAndOuter(vector<vector<string>>{{\"a\"}})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "4f27e08f1f819344e2a017c9f547cf405f27793a32d75b0542f0899fd16d19c0"
+  },
+  "128": {
+    "source_url": "https://leetcode.cn/problems/longest-consecutive-sequence/",
+    "metadata": {
+      "name": "longestConsecutive",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            100,
+            4,
+            200,
+            1,
+            3,
+            2
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            0,
+            3,
+            7,
+            2,
+            5,
+            8,
+            4,
+            6,
+            0,
+            1
+          ]
+        ],
+        "expected": 9
+      },
+      {
+        "args": [
+          [
+            1,
+            0,
+            1,
+            2
+          ]
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int longestConsecutive(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int longestConsecutive(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {100, 4, 200, 1, 3, 2};\n        assert((solution.longestConsecutive(nums) == 4));\n    }\n\n    {\n        vector<int> nums = {0, 3, 7, 2, 5, 8, 4, 6, 0, 1};\n        assert((solution.longestConsecutive(nums) == 9));\n    }\n\n    {\n        vector<int> nums = {1, 0, 1, 2};\n        assert((solution.longestConsecutive(nums) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "f7cbf1c9e070598b9deffd057bad7640fd029a599b8625caef1fee465eedfb04"
+  },
+  "560": {
+    "source_url": "https://leetcode.cn/problems/subarray-sum-equals-k/",
+    "metadata": {
+      "name": "subarraySum",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            1,
+            1
+          ],
+          2
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ],
+          3
+        ],
+        "expected": 2
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int subarraySum(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int subarraySum(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 1, 1};\n        int k = 2;\n        assert((solution.subarraySum(nums, k) == 2));\n    }\n\n    {\n        vector<int> nums = {1, 2, 3};\n        int k = 3;\n        assert((solution.subarraySum(nums, k) == 2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "022d85cc95ae6eb80a1407387b77e2200a92bf8c2a5aeb2008c6b1037c112523"
+  },
+  "239": {
+    "source_url": "https://leetcode.cn/problems/sliding-window-maximum/",
+    "metadata": {
+      "name": "maxSlidingWindow",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer[]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            3,
+            -1,
+            -3,
+            5,
+            3,
+            6,
+            7
+          ],
+          3
+        ],
+        "expected": [
+          3,
+          3,
+          5,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": [
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 3, -1, -3, 5, 3, 6, 7};\n        int k = 3;\n        assert((solution.maxSlidingWindow(nums, k) == vector<int>{3, 3, 5, 5, 6, 7}));\n    }\n\n    {\n        vector<int> nums = {1};\n        int k = 1;\n        assert((solution.maxSlidingWindow(nums, k) == vector<int>{1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "b1fad1e7a0aae23c7a3236bd8bd8f9f3010cf3338ecde3d5ff725f9aa23db0a3"
+  },
+  "53": {
+    "source_url": "https://leetcode.cn/problems/maximum-subarray/",
+    "metadata": {
+      "name": "maxSubArray",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            -2,
+            1,
+            -3,
+            4,
+            -1,
+            2,
+            1,
+            -5,
+            4
+          ]
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            5,
+            4,
+            -1,
+            7,
+            8
+          ]
+        ],
+        "expected": 23
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int maxSubArray(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int maxSubArray(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};\n        assert((solution.maxSubArray(nums) == 6));\n    }\n\n    {\n        vector<int> nums = {1};\n        assert((solution.maxSubArray(nums) == 1));\n    }\n\n    {\n        vector<int> nums = {5, 4, -1, 7, 8};\n        assert((solution.maxSubArray(nums) == 23));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "fc35022094df97ecbe53f03cad7006a916e025597a0bcea8bd9d63ea8aeb3709"
+  },
+  "56": {
+    "source_url": "https://leetcode.cn/problems/merge-intervals/",
+    "metadata": {
+      "name": "merge",
+      "params": [
+        {
+          "name": "intervals",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "integer[][]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              8,
+              10
+            ],
+            [
+              15,
+              18
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            6
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            15,
+            18
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            5
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              4,
+              7
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            7
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> merge(vector<vector<int>>& intervals) {\n        // TODO: 在这里实现你的解法。\n        (void)intervals;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> merge(vector<vector<int>>& intervals) {\n        // TODO: 在这里实现你的解法。\n        (void)intervals;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};\n        assert((solution.merge(intervals) == vector<vector<int>>{{1, 6}, {8, 10}, {15, 18}}));\n    }\n\n    {\n        vector<vector<int>> intervals = {{1, 4}, {4, 5}};\n        assert((solution.merge(intervals) == vector<vector<int>>{{1, 5}}));\n    }\n\n    {\n        vector<vector<int>> intervals = {{4, 7}, {1, 4}};\n        assert((solution.merge(intervals) == vector<vector<int>>{{1, 7}}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "32bd1d50ab0a6dd54c1f777625ce98bf7ee4e49dbafa6faf4d9c486e3eee2ece"
+  },
+  "189": {
+    "source_url": "https://leetcode.cn/problems/rotate-array/",
+    "metadata": {
+      "name": "rotate",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "void"
+      },
+      "output": {
+        "paramindex": 0
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          3
+        ],
+        "expected": [
+          5,
+          6,
+          7,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            -1,
+            -100,
+            3,
+            99
+          ],
+          2
+        ],
+        "expected": [
+          3,
+          99,
+          -1,
+          -100
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    void rotate(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    void rotate(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3, 4, 5, 6, 7};\n        int k = 3;\n        solution.rotate(nums, k);\n        assert((nums == vector<int>{5, 6, 7, 1, 2, 3, 4}));\n    }\n\n    {\n        vector<int> nums = {-1, -100, 3, 99};\n        int k = 2;\n        solution.rotate(nums, k);\n        assert((nums == vector<int>{3, 99, -1, -100}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "44c1cad82dba46bf471fe41beef5588730b5b48c90f51c0403ecd13d3972279e"
+  },
+  "238": {
+    "source_url": "https://leetcode.cn/problems/product-of-array-except-self/",
+    "metadata": {
+      "name": "productExceptSelf",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer[]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          24,
+          12,
+          8,
+          6
+        ]
+      },
+      {
+        "args": [
+          [
+            -1,
+            1,
+            0,
+            -3,
+            3
+          ]
+        ],
+        "expected": [
+          0,
+          0,
+          9,
+          0,
+          0
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> productExceptSelf(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> productExceptSelf(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3, 4};\n        assert((solution.productExceptSelf(nums) == vector<int>{24, 12, 8, 6}));\n    }\n\n    {\n        vector<int> nums = {-1, 1, 0, -3, 3};\n        assert((solution.productExceptSelf(nums) == vector<int>{0, 0, 9, 0, 0}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "0e5547cf37bfc08e2e4a6a58cec188e13c8e0a0b1bedc8c8ac315dfaa731b91f"
+  },
+  "73": {
+    "source_url": "https://leetcode.cn/problems/set-matrix-zeroes/",
+    "metadata": {
+      "name": "setZeroes",
+      "params": [
+        {
+          "name": "matrix",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "void"
+      },
+      "output": {
+        "paramindex": 0
+      },
+      "manual": false
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              0,
+              1,
+              2,
+              0
+            ],
+            [
+              3,
+              4,
+              5,
+              2
+            ],
+            [
+              1,
+              3,
+              1,
+              5
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            5,
+            0
+          ],
+          [
+            0,
+            3,
+            1,
+            0
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    void setZeroes(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    void setZeroes(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> matrix = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};\n        solution.setZeroes(matrix);\n        assert((matrix == vector<vector<int>>{{1, 0, 1}, {0, 0, 0}, {1, 0, 1}}));\n    }\n\n    {\n        vector<vector<int>> matrix = {{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}};\n        solution.setZeroes(matrix);\n        assert((matrix == vector<vector<int>>{{0, 0, 0, 0}, {0, 4, 5, 0}, {0, 3, 1, 0}}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d6d686e2dd62c9d35102ac5b93c07abcff751db623ae62d207b2ecb0ecd3dbae"
+  },
+  "54": {
+    "source_url": "https://leetcode.cn/problems/spiral-matrix/",
+    "metadata": {
+      "name": "spiralOrder",
+      "params": [
+        {
+          "name": "matrix",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "list<integer>",
+        "size": "size_1 * col_size_1",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              7,
+              8,
+              9
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          6,
+          9,
+          8,
+          7,
+          4,
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              9,
+              10,
+              11,
+              12
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          11,
+          10,
+          9,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> spiralOrder(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> spiralOrder(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n        assert((solution.spiralOrder(matrix) == vector<int>{1, 2, 3, 6, 9, 8, 7, 4, 5}));\n    }\n\n    {\n        vector<vector<int>> matrix = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};\n        assert((solution.spiralOrder(matrix) == vector<int>{1, 2, 3, 4, 8, 12, 11, 10, 9, 5, 6, 7}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "1f53ceac3c464387900b21f6892f6c3d65233d58d9e286f5e68ca47e0dc7564b"
+  },
+  "48": {
+    "source_url": "https://leetcode.cn/problems/rotate-image/",
+    "metadata": {
+      "name": "rotate",
+      "params": [
+        {
+          "name": "matrix",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "void"
+      },
+      "output": {
+        "paramindex": 0
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              7,
+              8,
+              9
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            8,
+            5,
+            2
+          ],
+          [
+            9,
+            6,
+            3
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              5,
+              1,
+              9,
+              11
+            ],
+            [
+              2,
+              4,
+              8,
+              10
+            ],
+            [
+              13,
+              3,
+              6,
+              7
+            ],
+            [
+              15,
+              14,
+              12,
+              16
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            15,
+            13,
+            2,
+            5
+          ],
+          [
+            14,
+            3,
+            4,
+            1
+          ],
+          [
+            12,
+            6,
+            8,
+            9
+          ],
+          [
+            16,
+            7,
+            10,
+            11
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    void rotate(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    void rotate(vector<vector<int>>& matrix) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n        solution.rotate(matrix);\n        assert((matrix == vector<vector<int>>{{7, 4, 1}, {8, 5, 2}, {9, 6, 3}}));\n    }\n\n    {\n        vector<vector<int>> matrix = {{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}};\n        solution.rotate(matrix);\n        assert((matrix == vector<vector<int>>{{15, 13, 2, 5}, {14, 3, 4, 1}, {12, 6, 8, 9}, {16, 7, 10, 11}}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d0a32772d83b575d4bc68336fbf4813ca345fd9bd6cb4f49f7e0e6b48f31fdcc"
+  },
+  "160": {
+    "source_url": "https://leetcode.cn/problems/intersection-of-two-linked-lists/",
+    "metadata": {
+      "name": "getIntersectionNode",
+      "params": [
+        {
+          "name": "intersectVal",
+          "type": "integer"
+        },
+        {
+          "name": "listA",
+          "type": "ListNode"
+        },
+        {
+          "name": "listB",
+          "type": "ListNode"
+        },
+        {
+          "name": "skipA",
+          "type": "integer"
+        },
+        {
+          "name": "skipB",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "ListNode"
+      },
+      "languages": [
+        "cpp",
+        "java",
+        "python",
+        "c",
+        "csharp",
+        "javascript",
+        "golang",
+        "python3",
+        "swift",
+        "ruby",
+        "kotlin",
+        "scala",
+        "php",
+        "typescript"
+      ],
+      "manual": true,
+      "fixture_return": "NodeIdentifier"
+    },
+    "cases": [
+      {
+        "args": [
+          8,
+          [
+            4,
+            1,
+            8,
+            4,
+            5
+          ],
+          [
+            5,
+            6,
+            1,
+            8,
+            4,
+            5
+          ],
+          2,
+          3
+        ],
+        "expected": 8
+      },
+      {
+        "args": [
+          2,
+          [
+            1,
+            9,
+            1,
+            2,
+            4
+          ],
+          [
+            3,
+            2,
+            4
+          ],
+          3,
+          1
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          0,
+          [
+            2,
+            6,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          3,
+          2
+        ],
+        "expected": null
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {\n        // TODO: 在这里实现你的解法。\n        (void)headA;\n        (void)headB;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {\n        // TODO: 在这里实现你的解法。\n        (void)headA;\n        (void)headB;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        auto data = buildIntersectingLists(vector<int>{4, 1, 8, 4, 5}, vector<int>{5, 6, 1, 8, 4, 5}, 2, 3);\n        ListNode* headA = data.first.first;\n        ListNode* headB = data.first.second;\n        assert((solution.getIntersectionNode(headA, headB) == data.second));\n    }\n    {\n        auto data = buildIntersectingLists(vector<int>{1, 9, 1, 2, 4}, vector<int>{3, 2, 4}, 3, 1);\n        ListNode* headA = data.first.first;\n        ListNode* headB = data.first.second;\n        assert((solution.getIntersectionNode(headA, headB) == data.second));\n    }\n    {\n        auto data = buildIntersectingLists(vector<int>{2, 6, 4}, vector<int>{1, 5}, 3, 2);\n        ListNode* headA = data.first.first;\n        ListNode* headB = data.first.second;\n        assert((solution.getIntersectionNode(headA, headB) == nullptr));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "040f371a26cebeff6cb54260892822e0d94cdb3539a1f6094576acfeaf7e9ac2"
+  },
+  "206": {
+    "source_url": "https://leetcode.cn/problems/reverse-linked-list/",
+    "metadata": {
+      "name": "reverseList",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode",
+          "dealloc": false
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "expected": [
+          5,
+          4,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ]
+        ],
+        "expected": [
+          2,
+          1
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* reverseList(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* reverseList(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 3, 4, 5});\n        ListNode* result = solution.reverseList(head);\n        assert((listToVector(result) == vector<int>{5, 4, 3, 2, 1}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2});\n        ListNode* result = solution.reverseList(head);\n        assert((listToVector(result) == vector<int>{2, 1}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{});\n        ListNode* result = solution.reverseList(head);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "7570c328c4bdd4ce6e6ffdd585d97fd6d2aab17760ce614e67fe85fc9fdd5c1e"
+  },
+  "234": {
+    "source_url": "https://leetcode.cn/problems/palindrome-linked-list/",
+    "metadata": {
+      "name": "isPalindrome",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            2,
+            1
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool isPalindrome(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool isPalindrome(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 2, 1});\n        assert((solution.isPalindrome(head) == true));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2});\n        assert((solution.isPalindrome(head) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "3ee6f59cb7934b72da9ca230eb44ba1f7c2f53d5c18b32c6df144df39d21e6b2"
+  },
+  "141": {
+    "source_url": "https://leetcode.cn/problems/linked-list-cycle/",
+    "metadata": {
+      "name": "hasCycle",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode"
+        },
+        {
+          "name": "pos",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      },
+      "manual": true,
+      "languages": [
+        "cpp",
+        "java",
+        "python",
+        "c",
+        "csharp",
+        "javascript",
+        "ruby",
+        "swift",
+        "golang",
+        "python3",
+        "scala",
+        "kotlin",
+        "php",
+        "typescript"
+      ]
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            2,
+            0,
+            -4
+          ],
+          1
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          0
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          -1
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool hasCycle(ListNode *head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool hasCycle(ListNode *head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int pos = 1;\n        ListNode* head = buildCycleList(vector<int>{3, 2, 0, -4}, pos);\n        assert((solution.hasCycle(head) == true));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n    {\n        int pos = 0;\n        ListNode* head = buildCycleList(vector<int>{1, 2}, pos);\n        assert((solution.hasCycle(head) == true));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n    {\n        int pos = -1;\n        ListNode* head = buildCycleList(vector<int>{1}, pos);\n        assert((solution.hasCycle(head) == false));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "1ee322624163fe5e00bc5aa745b2fcedea6bcb8f02ed2caef7b0de35131f3270"
+  },
+  "142": {
+    "source_url": "https://leetcode.cn/problems/linked-list-cycle-ii/",
+    "metadata": {
+      "name": "detectCycle",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode"
+        },
+        {
+          "name": "pos",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "ListNode"
+      },
+      "languages": [
+        "cpp",
+        "java",
+        "python",
+        "c",
+        "csharp",
+        "javascript",
+        "golang",
+        "python3",
+        "swift",
+        "kotlin",
+        "php",
+        "ruby",
+        "scala",
+        "typescript"
+      ],
+      "manual": true,
+      "fixture_return": "NodeIdentifier"
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            2,
+            0,
+            -4
+          ],
+          1
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          0
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          -1
+        ],
+        "expected": null
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode *detectCycle(ListNode *head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode *detectCycle(ListNode *head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int pos = 1;\n        ListNode* head = buildCycleList(vector<int>{3, 2, 0, -4}, pos);\n        assert((solution.detectCycle(head) == getNodeAt(head, pos)));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n    {\n        int pos = 0;\n        ListNode* head = buildCycleList(vector<int>{1, 2}, pos);\n        assert((solution.detectCycle(head) == getNodeAt(head, pos)));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n    {\n        int pos = -1;\n        ListNode* head = buildCycleList(vector<int>{1}, pos);\n        assert((solution.detectCycle(head) == nullptr));\n        breakCycle(head, pos);\n        freeList(head);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "fee8fbc063538f52a37e31c630ac586bfa6702515a3e5e328b5043f102a9bbb6"
+  },
+  "21": {
+    "source_url": "https://leetcode.cn/problems/merge-two-sorted-lists/",
+    "metadata": {
+      "name": "mergeTwoLists",
+      "params": [
+        {
+          "name": "list1",
+          "type": "ListNode",
+          "dealloc": false
+        },
+        {
+          "name": "list2",
+          "type": "ListNode",
+          "dealloc": false
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "args": [
+          [],
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [],
+          [
+            0
+          ]
+        ],
+        "expected": [
+          0
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {\n        // TODO: 在这里实现你的解法。\n        (void)list1;\n        (void)list2;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {\n        // TODO: 在这里实现你的解法。\n        (void)list1;\n        (void)list2;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* list1 = buildList(vector<int>{1, 2, 4});\n        ListNode* list2 = buildList(vector<int>{1, 3, 4});\n        ListNode* result = solution.mergeTwoLists(list1, list2);\n        assert((listToVector(result) == vector<int>{1, 1, 2, 3, 4, 4}));\n    }\n\n    {\n        ListNode* list1 = buildList(vector<int>{});\n        ListNode* list2 = buildList(vector<int>{});\n        ListNode* result = solution.mergeTwoLists(list1, list2);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    {\n        ListNode* list1 = buildList(vector<int>{});\n        ListNode* list2 = buildList(vector<int>{0});\n        ListNode* result = solution.mergeTwoLists(list1, list2);\n        assert((listToVector(result) == vector<int>{0}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "54662f7734187cfcc1c94d896583a8cd3e68db18ed189f849ac7b946066721a4"
+  },
+  "2": {
+    "source_url": "https://leetcode.cn/problems/add-two-numbers/",
+    "metadata": {
+      "name": "addTwoNumbers",
+      "params": [
+        {
+          "name": "l1",
+          "type": "ListNode",
+          "dealloc": false
+        },
+        {
+          "name": "l2",
+          "type": "ListNode",
+          "dealloc": false
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            4,
+            3
+          ],
+          [
+            5,
+            6,
+            4
+          ]
+        ],
+        "expected": [
+          7,
+          0,
+          8
+        ]
+      },
+      {
+        "args": [
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        "expected": [
+          0
+        ]
+      },
+      {
+        "args": [
+          [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          [
+            9,
+            9,
+            9,
+            9
+          ]
+        ],
+        "expected": [
+          8,
+          9,
+          9,
+          9,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {\n        // TODO: 在这里实现你的解法。\n        (void)l1;\n        (void)l2;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {\n        // TODO: 在这里实现你的解法。\n        (void)l1;\n        (void)l2;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* l1 = buildList(vector<int>{2, 4, 3});\n        ListNode* l2 = buildList(vector<int>{5, 6, 4});\n        ListNode* result = solution.addTwoNumbers(l1, l2);\n        assert((listToVector(result) == vector<int>{7, 0, 8}));\n    }\n\n    {\n        ListNode* l1 = buildList(vector<int>{0});\n        ListNode* l2 = buildList(vector<int>{0});\n        ListNode* result = solution.addTwoNumbers(l1, l2);\n        assert((listToVector(result) == vector<int>{0}));\n    }\n\n    {\n        ListNode* l1 = buildList(vector<int>{9, 9, 9, 9, 9, 9, 9});\n        ListNode* l2 = buildList(vector<int>{9, 9, 9, 9});\n        ListNode* result = solution.addTwoNumbers(l1, l2);\n        assert((listToVector(result) == vector<int>{8, 9, 9, 9, 0, 0, 0, 1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e19d174e8f0bcec079cf03ae1734972ba5c2a06e9e1fd4759c9e30525fe53d85"
+  },
+  "19": {
+    "source_url": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/",
+    "metadata": {
+      "name": "removeNthFromEnd",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode",
+          "dealloc": false
+        },
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          1
+        ],
+        "expected": [
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* removeNthFromEnd(ListNode* head, int n) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* removeNthFromEnd(ListNode* head, int n) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 3, 4, 5});\n        int n = 2;\n        ListNode* result = solution.removeNthFromEnd(head, n);\n        assert((listToVector(result) == vector<int>{1, 2, 3, 5}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1});\n        int n = 1;\n        ListNode* result = solution.removeNthFromEnd(head, n);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2});\n        int n = 1;\n        ListNode* result = solution.removeNthFromEnd(head, n);\n        assert((listToVector(result) == vector<int>{1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "a5687cdffad326c9308c135d19d0234991fe5f8d870cee5c5aa1c611cf00309b"
+  },
+  "24": {
+    "source_url": "https://leetcode.cn/problems/swap-nodes-in-pairs/",
+    "metadata": {
+      "name": "swapPairs",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode"
+        }
+      ],
+      "return": {
+        "type": "ListNode"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          2,
+          1,
+          4,
+          3
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": [
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* swapPairs(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* swapPairs(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 3, 4});\n        ListNode* result = solution.swapPairs(head);\n        assert((listToVector(result) == vector<int>{2, 1, 4, 3}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{});\n        ListNode* result = solution.swapPairs(head);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1});\n        ListNode* result = solution.swapPairs(head);\n        assert((listToVector(result) == vector<int>{1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "08190010528645b28825888a46cc1f167d9c83fbd38bccb62c1283539dcd482a"
+  },
+  "25": {
+    "source_url": "https://leetcode.cn/problems/reverse-nodes-in-k-group/",
+    "metadata": {
+      "name": "reverseKGroup",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "ListNode"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          2
+        ],
+        "expected": [
+          2,
+          1,
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          3
+        ],
+        "expected": [
+          3,
+          2,
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* reverseKGroup(ListNode* head, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* reverseKGroup(ListNode* head, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 3, 4, 5});\n        int k = 2;\n        ListNode* result = solution.reverseKGroup(head, k);\n        assert((listToVector(result) == vector<int>{2, 1, 4, 3, 5}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{1, 2, 3, 4, 5});\n        int k = 3;\n        ListNode* result = solution.reverseKGroup(head, k);\n        assert((listToVector(result) == vector<int>{3, 2, 1, 4, 5}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "9a4ccc95b150a6d75f4dfa0ecda44f0a0f471ae1e92cc179c4eb88ccb86c3607"
+  },
+  "138": {
+    "source_url": "https://leetcode.cn/problems/copy-list-with-random-pointer/",
+    "metadata": {
+      "name": "copyRandomList",
+      "params": [
+        {
+          "name": "head",
+          "type": "RandomListNode"
+        }
+      ],
+      "return": {
+        "type": "ListNode"
+      },
+      "languages": [
+        "cpp",
+        "java",
+        "python",
+        "csharp",
+        "javascript",
+        "python3",
+        "golang",
+        "swift",
+        "kotlin",
+        "ruby",
+        "c",
+        "scala",
+        "php",
+        "typescript"
+      ],
+      "manual": true,
+      "typescriptCustomType": "class _Node {\n    val: number\n    next: _Node | null\n    random: _Node | null\n\n    constructor(val?: number, next?: _Node, random?: _Node) {\n        this.val = (val===undefined ? 0 : val)\n        this.next = (next===undefined ? null : next)\n        this.random = (random===undefined ? null : random)\n    }\n}\n",
+      "fixture_return": "RandomListNode"
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              7,
+              null
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            7,
+            null
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              3,
+              null
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              null
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            3,
+            null
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            null
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    Node* copyRandomList(Node* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    Node* copyRandomList(Node* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        Node* head = buildRandomList(vector<pair<int, optional<int>>>{{7, nullopt}, {13, 0}, {11, 4}, {10, 2}, {1, 0}});\n        Node* copied = solution.copyRandomList(head);\n        assert((randomListToVector(copied) == vector<pair<int, optional<int>>>{{7, nullopt}, {13, 0}, {11, 4}, {10, 2}, {1, 0}}));\n        if (head != nullptr && copied != nullptr) {\n            assert((head != copied));\n        }\n        freeRandomList(head);\n        freeRandomList(copied);\n    }\n    {\n        Node* head = buildRandomList(vector<pair<int, optional<int>>>{{1, 1}, {2, 1}});\n        Node* copied = solution.copyRandomList(head);\n        assert((randomListToVector(copied) == vector<pair<int, optional<int>>>{{1, 1}, {2, 1}}));\n        if (head != nullptr && copied != nullptr) {\n            assert((head != copied));\n        }\n        freeRandomList(head);\n        freeRandomList(copied);\n    }\n    {\n        Node* head = buildRandomList(vector<pair<int, optional<int>>>{{3, nullopt}, {3, 0}, {3, nullopt}});\n        Node* copied = solution.copyRandomList(head);\n        assert((randomListToVector(copied) == vector<pair<int, optional<int>>>{{3, nullopt}, {3, 0}, {3, nullopt}}));\n        if (head != nullptr && copied != nullptr) {\n            assert((head != copied));\n        }\n        freeRandomList(head);\n        freeRandomList(copied);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "8c48a0524122084887e9f9b386d2feb459c999a1294d3aa30b89cc1cbf6845f8"
+  },
+  "148": {
+    "source_url": "https://leetcode.cn/problems/sort-list/",
+    "metadata": {
+      "name": "sortList",
+      "params": [
+        {
+          "name": "head",
+          "type": "ListNode",
+          "dealloc": false
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            4,
+            2,
+            1,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            -1,
+            5,
+            3,
+            4,
+            0
+          ]
+        ],
+        "expected": [
+          -1,
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* sortList(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* sortList(ListNode* head) {\n        // TODO: 在这里实现你的解法。\n        (void)head;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        ListNode* head = buildList(vector<int>{4, 2, 1, 3});\n        ListNode* result = solution.sortList(head);\n        assert((listToVector(result) == vector<int>{1, 2, 3, 4}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{-1, 5, 3, 4, 0});\n        ListNode* result = solution.sortList(head);\n        assert((listToVector(result) == vector<int>{-1, 0, 3, 4, 5}));\n    }\n\n    {\n        ListNode* head = buildList(vector<int>{});\n        ListNode* result = solution.sortList(head);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "7a4d11afff35cedd0d82448d7e8dda13b03dda7037ea33623c5809689103624f"
+  },
+  "23": {
+    "source_url": "https://leetcode.cn/problems/merge-k-sorted-lists/",
+    "metadata": {
+      "name": "mergeKLists",
+      "params": [
+        {
+          "name": "lists",
+          "type": "ListNode[]",
+          "dealloc": false
+        }
+      ],
+      "return": {
+        "type": "ListNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            []
+          ]
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    ListNode* mergeKLists(vector<ListNode*>& lists) {\n        // TODO: 在这里实现你的解法。\n        (void)lists;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    ListNode* mergeKLists(vector<ListNode*>& lists) {\n        // TODO: 在这里实现你的解法。\n        (void)lists;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<ListNode*> lists = buildLists(vector<vector<int>>{{1, 4, 5}, {1, 3, 4}, {2, 6}});\n        ListNode* result = solution.mergeKLists(lists);\n        assert((listToVector(result) == vector<int>{1, 1, 2, 3, 4, 4, 5, 6}));\n    }\n\n    {\n        vector<ListNode*> lists = buildLists(vector<vector<int>>{});\n        ListNode* result = solution.mergeKLists(lists);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    {\n        vector<ListNode*> lists = buildLists(vector<vector<int>>{{}});\n        ListNode* result = solution.mergeKLists(lists);\n        assert((listToVector(result) == vector<int>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "1a5df0dc7e2835c3f6ce595fe56671c0ccfdefe1181dd63863966f68e48b5986"
+  },
+  "146": {
+    "source_url": "https://leetcode.cn/problems/lru-cache/",
+    "metadata": {
+      "classname": "LRUCache",
+      "maxbytesperline": 200000,
+      "constructor": {
+        "params": [
+          {
+            "type": "integer",
+            "name": "capacity"
+          }
+        ]
+      },
+      "methods": [
+        {
+          "name": "get",
+          "params": [
+            {
+              "type": "integer",
+              "name": "key"
+            }
+          ],
+          "return": {
+            "type": "integer"
+          }
+        },
+        {
+          "name": "put",
+          "params": [
+            {
+              "type": "integer",
+              "name": "key"
+            },
+            {
+              "type": "integer",
+              "name": "value"
+            }
+          ],
+          "return": {
+            "type": "void"
+          }
+        }
+      ],
+      "systemdesign": true,
+      "params": [
+        {
+          "name": "inputs",
+          "type": "integer[]"
+        },
+        {
+          "name": "inputs",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "list<String>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "commands": [
+          "LRUCache",
+          "put",
+          "put",
+          "get",
+          "put",
+          "get",
+          "put",
+          "get",
+          "get",
+          "get"
+        ],
+        "args": [
+          [
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "expected": [
+          null,
+          null,
+          null,
+          1,
+          null,
+          -1,
+          null,
+          -1,
+          3,
+          4
+        ]
+      }
+    ],
+    "cpp": "class LRUCache {\npublic:\n    LRUCache(int capacity) {\n        // TODO: 在这里实现你的解法。\n        (void)capacity;\n    }\n\n    int get(int key) {\n        // TODO: 在这里实现你的解法。\n        (void)key;\n        return {};\n    }\n\n    void put(int key, int value) {\n        // TODO: 在这里实现你的解法。\n        (void)key;\n        (void)value;\n    }\n};\n\n/**\n * Your LRUCache object will be instantiated and called as such:\n * LRUCache* obj = new LRUCache(capacity);\n * int param_1 = obj->get(key);\n * obj->put(key,value);\n */",
+    "recovery_cpp": "class LRUCache {\npublic:\n    LRUCache(int capacity) {\n        // TODO: 在这里实现你的解法。\n        (void)capacity;\n    }\n\n    int get(int key) {\n        // TODO: 在这里实现你的解法。\n        (void)key;\n        return {};\n    }\n\n    void put(int key, int value) {\n        // TODO: 在这里实现你的解法。\n        (void)key;\n        (void)value;\n    }\n};\n\n/**\n * Your LRUCache object will be instantiated and called as such:\n * LRUCache* obj = new LRUCache(capacity);\n * int param_1 = obj->get(key);\n * obj->put(key,value);\n */",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    {\n        LRUCache obj(2);\n        obj.put(1, 1);\n        obj.put(2, 2);\n        assert((obj.get(1) == 1));\n        obj.put(3, 3);\n        assert((obj.get(2) == -1));\n        obj.put(4, 4);\n        assert((obj.get(1) == -1));\n        assert((obj.get(3) == 3));\n        assert((obj.get(4) == 4));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "c5a190daf78b6a07ea72625f7044ae4c4a8052d81253c69781110df586c2a86b"
+  },
+  "94": {
+    "source_url": "https://leetcode.cn/problems/binary-tree-inorder-traversal/",
+    "metadata": {
+      "name": "inorderTraversal",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "list<integer>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            null,
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": [
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> inorderTraversal(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> inorderTraversal(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, nullopt, 2, 3});\n        assert((solution.inorderTraversal(root) == vector<int>{1, 3, 2}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{});\n        assert((solution.inorderTraversal(root) == vector<int>{}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1});\n        assert((solution.inorderTraversal(root) == vector<int>{1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "9dd7baed737c2d0fe8d5286cbd9a1e8150350d39a4a4cdda48b608429e3f7ad7"
+  },
+  "104": {
+    "source_url": "https://leetcode.cn/problems/maximum-depth-of-binary-tree/",
+    "metadata": {
+      "name": "maxDepth",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            2
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int maxDepth(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int maxDepth(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{3, 9, 20, nullopt, nullopt, 15, 7});\n        assert((solution.maxDepth(root) == 3));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, nullopt, 2});\n        assert((solution.maxDepth(root) == 2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "8da2aa38765fd924398bc093d26212c9625e56ae8d4c888cd0b50ca6a27f120c"
+  },
+  "226": {
+    "source_url": "https://leetcode.cn/problems/invert-binary-tree/",
+    "metadata": {
+      "name": "invertTree",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "TreeNode"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            4,
+            2,
+            7,
+            1,
+            3,
+            6,
+            9
+          ]
+        ],
+        "expected": [
+          4,
+          7,
+          2,
+          9,
+          6,
+          3,
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            2,
+            1,
+            3
+          ]
+        ],
+        "expected": [
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    TreeNode* invertTree(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    TreeNode* invertTree(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{4, 2, 7, 1, 3, 6, 9});\n        TreeNode* result = solution.invertTree(root);\n        assert((treeToVector(result) == vector<optional<int>>{4, 7, 2, 9, 6, 3, 1}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{2, 1, 3});\n        TreeNode* result = solution.invertTree(root);\n        assert((treeToVector(result) == vector<optional<int>>{2, 3, 1}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{});\n        TreeNode* result = solution.invertTree(root);\n        assert((treeToVector(result) == vector<optional<int>>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "f9dee1b124003fef8bd759f354df34af493c5c6eb1264c25371d62028255e2a9"
+  },
+  "101": {
+    "source_url": "https://leetcode.cn/problems/symmetric-tree/",
+    "metadata": {
+      "name": "isSymmetric",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            2,
+            3,
+            4,
+            4,
+            3
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            2,
+            null,
+            3,
+            null,
+            3
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool isSymmetric(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool isSymmetric(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 2, 3, 4, 4, 3});\n        assert((solution.isSymmetric(root) == true));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 2, nullopt, 3, nullopt, 3});\n        assert((solution.isSymmetric(root) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "8f066dc07f590c1934dc8b0896479f62c0d5d4835f73b0df7af5008e0a18c405"
+  },
+  "543": {
+    "source_url": "https://leetcode.cn/problems/diameter-of-binary-tree/",
+    "metadata": {
+      "name": "diameterOfBinaryTree",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ]
+        ],
+        "expected": 1
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int diameterOfBinaryTree(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int diameterOfBinaryTree(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 3, 4, 5});\n        assert((solution.diameterOfBinaryTree(root) == 3));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2});\n        assert((solution.diameterOfBinaryTree(root) == 1));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "20eb3d89733180af53ed97221cb1b89ac9bdc5a801d9bef8f2f6e139a0d4f34f"
+  },
+  "102": {
+    "source_url": "https://leetcode.cn/problems/binary-tree-level-order-traversal/",
+    "metadata": {
+      "name": "levelOrder",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "list<list<integer>>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7
+          ]
+        ],
+        "expected": [
+          [
+            3
+          ],
+          [
+            9,
+            20
+          ],
+          [
+            15,
+            7
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> levelOrder(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> levelOrder(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{3, 9, 20, nullopt, nullopt, 15, 7});\n        assert((solution.levelOrder(root) == vector<vector<int>>{{3}, {9, 20}, {15, 7}}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1});\n        assert((solution.levelOrder(root) == vector<vector<int>>{{1}}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{});\n        assert((solution.levelOrder(root) == vector<vector<int>>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d0a957fbfa32394b8e7915cf9ed54f641845af4d55910c3b2fdc062185d74a5f"
+  },
+  "108": {
+    "source_url": "https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/",
+    "metadata": {
+      "name": "sortedArrayToBST",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "TreeNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            -10,
+            -3,
+            0,
+            5,
+            9
+          ]
+        ],
+        "expected": [
+          0,
+          -3,
+          9,
+          -10,
+          null,
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            3
+          ]
+        ],
+        "expected": [
+          3,
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    TreeNode* sortedArrayToBST(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    TreeNode* sortedArrayToBST(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {-10, -3, 0, 5, 9};\n        TreeNode* result = solution.sortedArrayToBST(nums);\n        assert((treeInorder(result) == nums));\n        assert((isHeightBalanced(result)));\n    }\n\n    {\n        vector<int> nums = {1, 3};\n        TreeNode* result = solution.sortedArrayToBST(nums);\n        assert((treeInorder(result) == nums));\n        assert((isHeightBalanced(result)));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e2b3c431aa68580a34997488d640563891130e67a00bf5fb9fbd6937620c085c"
+  },
+  "98": {
+    "source_url": "https://leetcode.cn/problems/validate-binary-search-tree/",
+    "metadata": {
+      "name": "isValidBST",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            1,
+            3
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            5,
+            1,
+            4,
+            null,
+            null,
+            3,
+            6
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool isValidBST(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool isValidBST(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{2, 1, 3});\n        assert((solution.isValidBST(root) == true));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{5, 1, 4, nullopt, nullopt, 3, 6});\n        assert((solution.isValidBST(root) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "285214305bc26c5b725dee92bb7becddd6ce934497d31cf232c43a430ba69b3f"
+  },
+  "230": {
+    "source_url": "https://leetcode.cn/problems/kth-smallest-element-in-a-bst/",
+    "metadata": {
+      "name": "kthSmallest",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            1,
+            4,
+            null,
+            2
+          ],
+          1
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            5,
+            3,
+            6,
+            2,
+            4,
+            null,
+            null,
+            1
+          ],
+          3
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int kthSmallest(TreeNode* root, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int kthSmallest(TreeNode* root, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{3, 1, 4, nullopt, 2});\n        int k = 1;\n        assert((solution.kthSmallest(root, k) == 1));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{5, 3, 6, 2, 4, nullopt, nullopt, 1});\n        int k = 3;\n        assert((solution.kthSmallest(root, k) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "02f4372b8f4730a5daa9d1c5a12f197125abad6a41407ef4ae8d05f1a02bec8c"
+  },
+  "199": {
+    "source_url": "https://leetcode.cn/problems/binary-tree-right-side-view/",
+    "metadata": {
+      "name": "rightSideView",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "list<integer>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            null,
+            5,
+            null,
+            4
+          ]
+        ],
+        "expected": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            null,
+            null,
+            null,
+            5
+          ]
+        ],
+        "expected": [
+          1,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          3
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> rightSideView(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> rightSideView(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 3, nullopt, 5, nullopt, 4});\n        assert((solution.rightSideView(root) == vector<int>{1, 3, 4}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 3, 4, nullopt, nullopt, nullopt, 5});\n        assert((solution.rightSideView(root) == vector<int>{1, 3, 4, 5}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, nullopt, 3});\n        assert((solution.rightSideView(root) == vector<int>{1, 3}));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{});\n        assert((solution.rightSideView(root) == vector<int>{}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e38234a4ba1fe2de8fcb1af55c95c9a51359fa32cb708f9e96a6b26e6633f9ff"
+  },
+  "114": {
+    "source_url": "https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/",
+    "metadata": {
+      "name": "flatten",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "void"
+      },
+      "output": {
+        "paramindex": 0
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            5,
+            3,
+            4,
+            null,
+            6
+          ]
+        ],
+        "expected": [
+          1,
+          null,
+          2,
+          null,
+          3,
+          null,
+          4,
+          null,
+          5,
+          null,
+          6
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            0
+          ]
+        ],
+        "expected": [
+          0
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    void flatten(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    void flatten(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 5, 3, 4, nullopt, 6});\n        solution.flatten(root);\n        assert((flattenedTreeValues(root) == vector<int>{1, 2, 3, 4, 5, 6}));\n        freeTree(root);\n    }\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{});\n        solution.flatten(root);\n        assert((flattenedTreeValues(root) == vector<int>{}));\n        freeTree(root);\n    }\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{0});\n        solution.flatten(root);\n        assert((flattenedTreeValues(root) == vector<int>{0}));\n        freeTree(root);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e44b95ebe8a41d3c9e86623df1203f30be50719c8d4b83d90ab6a1d6ef92a56d"
+  },
+  "105": {
+    "source_url": "https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    "metadata": {
+      "name": "buildTree",
+      "params": [
+        {
+          "name": "preorder",
+          "type": "integer[]"
+        },
+        {
+          "name": "inorder",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "TreeNode",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            9,
+            20,
+            15,
+            7
+          ],
+          [
+            9,
+            3,
+            15,
+            20,
+            7
+          ]
+        ],
+        "expected": [
+          3,
+          9,
+          20,
+          null,
+          null,
+          15,
+          7
+        ]
+      },
+      {
+        "args": [
+          [
+            -1
+          ],
+          [
+            -1
+          ]
+        ],
+        "expected": [
+          -1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {\n        // TODO: 在这里实现你的解法。\n        (void)preorder;\n        (void)inorder;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {\n        // TODO: 在这里实现你的解法。\n        (void)preorder;\n        (void)inorder;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> preorder = {3, 9, 20, 15, 7};\n        vector<int> inorder = {9, 3, 15, 20, 7};\n        TreeNode* result = solution.buildTree(preorder, inorder);\n        assert((treeToVector(result) == vector<optional<int>>{3, 9, 20, nullopt, nullopt, 15, 7}));\n    }\n\n    {\n        vector<int> preorder = {-1};\n        vector<int> inorder = {-1};\n        TreeNode* result = solution.buildTree(preorder, inorder);\n        assert((treeToVector(result) == vector<optional<int>>{-1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "79d87bf7d7c309a46e267244d0ab41cc6774d1ec0c4073fdfdaec2cc95d2cf90"
+  },
+  "437": {
+    "source_url": "https://leetcode.cn/problems/path-sum-iii/",
+    "metadata": {
+      "name": "pathSum",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        },
+        {
+          "name": "targetSum",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            10,
+            5,
+            -3,
+            3,
+            2,
+            null,
+            11,
+            3,
+            -2,
+            null,
+            1
+          ],
+          8
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            5,
+            4,
+            8,
+            11,
+            null,
+            13,
+            4,
+            7,
+            2,
+            null,
+            null,
+            5,
+            1
+          ],
+          22
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int pathSum(TreeNode* root, int targetSum) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)targetSum;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int pathSum(TreeNode* root, int targetSum) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)targetSum;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{10, 5, -3, 3, 2, nullopt, 11, 3, -2, nullopt, 1});\n        int targetSum = 8;\n        assert((solution.pathSum(root, targetSum) == 3));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{5, 4, 8, 11, nullopt, 13, 4, 7, 2, nullopt, nullopt, 5, 1});\n        int targetSum = 22;\n        assert((solution.pathSum(root, targetSum) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "f1be1f53f2ec5af5803d5e202cd58f5e28510f92567072d51d4e4b399b14c284"
+  },
+  "236": {
+    "source_url": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "metadata": {
+      "name": "lowestCommonAncestor",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        },
+        {
+          "name": "p",
+          "type": "integer"
+        },
+        {
+          "name": "q",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "TreeNode"
+      },
+      "manual": true,
+      "fixture_return": "NodeIdentifier"
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            5,
+            1,
+            6,
+            2,
+            0,
+            8,
+            null,
+            null,
+            7,
+            4
+          ],
+          5,
+          1
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            3,
+            5,
+            1,
+            6,
+            2,
+            0,
+            8,
+            null,
+            null,
+            7,
+            4
+          ],
+          5,
+          4
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          1,
+          2
+        ],
+        "expected": 1
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)p;\n        (void)q;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        (void)p;\n        (void)q;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{3, 5, 1, 6, 2, 0, 8, nullopt, nullopt, 7, 4});\n        TreeNode* p = findTreeNode(root, 5);\n        TreeNode* q = findTreeNode(root, 1);\n        assert((solution.lowestCommonAncestor(root, p, q) == findTreeNode(root, 3)));\n        freeTree(root);\n    }\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{3, 5, 1, 6, 2, 0, 8, nullopt, nullopt, 7, 4});\n        TreeNode* p = findTreeNode(root, 5);\n        TreeNode* q = findTreeNode(root, 4);\n        assert((solution.lowestCommonAncestor(root, p, q) == findTreeNode(root, 5)));\n        freeTree(root);\n    }\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2});\n        TreeNode* p = findTreeNode(root, 1);\n        TreeNode* q = findTreeNode(root, 2);\n        assert((solution.lowestCommonAncestor(root, p, q) == findTreeNode(root, 1)));\n        freeTree(root);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "688405e42244e094e95389cb23157ec84985a30ea6f5036c0150175a68014f91"
+  },
+  "124": {
+    "source_url": "https://leetcode.cn/problems/binary-tree-maximum-path-sum/",
+    "metadata": {
+      "name": "maxPathSum",
+      "params": [
+        {
+          "name": "root",
+          "type": "TreeNode"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            -10,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7
+          ]
+        ],
+        "expected": 42
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int maxPathSum(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int maxPathSum(TreeNode* root) {\n        // TODO: 在这里实现你的解法。\n        (void)root;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{1, 2, 3});\n        assert((solution.maxPathSum(root) == 6));\n    }\n\n    {\n        TreeNode* root = buildTree(vector<optional<int>>{-10, 9, 20, nullopt, nullopt, 15, 7});\n        assert((solution.maxPathSum(root) == 42));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d9a8a084a59b2aa0c441b424829abe989110c5c716fa784239086379e4235941"
+  },
+  "200": {
+    "source_url": "https://leetcode.cn/problems/number-of-islands/",
+    "metadata": {
+      "name": "numIslands",
+      "params": [
+        {
+          "name": "grid",
+          "type": "character[][]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      },
+      "manual": true
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              "1",
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1",
+              "1"
+            ]
+          ]
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int numIslands(vector<vector<char>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int numIslands(vector<vector<char>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<char>> grid = {{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}};\n        assert((solution.numIslands(grid) == 1));\n    }\n\n    {\n        vector<vector<char>> grid = {{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}};\n        assert((solution.numIslands(grid) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "b547f7a1c88db75009acfc5ff170f3a91ee7963f5ce230182307f76bf0f1bc98"
+  },
+  "994": {
+    "source_url": "https://leetcode.cn/problems/rotting-oranges/",
+    "metadata": {
+      "name": "orangesRotting",
+      "params": [
+        {
+          "name": "grid",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            [
+              2,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected": -1
+      },
+      {
+        "args": [
+          [
+            [
+              0,
+              2
+            ]
+          ]
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int orangesRotting(vector<vector<int>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int orangesRotting(vector<vector<int>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> grid = {{2, 1, 1}, {1, 1, 0}, {0, 1, 1}};\n        assert((solution.orangesRotting(grid) == 4));\n    }\n\n    {\n        vector<vector<int>> grid = {{2, 1, 1}, {0, 1, 1}, {1, 0, 1}};\n        assert((solution.orangesRotting(grid) == -1));\n    }\n\n    {\n        vector<vector<int>> grid = {{0, 2}};\n        assert((solution.orangesRotting(grid) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "ee7c0d5541fb7a1a81de30445cb2fc45944b95acbc2daa5c759b1df91684e976"
+  },
+  "207": {
+    "source_url": "https://leetcode.cn/problems/course-schedule/",
+    "metadata": {
+      "name": "canFinish",
+      "params": [
+        {
+          "name": "numCourses",
+          "type": "integer"
+        },
+        {
+          "name": "prerequisites",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          2,
+          [
+            [
+              1,
+              0
+            ]
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          2,
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {\n        // TODO: 在这里实现你的解法。\n        (void)numCourses;\n        (void)prerequisites;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {\n        // TODO: 在这里实现你的解法。\n        (void)numCourses;\n        (void)prerequisites;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int numCourses = 2;\n        vector<vector<int>> prerequisites = {{1, 0}};\n        assert((solution.canFinish(numCourses, prerequisites) == true));\n    }\n\n    {\n        int numCourses = 2;\n        vector<vector<int>> prerequisites = {{1, 0}, {0, 1}};\n        assert((solution.canFinish(numCourses, prerequisites) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "a62bd72b84f33de766cc5c9f03e5aad796e33573c96b1fcd3de1a604b81fa32a"
+  },
+  "208": {
+    "source_url": "https://leetcode.cn/problems/implement-trie-prefix-tree/",
+    "metadata": {
+      "classname": "Trie",
+      "constructor": {
+        "params": []
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "type": "string",
+              "name": "word"
+            }
+          ],
+          "name": "insert",
+          "return": {
+            "type": "void"
+          }
+        },
+        {
+          "params": [
+            {
+              "type": "string",
+              "name": "word"
+            }
+          ],
+          "name": "search",
+          "return": {
+            "type": "boolean"
+          }
+        },
+        {
+          "params": [
+            {
+              "type": "string",
+              "name": "prefix"
+            }
+          ],
+          "name": "startsWith",
+          "return": {
+            "type": "boolean"
+          }
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      },
+      "systemdesign": true
+    },
+    "cases": [
+      {
+        "commands": [
+          "Trie",
+          "insert",
+          "search",
+          "search",
+          "startsWith",
+          "insert",
+          "search"
+        ],
+        "args": [
+          [],
+          [
+            "apple"
+          ],
+          [
+            "apple"
+          ],
+          [
+            "app"
+          ],
+          [
+            "app"
+          ],
+          [
+            "app"
+          ],
+          [
+            "app"
+          ]
+        ],
+        "expected": [
+          null,
+          null,
+          true,
+          false,
+          true,
+          null,
+          true
+        ]
+      }
+    ],
+    "cpp": "class Trie {\npublic:\n    Trie() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void insert(string word) {\n        // TODO: 在这里实现你的解法。\n        (void)word;\n    }\n\n    bool search(string word) {\n        // TODO: 在这里实现你的解法。\n        (void)word;\n        return {};\n    }\n\n    bool startsWith(string prefix) {\n        // TODO: 在这里实现你的解法。\n        (void)prefix;\n        return {};\n    }\n};\n\n/**\n * Your Trie object will be instantiated and called as such:\n * Trie* obj = new Trie();\n * obj->insert(word);\n * bool param_2 = obj->search(word);\n * bool param_3 = obj->startsWith(prefix);\n */",
+    "recovery_cpp": "class Trie {\npublic:\n    Trie() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void insert(string word) {\n        // TODO: 在这里实现你的解法。\n        (void)word;\n    }\n\n    bool search(string word) {\n        // TODO: 在这里实现你的解法。\n        (void)word;\n        return {};\n    }\n\n    bool startsWith(string prefix) {\n        // TODO: 在这里实现你的解法。\n        (void)prefix;\n        return {};\n    }\n};\n\n/**\n * Your Trie object will be instantiated and called as such:\n * Trie* obj = new Trie();\n * obj->insert(word);\n * bool param_2 = obj->search(word);\n * bool param_3 = obj->startsWith(prefix);\n */",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    {\n        Trie obj;\n        obj.insert(\"apple\");\n        assert((obj.search(\"apple\") == true));\n        assert((obj.search(\"app\") == false));\n        assert((obj.startsWith(\"app\") == true));\n        obj.insert(\"app\");\n        assert((obj.search(\"app\") == true));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d0a77a85ce256be905ad61e1ae554a4835e1ec774de29023c9795fd5cee7fdca"
+  },
+  "46": {
+    "source_url": "https://leetcode.cn/problems/permutations/",
+    "metadata": {
+      "name": "permute",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "list<list<integer>>",
+        "colsize": "size_1",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            0,
+            1
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> permute(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> permute(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3};\n        assert((sortedOuter(solution.permute(nums)) == sortedOuter(vector<vector<int>>{{1, 2, 3}, {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2}, {3, 2, 1}})));\n    }\n\n    {\n        vector<int> nums = {0, 1};\n        assert((sortedOuter(solution.permute(nums)) == sortedOuter(vector<vector<int>>{{0, 1}, {1, 0}})));\n    }\n\n    {\n        vector<int> nums = {1};\n        assert((sortedOuter(solution.permute(nums)) == sortedOuter(vector<vector<int>>{{1}})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "39b9fdc4d62640b8694b4c21db65c5d7e4597d8b043fd1d0276336b14604deba"
+  },
+  "78": {
+    "source_url": "https://leetcode.cn/problems/subsets/",
+    "metadata": {
+      "name": "subsets",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "list<list<integer>>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          [],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            0
+          ]
+        ],
+        "expected": [
+          [],
+          [
+            0
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> subsets(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> subsets(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3};\n        assert((sortedInnerAndOuter(solution.subsets(nums)) == sortedInnerAndOuter(vector<vector<int>>{{}, {1}, {2}, {1, 2}, {3}, {1, 3}, {2, 3}, {1, 2, 3}})));\n    }\n\n    {\n        vector<int> nums = {0};\n        assert((sortedInnerAndOuter(solution.subsets(nums)) == sortedInnerAndOuter(vector<vector<int>>{{}, {0}})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "613a6d8199522560ee781578dd7934e15767d3d3109fee930cb8a2a7257e418b"
+  },
+  "17": {
+    "source_url": "https://leetcode.cn/problems/letter-combinations-of-a-phone-number/",
+    "metadata": {
+      "name": "letterCombinations",
+      "params": [
+        {
+          "name": "digits",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "list<string>"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "23"
+        ],
+        "expected": [
+          "ad",
+          "ae",
+          "af",
+          "bd",
+          "be",
+          "bf",
+          "cd",
+          "ce",
+          "cf"
+        ]
+      },
+      {
+        "args": [
+          "2"
+        ],
+        "expected": [
+          "a",
+          "b",
+          "c"
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<string> letterCombinations(string digits) {\n        // TODO: 在这里实现你的解法。\n        (void)digits;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<string> letterCombinations(string digits) {\n        // TODO: 在这里实现你的解法。\n        (void)digits;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string digits = \"23\";\n        auto result = solution.letterCombinations(digits);\n        auto expected = vector<string>{\"ad\", \"ae\", \"af\", \"bd\", \"be\", \"bf\", \"cd\", \"ce\", \"cf\"};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        string digits = \"2\";\n        auto result = solution.letterCombinations(digits);\n        auto expected = vector<string>{\"a\", \"b\", \"c\"};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "057e50fa2857f7d3cd30b96e100e21ad9c708a64ba62428cbe126ad95ea6b742"
+  },
+  "39": {
+    "source_url": "https://leetcode.cn/problems/combination-sum/",
+    "metadata": {
+      "name": "combinationSum",
+      "params": [
+        {
+          "name": "candidates",
+          "type": "integer[]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "list<list<integer>>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            6,
+            7
+          ],
+          7
+        ],
+        "expected": [
+          [
+            2,
+            2,
+            3
+          ],
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            2,
+            3,
+            5
+          ],
+          8
+        ],
+        "expected": [
+          [
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            3,
+            3
+          ],
+          [
+            3,
+            5
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            2
+          ],
+          1
+        ],
+        "expected": []
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)candidates;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)candidates;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> candidates = {2, 3, 6, 7};\n        int target = 7;\n        assert((sortedInnerAndOuter(solution.combinationSum(candidates, target)) == sortedInnerAndOuter(vector<vector<int>>{{2, 2, 3}, {7}})));\n    }\n\n    {\n        vector<int> candidates = {2, 3, 5};\n        int target = 8;\n        assert((sortedInnerAndOuter(solution.combinationSum(candidates, target)) == sortedInnerAndOuter(vector<vector<int>>{{2, 2, 2, 2}, {2, 3, 3}, {3, 5}})));\n    }\n\n    {\n        vector<int> candidates = {2};\n        int target = 1;\n        assert((sortedInnerAndOuter(solution.combinationSum(candidates, target)) == sortedInnerAndOuter(vector<vector<int>>{})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "774c9e7e460fbcbd67db1b45344a38a82e991d2be9713330e65f4c8fa14877a4"
+  },
+  "22": {
+    "source_url": "https://leetcode.cn/problems/generate-parentheses/",
+    "metadata": {
+      "name": "generateParenthesis",
+      "params": [
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "list<string>"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          3
+        ],
+        "expected": [
+          "((()))",
+          "(()())",
+          "(())()",
+          "()(())",
+          "()()()"
+        ]
+      },
+      {
+        "args": [
+          1
+        ],
+        "expected": [
+          "()"
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<string> generateParenthesis(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<string> generateParenthesis(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int n = 3;\n        auto result = solution.generateParenthesis(n);\n        auto expected = vector<string>{\"((()))\", \"(()())\", \"(())()\", \"()(())\", \"()()()\"};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        int n = 1;\n        auto result = solution.generateParenthesis(n);\n        auto expected = vector<string>{\"()\"};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "f3bfa27b7aa83dd08b02baccd5c27391b7a098f0a69ab51992c83e3fee60b725"
+  },
+  "79": {
+    "source_url": "https://leetcode.cn/problems/word-search/",
+    "metadata": {
+      "name": "exist",
+      "params": [
+        {
+          "name": "board",
+          "type": "character[][]"
+        },
+        {
+          "name": "word",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              "A",
+              "B",
+              "C",
+              "E"
+            ],
+            [
+              "S",
+              "F",
+              "C",
+              "S"
+            ],
+            [
+              "A",
+              "D",
+              "E",
+              "E"
+            ]
+          ],
+          "ABCCED"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              "A",
+              "B",
+              "C",
+              "E"
+            ],
+            [
+              "S",
+              "F",
+              "C",
+              "S"
+            ],
+            [
+              "A",
+              "D",
+              "E",
+              "E"
+            ]
+          ],
+          "SEE"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              "A",
+              "B",
+              "C",
+              "E"
+            ],
+            [
+              "S",
+              "F",
+              "C",
+              "S"
+            ],
+            [
+              "A",
+              "D",
+              "E",
+              "E"
+            ]
+          ],
+          "ABCB"
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool exist(vector<vector<char>>& board, string word) {\n        // TODO: 在这里实现你的解法。\n        (void)board;\n        (void)word;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool exist(vector<vector<char>>& board, string word) {\n        // TODO: 在这里实现你的解法。\n        (void)board;\n        (void)word;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<char>> board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};\n        string word = \"ABCCED\";\n        assert((solution.exist(board, word) == true));\n    }\n\n    {\n        vector<vector<char>> board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};\n        string word = \"SEE\";\n        assert((solution.exist(board, word) == true));\n    }\n\n    {\n        vector<vector<char>> board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};\n        string word = \"ABCB\";\n        assert((solution.exist(board, word) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "83519ad425759aad09f3652ba95521b29b239ce5b16504325aed96efcc611f57"
+  },
+  "131": {
+    "source_url": "https://leetcode.cn/problems/palindrome-partitioning/",
+    "metadata": {
+      "name": "partition",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "list<list<string>>",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "aab"
+        ],
+        "expected": [
+          [
+            "a",
+            "a",
+            "b"
+          ],
+          [
+            "aa",
+            "b"
+          ]
+        ]
+      },
+      {
+        "args": [
+          "a"
+        ],
+        "expected": [
+          [
+            "a"
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<string>> partition(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<string>> partition(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"aab\";\n        assert((sortedOuter(solution.partition(s)) == sortedOuter(vector<vector<string>>{{\"a\", \"a\", \"b\"}, {\"aa\", \"b\"}})));\n    }\n\n    {\n        string s = \"a\";\n        assert((sortedOuter(solution.partition(s)) == sortedOuter(vector<vector<string>>{{\"a\"}})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "c6962b11315f73af221a8991e915c9305692a6b2b31ee3d754571534125ce60e"
+  },
+  "51": {
+    "source_url": "https://leetcode.cn/problems/n-queens/",
+    "metadata": {
+      "name": "solveNQueens",
+      "params": [
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "list<list<string>>",
+        "colsize": "param_1",
+        "dealloc": true
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          4
+        ],
+        "expected": [
+          [
+            ".Q..",
+            "...Q",
+            "Q...",
+            "..Q."
+          ],
+          [
+            "..Q.",
+            "Q...",
+            "...Q",
+            ".Q.."
+          ]
+        ]
+      },
+      {
+        "args": [
+          1
+        ],
+        "expected": [
+          [
+            "Q"
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<string>> solveNQueens(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<string>> solveNQueens(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int n = 4;\n        assert((sortedOuter(solution.solveNQueens(n)) == sortedOuter(vector<vector<string>>{{\".Q..\", \"...Q\", \"Q...\", \"..Q.\"}, {\"..Q.\", \"Q...\", \"...Q\", \".Q..\"}})));\n    }\n\n    {\n        int n = 1;\n        assert((sortedOuter(solution.solveNQueens(n)) == sortedOuter(vector<vector<string>>{{\"Q\"}})));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "093059deb23e87f4f7c428bea12c636037a133a563d4ca2ddf0d4d7cbe062516"
+  },
+  "35": {
+    "source_url": "https://leetcode.cn/problems/search-insert-position/",
+    "metadata": {
+      "name": "searchInsert",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          5
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          2
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            1,
+            3,
+            5,
+            6
+          ],
+          7
+        ],
+        "expected": 4
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int searchInsert(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int searchInsert(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 3, 5, 6};\n        int target = 5;\n        assert((solution.searchInsert(nums, target) == 2));\n    }\n\n    {\n        vector<int> nums = {1, 3, 5, 6};\n        int target = 2;\n        assert((solution.searchInsert(nums, target) == 1));\n    }\n\n    {\n        vector<int> nums = {1, 3, 5, 6};\n        int target = 7;\n        assert((solution.searchInsert(nums, target) == 4));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "247e50e829791bb9cb8ca109a96229d88598a439285704ea8478c97961776ba3"
+  },
+  "74": {
+    "source_url": "https://leetcode.cn/problems/search-a-2d-matrix/",
+    "metadata": {
+      "name": "searchMatrix",
+      "params": [
+        {
+          "name": "matrix",
+          "type": "integer[][]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              10,
+              11,
+              16,
+              20
+            ],
+            [
+              23,
+              30,
+              34,
+              60
+            ]
+          ],
+          3
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              10,
+              11,
+              16,
+              20
+            ],
+            [
+              23,
+              30,
+              34,
+              60
+            ]
+          ],
+          13
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool searchMatrix(vector<vector<int>>& matrix, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool searchMatrix(vector<vector<int>>& matrix, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)matrix;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};\n        int target = 3;\n        assert((solution.searchMatrix(matrix, target) == true));\n    }\n\n    {\n        vector<vector<int>> matrix = {{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}};\n        int target = 13;\n        assert((solution.searchMatrix(matrix, target) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "a456d1c1ddd3d22faeb57729ee4d6a8a229d33bfef74f1e3254d41be4a26f056"
+  },
+  "34": {
+    "source_url": "https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "metadata": {
+      "name": "searchRange",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer[]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            5,
+            7,
+            7,
+            8,
+            8,
+            10
+          ],
+          8
+        ],
+        "expected": [
+          3,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            5,
+            7,
+            7,
+            8,
+            8,
+            10
+          ],
+          6
+        ],
+        "expected": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "args": [
+          [],
+          0
+        ],
+        "expected": [
+          -1,
+          -1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> searchRange(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> searchRange(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {5, 7, 7, 8, 8, 10};\n        int target = 8;\n        assert((solution.searchRange(nums, target) == vector<int>{3, 4}));\n    }\n\n    {\n        vector<int> nums = {5, 7, 7, 8, 8, 10};\n        int target = 6;\n        assert((solution.searchRange(nums, target) == vector<int>{-1, -1}));\n    }\n\n    {\n        vector<int> nums = {};\n        int target = 0;\n        assert((solution.searchRange(nums, target) == vector<int>{-1, -1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "37db0964d703b1c24001dc10b110cdc46d5b9644190914a54742c20056438158"
+  },
+  "33": {
+    "source_url": "https://leetcode.cn/problems/search-in-rotated-sorted-array/",
+    "metadata": {
+      "name": "search",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "target",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          0
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          3
+        ],
+        "expected": -1
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          0
+        ],
+        "expected": -1
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)target;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {4, 5, 6, 7, 0, 1, 2};\n        int target = 0;\n        assert((solution.search(nums, target) == 4));\n    }\n\n    {\n        vector<int> nums = {4, 5, 6, 7, 0, 1, 2};\n        int target = 3;\n        assert((solution.search(nums, target) == -1));\n    }\n\n    {\n        vector<int> nums = {1};\n        int target = 0;\n        assert((solution.search(nums, target) == -1));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "0323d4295eba07ec7b77cf14f76318bd90b719fc13dec315e0c592fb65c162d8"
+  },
+  "153": {
+    "source_url": "https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/",
+    "metadata": {
+      "name": "findMin",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            4,
+            5,
+            1,
+            2
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            11,
+            13,
+            15,
+            17
+          ]
+        ],
+        "expected": 11
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int findMin(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int findMin(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {3, 4, 5, 1, 2};\n        assert((solution.findMin(nums) == 1));\n    }\n\n    {\n        vector<int> nums = {4, 5, 6, 7, 0, 1, 2};\n        assert((solution.findMin(nums) == 0));\n    }\n\n    {\n        vector<int> nums = {11, 13, 15, 17};\n        assert((solution.findMin(nums) == 11));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "a645779950b39f5ce54b27573aba7de6384ae96cd8c9e70d5b7bb47a3fcbea90"
+  },
+  "4": {
+    "source_url": "https://leetcode.cn/problems/median-of-two-sorted-arrays/",
+    "metadata": {
+      "name": "findMedianSortedArrays",
+      "params": [
+        {
+          "name": "nums1",
+          "type": "integer[]"
+        },
+        {
+          "name": "nums2",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "double"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            3
+          ],
+          [
+            2
+          ]
+        ],
+        "expected": 2.0
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "expected": 2.5
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {\n        // TODO: 在这里实现你的解法。\n        (void)nums1;\n        (void)nums2;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {\n        // TODO: 在这里实现你的解法。\n        (void)nums1;\n        (void)nums2;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums1 = {1, 3};\n        vector<int> nums2 = {2};\n        assert((solution.findMedianSortedArrays(nums1, nums2) == 2.0));\n    }\n\n    {\n        vector<int> nums1 = {1, 2};\n        vector<int> nums2 = {3, 4};\n        assert((solution.findMedianSortedArrays(nums1, nums2) == 2.5));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "8e17584fed9c4936e6a7fd03dc2742292b037c681456b608f5b0762382688a8d"
+  },
+  "20": {
+    "source_url": "https://leetcode.cn/problems/valid-parentheses/",
+    "metadata": {
+      "name": "isValid",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "()"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "()[]{}"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "(]"
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          "([])"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "([)]"
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool isValid(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool isValid(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"()\";\n        assert((solution.isValid(s) == true));\n    }\n\n    {\n        string s = \"()[]{}\";\n        assert((solution.isValid(s) == true));\n    }\n\n    {\n        string s = \"(]\";\n        assert((solution.isValid(s) == false));\n    }\n\n    {\n        string s = \"([])\";\n        assert((solution.isValid(s) == true));\n    }\n\n    {\n        string s = \"([)]\";\n        assert((solution.isValid(s) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "12c9f9e5760c83115ae2322e690e26362dcf6ccb8d83677ce8f03129b09a464b"
+  },
+  "155": {
+    "source_url": "https://leetcode.cn/problems/min-stack/",
+    "metadata": {
+      "classname": "MinStack",
+      "constructor": {
+        "params": []
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "type": "integer",
+              "name": "value"
+            }
+          ],
+          "return": {
+            "type": "void"
+          },
+          "name": "push"
+        },
+        {
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "name": "pop"
+        },
+        {
+          "params": [],
+          "return": {
+            "type": "integer"
+          },
+          "name": "top"
+        },
+        {
+          "params": [],
+          "return": {
+            "type": "integer"
+          },
+          "name": "getMin"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      },
+      "systemdesign": true
+    },
+    "cases": [
+      {
+        "commands": [
+          "MinStack",
+          "push",
+          "push",
+          "push",
+          "getMin",
+          "pop",
+          "top",
+          "getMin"
+        ],
+        "args": [
+          [],
+          [
+            -2
+          ],
+          [
+            0
+          ],
+          [
+            -3
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "expected": [
+          null,
+          null,
+          null,
+          null,
+          -3,
+          null,
+          0,
+          -2
+        ]
+      }
+    ],
+    "cpp": "class MinStack {\npublic:\n    MinStack() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void push(int value) {\n        // TODO: 在这里实现你的解法。\n        (void)value;\n    }\n\n    void pop() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    int top() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n\n    int getMin() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n};\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack* obj = new MinStack();\n * obj->push(value);\n * obj->pop();\n * int param_3 = obj->top();\n * int param_4 = obj->getMin();\n */",
+    "recovery_cpp": "class MinStack {\npublic:\n    MinStack() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void push(int value) {\n        // TODO: 在这里实现你的解法。\n        (void)value;\n    }\n\n    void pop() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    int top() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n\n    int getMin() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n};\n\n/**\n * Your MinStack object will be instantiated and called as such:\n * MinStack* obj = new MinStack();\n * obj->push(value);\n * obj->pop();\n * int param_3 = obj->top();\n * int param_4 = obj->getMin();\n */",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    {\n        MinStack obj;\n        obj.push(-2);\n        obj.push(0);\n        obj.push(-3);\n        assert((obj.getMin() == -3));\n        obj.pop();\n        assert((obj.top() == 0));\n        assert((obj.getMin() == -2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "7862901598f44ae7fef1d250b40eb5ba42d39d5ac118153690274b93152533e5"
+  },
+  "394": {
+    "source_url": "https://leetcode.cn/problems/decode-string/",
+    "metadata": {
+      "name": "decodeString",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "3[a]2[bc]"
+        ],
+        "expected": "aaabcbc"
+      },
+      {
+        "args": [
+          "3[a2[c]]"
+        ],
+        "expected": "accaccacc"
+      },
+      {
+        "args": [
+          "2[abc]3[cd]ef"
+        ],
+        "expected": "abcabccdcdcdef"
+      },
+      {
+        "args": [
+          "abc3[cd]xyz"
+        ],
+        "expected": "abccdcdcdxyz"
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    string decodeString(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    string decodeString(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"3[a]2[bc]\";\n        assert((solution.decodeString(s) == \"aaabcbc\"));\n    }\n\n    {\n        string s = \"3[a2[c]]\";\n        assert((solution.decodeString(s) == \"accaccacc\"));\n    }\n\n    {\n        string s = \"2[abc]3[cd]ef\";\n        assert((solution.decodeString(s) == \"abcabccdcdcdef\"));\n    }\n\n    {\n        // 官方示例 4\n        string s = \"abc3[cd]xyz\";\n        assert(solution.decodeString(s) == \"abccdcdcdxyz\");\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "984487b24326ca326e6e1819275c4ea85ccb8c5a7d2d470c88aba3de076ebd07"
+  },
+  "739": {
+    "source_url": "https://leetcode.cn/problems/daily-temperatures/",
+    "metadata": {
+      "name": "dailyTemperatures",
+      "params": [
+        {
+          "name": "temperatures",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer[]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            73,
+            74,
+            75,
+            71,
+            69,
+            72,
+            76,
+            73
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          4,
+          2,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "args": [
+          [
+            30,
+            40,
+            50,
+            60
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "args": [
+          [
+            30,
+            60,
+            90
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          0
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> dailyTemperatures(vector<int>& temperatures) {\n        // TODO: 在这里实现你的解法。\n        (void)temperatures;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> dailyTemperatures(vector<int>& temperatures) {\n        // TODO: 在这里实现你的解法。\n        (void)temperatures;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> temperatures = {73, 74, 75, 71, 69, 72, 76, 73};\n        assert((solution.dailyTemperatures(temperatures) == vector<int>{1, 1, 4, 2, 1, 1, 0, 0}));\n    }\n\n    {\n        vector<int> temperatures = {30, 40, 50, 60};\n        assert((solution.dailyTemperatures(temperatures) == vector<int>{1, 1, 1, 0}));\n    }\n\n    {\n        vector<int> temperatures = {30, 60, 90};\n        assert((solution.dailyTemperatures(temperatures) == vector<int>{1, 1, 0}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "6c568f6a020c34d3bdff2f45a2d1b0a1fec98247dbb22a2459f9c49b70eb2025"
+  },
+  "84": {
+    "source_url": "https://leetcode.cn/problems/largest-rectangle-in-histogram/",
+    "metadata": {
+      "name": "largestRectangleArea",
+      "params": [
+        {
+          "name": "heights",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            1,
+            5,
+            6,
+            2,
+            3
+          ]
+        ],
+        "expected": 10
+      },
+      {
+        "args": [
+          [
+            2,
+            4
+          ]
+        ],
+        "expected": 4
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int largestRectangleArea(vector<int>& heights) {\n        // TODO: 在这里实现你的解法。\n        (void)heights;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int largestRectangleArea(vector<int>& heights) {\n        // TODO: 在这里实现你的解法。\n        (void)heights;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> heights = {2, 1, 5, 6, 2, 3};\n        assert((solution.largestRectangleArea(heights) == 10));\n    }\n\n    {\n        vector<int> heights = {2, 4};\n        assert((solution.largestRectangleArea(heights) == 4));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "870e81f7a1d87d287dc3de5476dd6e1ca95520cc344ed2831e39c3ed0c933ced"
+  },
+  "215": {
+    "source_url": "https://leetcode.cn/problems/kth-largest-element-in-an-array/",
+    "metadata": {
+      "name": "findKthLargest",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            2,
+            1,
+            5,
+            6,
+            4
+          ],
+          2
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            3,
+            2,
+            3,
+            1,
+            2,
+            4,
+            5,
+            5,
+            6
+          ],
+          4
+        ],
+        "expected": 4
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int findKthLargest(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int findKthLargest(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {3, 2, 1, 5, 6, 4};\n        int k = 2;\n        assert((solution.findKthLargest(nums, k) == 5));\n    }\n\n    {\n        vector<int> nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};\n        int k = 4;\n        assert((solution.findKthLargest(nums, k) == 4));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "ed7ae7537cc978db02bdae753edb05ee0d0205b78954193bcc9e6c797108f35c"
+  },
+  "347": {
+    "source_url": "https://leetcode.cn/problems/top-k-frequent-elements/",
+    "metadata": {
+      "name": "topKFrequent",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        },
+        {
+          "name": "k",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer[]"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": [
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            1,
+            2,
+            1,
+            2,
+            3,
+            1,
+            3,
+            2
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> topKFrequent(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> topKFrequent(vector<int>& nums, int k) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        (void)k;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 1, 1, 2, 2, 3};\n        int k = 2;\n        auto result = solution.topKFrequent(nums, k);\n        auto expected = vector<int>{1, 2};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        vector<int> nums = {1};\n        int k = 1;\n        auto result = solution.topKFrequent(nums, k);\n        auto expected = vector<int>{1};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    {\n        vector<int> nums = {1, 2, 1, 2, 1, 2, 3, 1, 3, 2};\n        int k = 2;\n        auto result = solution.topKFrequent(nums, k);\n        auto expected = vector<int>{1, 2};\n        sort(result.begin(), result.end());\n        sort(expected.begin(), expected.end());\n        assert((result == expected));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "0b48c68ece48295c8e48764c8b8fb715f7201b8d28dd75cb41dbdd19edb21693"
+  },
+  "295": {
+    "source_url": "https://leetcode.cn/problems/find-median-from-data-stream/",
+    "metadata": {
+      "classname": "MedianFinder",
+      "constructor": {
+        "params": []
+      },
+      "methods": [
+        {
+          "params": [
+            {
+              "type": "integer",
+              "name": "num"
+            }
+          ],
+          "name": "addNum",
+          "return": {
+            "type": "void"
+          }
+        },
+        {
+          "params": [],
+          "name": "findMedian",
+          "return": {
+            "type": "double"
+          }
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      },
+      "systemdesign": true
+    },
+    "cases": [
+      {
+        "commands": [
+          "MedianFinder",
+          "addNum",
+          "addNum",
+          "findMedian",
+          "addNum",
+          "findMedian"
+        ],
+        "args": [
+          [],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [],
+          [
+            3
+          ],
+          []
+        ],
+        "expected": [
+          null,
+          null,
+          null,
+          1.5,
+          null,
+          2.0
+        ]
+      }
+    ],
+    "cpp": "class MedianFinder {\npublic:\n    MedianFinder() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void addNum(int num) {\n        // TODO: 在这里实现你的解法。\n        (void)num;\n    }\n\n    double findMedian() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n};\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * MedianFinder* obj = new MedianFinder();\n * obj->addNum(num);\n * double param_2 = obj->findMedian();\n */",
+    "recovery_cpp": "class MedianFinder {\npublic:\n    MedianFinder() {\n        // TODO: 在这里实现你的解法。\n    }\n\n    void addNum(int num) {\n        // TODO: 在这里实现你的解法。\n        (void)num;\n    }\n\n    double findMedian() {\n        // TODO: 在这里实现你的解法。\n        return {};\n    }\n};\n\n/**\n * Your MedianFinder object will be instantiated and called as such:\n * MedianFinder* obj = new MedianFinder();\n * obj->addNum(num);\n * double param_2 = obj->findMedian();\n */",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    {\n        MedianFinder obj;\n        obj.addNum(1);\n        obj.addNum(2);\n        assert((obj.findMedian() == 1.5));\n        obj.addNum(3);\n        assert((obj.findMedian() == 2.0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "c783d8093f3e525841cfd2ba9933a173e5ced082d82a86faf4f905649466a9d1"
+  },
+  "121": {
+    "source_url": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/",
+    "metadata": {
+      "name": "maxProfit",
+      "params": [
+        {
+          "name": "prices",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            7,
+            1,
+            5,
+            3,
+            6,
+            4
+          ]
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            7,
+            6,
+            4,
+            3,
+            1
+          ]
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int maxProfit(vector<int>& prices) {\n        // TODO: 在这里实现你的解法。\n        (void)prices;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int maxProfit(vector<int>& prices) {\n        // TODO: 在这里实现你的解法。\n        (void)prices;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> prices = {7, 1, 5, 3, 6, 4};\n        assert((solution.maxProfit(prices) == 5));\n    }\n\n    {\n        vector<int> prices = {7, 6, 4, 3, 1};\n        assert((solution.maxProfit(prices) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "42e70395b7059a8accb919d365f6fdd78b4967dee628f5c1dce4dbf127d64d30"
+  },
+  "55": {
+    "source_url": "https://leetcode.cn/problems/jump-game/",
+    "metadata": {
+      "name": "canJump",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            1,
+            1,
+            4
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            3,
+            2,
+            1,
+            0,
+            4
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool canJump(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool canJump(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {2, 3, 1, 1, 4};\n        assert((solution.canJump(nums) == true));\n    }\n\n    {\n        vector<int> nums = {3, 2, 1, 0, 4};\n        assert((solution.canJump(nums) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "14fcf668f080e53a2c2bfd7db16734d5f7e7942191568125b29e1ffac9432db5"
+  },
+  "45": {
+    "source_url": "https://leetcode.cn/problems/jump-game-ii/",
+    "metadata": {
+      "name": "jump",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            1,
+            1,
+            4
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            2,
+            3,
+            0,
+            1,
+            4
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int jump(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int jump(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {2, 3, 1, 1, 4};\n        assert((solution.jump(nums) == 2));\n    }\n\n    {\n        vector<int> nums = {2, 3, 0, 1, 4};\n        assert((solution.jump(nums) == 2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e6ef0c253a5eca4615fb4d381dedb4a71d29f6fef537ea038ac675b23a2d6b04"
+  },
+  "763": {
+    "source_url": "https://leetcode.cn/problems/partition-labels/",
+    "metadata": {
+      "name": "partitionLabels",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "list<integer>"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "ababcbacadefegdehijhklij"
+        ],
+        "expected": [
+          9,
+          7,
+          8
+        ]
+      },
+      {
+        "args": [
+          "eccbbbbdec"
+        ],
+        "expected": [
+          10
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<int> partitionLabels(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<int> partitionLabels(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"ababcbacadefegdehijhklij\";\n        assert((solution.partitionLabels(s) == vector<int>{9, 7, 8}));\n    }\n\n    {\n        string s = \"eccbbbbdec\";\n        assert((solution.partitionLabels(s) == vector<int>{10}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e22585eb5d335b96db1400fba2f308dd60403361cc6b7f95050a4a0b312ed07d"
+  },
+  "70": {
+    "source_url": "https://leetcode.cn/problems/climbing-stairs/",
+    "metadata": {
+      "name": "climbStairs",
+      "params": [
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          2
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          3
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int climbStairs(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int climbStairs(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int n = 2;\n        assert((solution.climbStairs(n) == 2));\n    }\n\n    {\n        int n = 3;\n        assert((solution.climbStairs(n) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "094c01affa4e513f961e837ba15e3c7fbf32544ac7f292c1334d7c6e2f513686"
+  },
+  "118": {
+    "source_url": "https://leetcode.cn/problems/pascals-triangle/",
+    "metadata": {
+      "name": "generate",
+      "params": [
+        {
+          "name": "numRows",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "list<list<integer>>",
+        "dealloc": true,
+        "rowsize": "param_1"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          5
+        ],
+        "expected": [
+          [
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            3,
+            1
+          ],
+          [
+            1,
+            4,
+            6,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          1
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    vector<vector<int>> generate(int numRows) {\n        // TODO: 在这里实现你的解法。\n        (void)numRows;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    vector<vector<int>> generate(int numRows) {\n        // TODO: 在这里实现你的解法。\n        (void)numRows;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int numRows = 5;\n        assert((solution.generate(numRows) == vector<vector<int>>{{1}, {1, 1}, {1, 2, 1}, {1, 3, 3, 1}, {1, 4, 6, 4, 1}}));\n    }\n\n    {\n        int numRows = 1;\n        assert((solution.generate(numRows) == vector<vector<int>>{{1}}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "ff500b8bedd4728a49f3604d5f8f50682a8e57017db1e344d10e25ff11514ab9"
+  },
+  "198": {
+    "source_url": "https://leetcode.cn/problems/house-robber/",
+    "metadata": {
+      "name": "rob",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            1
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            2,
+            7,
+            9,
+            3,
+            1
+          ]
+        ],
+        "expected": 12
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int rob(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int rob(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3, 1};\n        assert((solution.rob(nums) == 4));\n    }\n\n    {\n        vector<int> nums = {2, 7, 9, 3, 1};\n        assert((solution.rob(nums) == 12));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "009fd13923f853824be472a0622ef577dbe049caeaeda4905be3875823696518"
+  },
+  "279": {
+    "source_url": "https://leetcode.cn/problems/perfect-squares/",
+    "metadata": {
+      "name": "numSquares",
+      "params": [
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          12
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          13
+        ],
+        "expected": 2
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int numSquares(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int numSquares(int n) {\n        // TODO: 在这里实现你的解法。\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int n = 12;\n        assert((solution.numSquares(n) == 3));\n    }\n\n    {\n        int n = 13;\n        assert((solution.numSquares(n) == 2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "85cc440e7a33a728ac2adf90d995c9c4bef9a24814bd375aeec051bebf7a4cef"
+  },
+  "322": {
+    "source_url": "https://leetcode.cn/problems/coin-change/",
+    "metadata": {
+      "name": "coinChange",
+      "params": [
+        {
+          "name": "coins",
+          "type": "integer[]"
+        },
+        {
+          "name": "amount",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            5
+          ],
+          11
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            2
+          ],
+          3
+        ],
+        "expected": -1
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          0
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int coinChange(vector<int>& coins, int amount) {\n        // TODO: 在这里实现你的解法。\n        (void)coins;\n        (void)amount;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int coinChange(vector<int>& coins, int amount) {\n        // TODO: 在这里实现你的解法。\n        (void)coins;\n        (void)amount;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> coins = {1, 2, 5};\n        int amount = 11;\n        assert((solution.coinChange(coins, amount) == 3));\n    }\n\n    {\n        vector<int> coins = {2};\n        int amount = 3;\n        assert((solution.coinChange(coins, amount) == -1));\n    }\n\n    {\n        vector<int> coins = {1};\n        int amount = 0;\n        assert((solution.coinChange(coins, amount) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "d1c543a1c733f6c078885661e0e875e064634c5e0172946542e796ac2a12a957"
+  },
+  "139": {
+    "source_url": "https://leetcode.cn/problems/word-break/",
+    "metadata": {
+      "name": "wordBreak",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        },
+        {
+          "name": "wordDict",
+          "type": "list<string>"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "leetcode",
+          [
+            "leet",
+            "code"
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "applepenapple",
+          [
+            "apple",
+            "pen"
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "catsandog",
+          [
+            "cats",
+            "dog",
+            "sand",
+            "and",
+            "cat"
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool wordBreak(string s, vector<string>& wordDict) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        (void)wordDict;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool wordBreak(string s, vector<string>& wordDict) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        (void)wordDict;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"leetcode\";\n        vector<string> wordDict = {\"leet\", \"code\"};\n        assert((solution.wordBreak(s, wordDict) == true));\n    }\n\n    {\n        string s = \"applepenapple\";\n        vector<string> wordDict = {\"apple\", \"pen\"};\n        assert((solution.wordBreak(s, wordDict) == true));\n    }\n\n    {\n        string s = \"catsandog\";\n        vector<string> wordDict = {\"cats\", \"dog\", \"sand\", \"and\", \"cat\"};\n        assert((solution.wordBreak(s, wordDict) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "b8a03c6a482be6c9f6e6fe575e39cb4a2370687dbbb9eef87c1b26c10ede5a24"
+  },
+  "300": {
+    "source_url": "https://leetcode.cn/problems/longest-increasing-subsequence/",
+    "metadata": {
+      "name": "lengthOfLIS",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            10,
+            9,
+            2,
+            5,
+            3,
+            7,
+            101,
+            18
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            0,
+            1,
+            0,
+            3,
+            2,
+            3
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ]
+        ],
+        "expected": 1
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int lengthOfLIS(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int lengthOfLIS(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};\n        assert((solution.lengthOfLIS(nums) == 4));\n    }\n\n    {\n        vector<int> nums = {0, 1, 0, 3, 2, 3};\n        assert((solution.lengthOfLIS(nums) == 4));\n    }\n\n    {\n        vector<int> nums = {7, 7, 7, 7, 7, 7, 7};\n        assert((solution.lengthOfLIS(nums) == 1));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "e5a426602398a9e483bbea5ca34f864b8ec498d9987c7f8eab269fbacb4355e2"
+  },
+  "152": {
+    "source_url": "https://leetcode.cn/problems/maximum-product-subarray/",
+    "metadata": {
+      "name": "maxProduct",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            -2,
+            4
+          ]
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            -2,
+            0,
+            -1
+          ]
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int maxProduct(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int maxProduct(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {2, 3, -2, 4};\n        assert((solution.maxProduct(nums) == 6));\n    }\n\n    {\n        vector<int> nums = {-2, 0, -1};\n        assert((solution.maxProduct(nums) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "449d9df21880a5b3bc1d44658444c043f565c03be3364ed604f84a97b8b78e6b"
+  },
+  "416": {
+    "source_url": "https://leetcode.cn/problems/partition-equal-subset-sum/",
+    "metadata": {
+      "name": "canPartition",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "boolean"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            5,
+            11,
+            5
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            5
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    bool canPartition(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    bool canPartition(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 5, 11, 5};\n        assert((solution.canPartition(nums) == true));\n    }\n\n    {\n        vector<int> nums = {1, 2, 3, 5};\n        assert((solution.canPartition(nums) == false));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "2d10b0c701026d4a46aa2e23596c5e31fe34bebd8ae1f9e64f8c56f4e64932fe"
+  },
+  "32": {
+    "source_url": "https://leetcode.cn/problems/longest-valid-parentheses/",
+    "metadata": {
+      "name": "longestValidParentheses",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "(()"
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          ")()())"
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          ""
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int longestValidParentheses(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int longestValidParentheses(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"(()\";\n        assert((solution.longestValidParentheses(s) == 2));\n    }\n\n    {\n        string s = \")()())\";\n        assert((solution.longestValidParentheses(s) == 4));\n    }\n\n    {\n        string s = \"\";\n        assert((solution.longestValidParentheses(s) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "a04d6350ed0baee0a27530095083ba53a519d4b82d744933f9186d30f70a3871"
+  },
+  "62": {
+    "source_url": "https://leetcode.cn/problems/unique-paths/",
+    "metadata": {
+      "name": "uniquePaths",
+      "params": [
+        {
+          "name": "m",
+          "type": "integer"
+        },
+        {
+          "name": "n",
+          "type": "integer"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          3,
+          7
+        ],
+        "expected": 28
+      },
+      {
+        "args": [
+          3,
+          2
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          7,
+          3
+        ],
+        "expected": 28
+      },
+      {
+        "args": [
+          3,
+          3
+        ],
+        "expected": 6
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int uniquePaths(int m, int n) {\n        // TODO: 在这里实现你的解法。\n        (void)m;\n        (void)n;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int uniquePaths(int m, int n) {\n        // TODO: 在这里实现你的解法。\n        (void)m;\n        (void)n;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        int m = 3;\n        int n = 7;\n        assert((solution.uniquePaths(m, n) == 28));\n    }\n\n    {\n        int m = 3;\n        int n = 2;\n        assert((solution.uniquePaths(m, n) == 3));\n    }\n\n    {\n        // 官方示例 3\n        assert(solution.uniquePaths(7, 3) == 28);\n    }\n\n    {\n        // 官方示例 4\n        assert(solution.uniquePaths(3, 3) == 6);\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "c39c592a23400f300425c819538b112c7943bea192423bc440fcd415e5ed2dd3"
+  },
+  "64": {
+    "source_url": "https://leetcode.cn/problems/minimum-path-sum/",
+    "metadata": {
+      "name": "minPathSum",
+      "params": [
+        {
+          "name": "grid",
+          "type": "integer[][]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            [
+              1,
+              3,
+              1
+            ],
+            [
+              1,
+              5,
+              1
+            ],
+            [
+              4,
+              2,
+              1
+            ]
+          ]
+        ],
+        "expected": 7
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ]
+          ]
+        ],
+        "expected": 12
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int minPathSum(vector<vector<int>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int minPathSum(vector<vector<int>>& grid) {\n        // TODO: 在这里实现你的解法。\n        (void)grid;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<vector<int>> grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};\n        assert((solution.minPathSum(grid) == 7));\n    }\n\n    {\n        vector<vector<int>> grid = {{1, 2, 3}, {4, 5, 6}};\n        assert((solution.minPathSum(grid) == 12));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "1b4d9117e9272bd8849c7f1beb72816e49c29f043261553d04ce4c2cbc7f688a"
+  },
+  "5": {
+    "source_url": "https://leetcode.cn/problems/longest-palindromic-substring/",
+    "metadata": {
+      "name": "longestPalindrome",
+      "params": [
+        {
+          "name": "s",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "babad"
+        ],
+        "expected": "bab"
+      },
+      {
+        "args": [
+          "cbbd"
+        ],
+        "expected": "bb"
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    string longestPalindrome(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    string longestPalindrome(string s) {\n        // TODO: 在这里实现你的解法。\n        (void)s;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string s = \"babad\";\n        string result = solution.longestPalindrome(s);\n        assert((result == \"bab\" || result == \"aba\"));\n    }\n\n    {\n        string s = \"cbbd\";\n        assert((solution.longestPalindrome(s) == \"bb\"));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "37a87f12bbb44cf32406d8ef9849764e71798ed0dfeefff1bbec4a901c8129fc"
+  },
+  "1143": {
+    "source_url": "https://leetcode.cn/problems/longest-common-subsequence/",
+    "metadata": {
+      "name": "longestCommonSubsequence",
+      "params": [
+        {
+          "name": "text1",
+          "type": "string"
+        },
+        {
+          "type": "string",
+          "name": "text2"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "abcde",
+          "ace"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          "abc",
+          "abc"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          "abc",
+          "def"
+        ],
+        "expected": 0
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int longestCommonSubsequence(string text1, string text2) {\n        // TODO: 在这里实现你的解法。\n        (void)text1;\n        (void)text2;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int longestCommonSubsequence(string text1, string text2) {\n        // TODO: 在这里实现你的解法。\n        (void)text1;\n        (void)text2;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string text1 = \"abcde\";\n        string text2 = \"ace\";\n        assert((solution.longestCommonSubsequence(text1, text2) == 3));\n    }\n\n    {\n        string text1 = \"abc\";\n        string text2 = \"abc\";\n        assert((solution.longestCommonSubsequence(text1, text2) == 3));\n    }\n\n    {\n        string text1 = \"abc\";\n        string text2 = \"def\";\n        assert((solution.longestCommonSubsequence(text1, text2) == 0));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "aece6c50e829c1eadd07a3cad23cd442084d03afe9345a1960d81b5dc0b8bcf7"
+  },
+  "72": {
+    "source_url": "https://leetcode.cn/problems/edit-distance/",
+    "metadata": {
+      "name": "minDistance",
+      "params": [
+        {
+          "name": "word1",
+          "type": "string"
+        },
+        {
+          "name": "word2",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          "horse",
+          "ros"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          "intention",
+          "execution"
+        ],
+        "expected": 5
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        // TODO: 在这里实现你的解法。\n        (void)word1;\n        (void)word2;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int minDistance(string word1, string word2) {\n        // TODO: 在这里实现你的解法。\n        (void)word1;\n        (void)word2;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        string word1 = \"horse\";\n        string word2 = \"ros\";\n        assert((solution.minDistance(word1, word2) == 3));\n    }\n\n    {\n        string word1 = \"intention\";\n        string word2 = \"execution\";\n        assert((solution.minDistance(word1, word2) == 5));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "b809d152fd3cf425d71e3c871deb3eaa3caeef242b99f37593f811ed6e5028e1"
+  },
+  "136": {
+    "source_url": "https://leetcode.cn/problems/single-number/",
+    "metadata": {
+      "name": "singleNumber",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            4,
+            1,
+            2,
+            1,
+            2
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": 1
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int singleNumber(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int singleNumber(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {2, 2, 1};\n        assert((solution.singleNumber(nums) == 1));\n    }\n\n    {\n        vector<int> nums = {4, 1, 2, 1, 2};\n        assert((solution.singleNumber(nums) == 4));\n    }\n\n    {\n        vector<int> nums = {1};\n        assert((solution.singleNumber(nums) == 1));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "532adcf080bace9ab795bee70ea6ab7dba6b0b36bf66c779d88adc1753cacb20"
+  },
+  "169": {
+    "source_url": "https://leetcode.cn/problems/majority-element/",
+    "metadata": {
+      "name": "majorityElement",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            3,
+            2,
+            3
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            2,
+            2,
+            1,
+            1,
+            1,
+            2,
+            2
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int majorityElement(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int majorityElement(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {3, 2, 3};\n        assert((solution.majorityElement(nums) == 3));\n    }\n\n    {\n        vector<int> nums = {2, 2, 1, 1, 1, 2, 2};\n        assert((solution.majorityElement(nums) == 2));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "65f0965abc30dd9ab12c97bf0404f38ce90a656740f703e18d38e95ec98a9297"
+  },
+  "31": {
+    "source_url": "https://leetcode.cn/problems/next-permutation/",
+    "metadata": {
+      "name": "nextPermutation",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "void"
+      },
+      "output": {
+        "paramindex": 0
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          3,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            1,
+            5
+          ]
+        ],
+        "expected": [
+          1,
+          5,
+          1
+        ]
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    void nextPermutation(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    void nextPermutation(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 2, 3};\n        solution.nextPermutation(nums);\n        assert((nums == vector<int>{1, 3, 2}));\n    }\n\n    {\n        vector<int> nums = {3, 2, 1};\n        solution.nextPermutation(nums);\n        assert((nums == vector<int>{1, 2, 3}));\n    }\n\n    {\n        vector<int> nums = {1, 1, 5};\n        solution.nextPermutation(nums);\n        assert((nums == vector<int>{1, 5, 1}));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "6e1db4f9f9c35e7d9828f10843a44a974307753f3f2d6fabc36ab487e2403cc8"
+  },
+  "287": {
+    "source_url": "https://leetcode.cn/problems/find-the-duplicate-number/",
+    "metadata": {
+      "name": "findDuplicate",
+      "params": [
+        {
+          "name": "nums",
+          "type": "integer[]"
+        }
+      ],
+      "return": {
+        "type": "integer"
+      }
+    },
+    "cases": [
+      {
+        "args": [
+          [
+            1,
+            3,
+            4,
+            2,
+            2
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            3,
+            1,
+            3,
+            4,
+            2
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        "expected": 3
+      }
+    ],
+    "cpp": "class Solution {\npublic:\n    int findDuplicate(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "recovery_cpp": "class Solution {\npublic:\n    int findDuplicate(vector<int>& nums) {\n        // TODO: 在这里实现你的解法。\n        (void)nums;\n        return {};\n    }\n};",
+    "local_test_source": "#ifdef LOCAL\nint main() {\n    [[maybe_unused]] Solution solution;\n\n    {\n        vector<int> nums = {1, 3, 4, 2, 2};\n        assert((solution.findDuplicate(nums) == 2));\n    }\n\n    {\n        vector<int> nums = {3, 1, 3, 4, 2};\n        assert((solution.findDuplicate(nums) == 3));\n    }\n\n    {\n        vector<int> nums = {3, 3, 3, 3, 3};\n        assert((solution.findDuplicate(nums) == 3));\n    }\n\n    cout << \"All tests passed.\\n\";\n    return 0;\n}\n#endif\n",
+    "local_fixture_sha256": "58787d0fc1883ce33969f46ac4ff50b5392bc4bc987d22861d76fbc5ed0d1f3d"
+  }
+}

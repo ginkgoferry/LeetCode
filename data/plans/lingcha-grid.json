@@ -1,0 +1,510 @@
+{
+  "id": "lingcha-grid",
+  "name": "灵茶山艾府 · 网格图",
+  "source_url": "https://leetcode.cn/discuss/post/3580195/fen-xiang-gun-ti-dan-wang-ge-tu-dfsbfszo-l3pa/",
+  "source_updated_at": "2026-09-12T08:20:52.433505+00:00",
+  "source_sha256": "26fd239e4f86ba2e0a81068ac6acf32bbf173ec8e085b59737f6272cbb645efe",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 76,
+  "source_entry_count": 75,
+  "source_problem_count": 75,
+  "items": [
+    {
+      "id": 1210,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 200,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 695,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3619,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1461",
+      "rating": 1461
+    },
+    {
+      "id": 2658,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1490",
+      "rating": 1490
+    },
+    {
+      "id": "面试题 16.19",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCS 3",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 463,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "思维扩展：[892. 三维形体的表面积](https://leetcode.cn/problems/surface-area-of-3d-shapes/)"
+    },
+    {
+      "id": 892,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 733,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1034,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1579",
+      "rating": 1579
+    },
+    {
+      "id": 1020,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1615",
+      "rating": 1615
+    },
+    {
+      "id": 2684,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1626",
+      "rating": 1626
+    },
+    {
+      "id": 1254,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1659",
+      "rating": 1659
+    },
+    {
+      "id": 130,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1905,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1679",
+      "rating": 1679
+    },
+    {
+      "id": 1391,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1746",
+      "rating": 1746
+    },
+    {
+      "id": 1559,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1838",
+      "rating": 1838
+    },
+    {
+      "id": 529,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 417,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 827,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1934 变形题见我的题解",
+      "rating": 1934
+    },
+    {
+      "id": "LCP 63",
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "也可以不用 DFS"
+    },
+    {
+      "id": 305,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2061,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）也可以迭代"
+    },
+    {
+      "id": 2852,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 489,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1970,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2124 做法不止一种",
+      "rating": 2124
+    },
+    {
+      "id": 1926,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1638",
+      "rating": 1638
+    },
+    {
+      "id": 1091,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1658",
+      "rating": 1658
+    },
+    {
+      "id": 1162,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1666",
+      "rating": 1666
+    },
+    {
+      "id": 542,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 994,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(mn)$"
+    },
+    {
+      "id": 3905,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1671",
+      "rating": 1671
+    },
+    {
+      "id": 1765,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1783",
+      "rating": 1783
+    },
+    {
+      "id": 934,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1826",
+      "rating": 1826
+    },
+    {
+      "id": 2146,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1837",
+      "rating": 1837
+    },
+    {
+      "id": 1293,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "1967",
+      "rating": 1967
+    },
+    {
+      "id": 909,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2020",
+      "rating": 2020
+    },
+    {
+      "id": 675,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2812,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2154",
+      "rating": 2154
+    },
+    {
+      "id": 749,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2277",
+      "rating": 2277
+    },
+    {
+      "id": 1730,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 286,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 490,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 505,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 499,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1197,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 317,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2814,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3286,
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(mn)$"
+    },
+    {
+      "id": 2290,
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": "2138",
+      "rating": 2138
+    },
+    {
+      "id": 1368,
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": "2069",
+      "rating": 2069
+    },
+    {
+      "id": 3552,
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": "2036",
+      "rating": 2036
+    },
+    {
+      "id": 1824,
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 56",
+      "section": "三、网格图 0-1 BFS",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3882,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "1771",
+      "rating": 1771
+    },
+    {
+      "id": 1631,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "1948",
+      "rating": 1948
+    },
+    {
+      "id": 2267,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2085",
+      "rating": 2085
+    },
+    {
+      "id": 778,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2097",
+      "rating": 2097
+    },
+    {
+      "id": 3568,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2143",
+      "rating": 2143
+    },
+    {
+      "id": 1036,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2165",
+      "rating": 2165
+    },
+    {
+      "id": 864,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2259",
+      "rating": 2259
+    },
+    {
+      "id": 1263,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2297",
+      "rating": 2297
+    },
+    {
+      "id": 2258,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2347",
+      "rating": 2347
+    },
+    {
+      "id": 2556,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2369",
+      "rating": 2369
+    },
+    {
+      "id": 2577,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2382",
+      "rating": 2382
+    },
+    {
+      "id": 2617,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "2582",
+      "rating": 2582
+    },
+    {
+      "id": "LCP 13",
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 31",
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 45",
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 75",
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1778,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 694,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 711,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1102,
+      "section": "五、综合应用",
+      "stage": "basic",
+      "note": "（会员题）"
+    }
+  ],
+  "repeated_references": [
+    {
+      "id": 1210,
+      "section": "前置知识",
+      "stage": "basic",
+      "note": "2022",
+      "rating": 2022
+    }
+  ]
+}

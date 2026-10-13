@@ -51,7 +51,9 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
-
+        // TODO: 在这里实现你的解法。
+        (void)n;
+        return {};
     }
 };
 

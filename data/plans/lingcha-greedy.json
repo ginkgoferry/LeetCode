@@ -1,0 +1,3718 @@
+{
+  "id": "lingcha-greedy",
+  "name": "灵茶山艾府 · 贪心与思维",
+  "source_url": "https://leetcode.cn/discuss/post/3091107/fen-xiang-gun-ti-dan-tan-xin-ji-ben-tan-k58yb/",
+  "source_updated_at": "2026-08-19T08:28:07.887092+00:00",
+  "source_sha256": "f698670665be00a95be430585b74504a5222a10d4189af0b81eda358fa4f16d0",
+  "imported_at": "2026-10-13",
+  "scope": "完整收录公开来源中的 LeetCode 题目，保留章节、顺序、前置参考和选做标记；代码按题号共用。",
+  "source_reference_count": 551,
+  "source_entry_count": 551,
+  "source_problem_count": 523,
+  "items": [
+    {
+      "id": 3074,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1198",
+      "rating": 1198
+    },
+    {
+      "id": 3545,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1211",
+      "rating": 1211
+    },
+    {
+      "id": 3745,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1218",
+      "rating": 1218
+    },
+    {
+      "id": 2279,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1249",
+      "rating": 1249
+    },
+    {
+      "id": 1833,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1253",
+      "rating": 1253
+    },
+    {
+      "id": 2144,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1261",
+      "rating": 1261
+    },
+    {
+      "id": 1005,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1275",
+      "rating": 1275
+    },
+    {
+      "id": 1481,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1284",
+      "rating": 1284
+    },
+    {
+      "id": 1403,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1288",
+      "rating": 1288
+    },
+    {
+      "id": 3010,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1292",
+      "rating": 1292
+    },
+    {
+      "id": 1338,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1303",
+      "rating": 1303
+    },
+    {
+      "id": 1710,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1310",
+      "rating": 1310
+    },
+    {
+      "id": 3075,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1326",
+      "rating": 1326
+    },
+    {
+      "id": 2554,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1333",
+      "rating": 1333
+    },
+    {
+      "id": 2126,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1335",
+      "rating": 1335
+    },
+    {
+      "id": 2587,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1337",
+      "rating": 1337
+    },
+    {
+      "id": 976,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1341",
+      "rating": 1341
+    },
+    {
+      "id": 1561,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1406",
+      "rating": 1406
+    },
+    {
+      "id": 3627,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "同 1561 题"
+    },
+    {
+      "id": 3462,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1416",
+      "rating": 1416
+    },
+    {
+      "id": 2099,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1447",
+      "rating": 1447
+    },
+    {
+      "id": 3301,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1448",
+      "rating": 1448
+    },
+    {
+      "id": 945,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1448",
+      "rating": 1448
+    },
+    {
+      "id": 1846,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1454",
+      "rating": 1454
+    },
+    {
+      "id": 3727,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1455",
+      "rating": 1455
+    },
+    {
+      "id": 1647,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1510",
+      "rating": 1510
+    },
+    {
+      "id": 2971,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1521",
+      "rating": 1521
+    },
+    {
+      "id": 2178,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1538",
+      "rating": 1538
+    },
+    {
+      "id": 954,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1548",
+      "rating": 1548
+    },
+    {
+      "id": 1578,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1574",
+      "rating": 1574
+    },
+    {
+      "id": 2567,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1609",
+      "rating": 1609
+    },
+    {
+      "id": 1509,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1653",
+      "rating": 1653
+    },
+    {
+      "id": 2611,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 3397,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1687",
+      "rating": 1687
+    },
+    {
+      "id": 3457,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1704 最大改成最小呢？",
+      "rating": 1704
+    },
+    {
+      "id": 3767,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1704",
+      "rating": 1704
+    },
+    {
+      "id": "LCP 40",
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "和下面这题一起做"
+    },
+    {
+      "id": 1262,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 948,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 1775,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1850",
+      "rating": 1850
+    },
+    {
+      "id": 2333,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2011 批量减少",
+      "rating": 2011
+    },
+    {
+      "id": 3645,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2019",
+      "rating": 2019
+    },
+    {
+      "id": 3947,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2215",
+      "rating": 2215
+    },
+    {
+      "id": 2141,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2265",
+      "rating": 2265
+    },
+    {
+      "id": 1196,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2214,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3763,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3730,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3476,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2098,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）同 LCP 40"
+    },
+    {
+      "id": 2548,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3119,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2557,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": "LCS 2",
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1984,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "1306",
+      "rating": 1306
+    },
+    {
+      "id": 624,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 910,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2135",
+      "rating": 2135
+    },
+    {
+      "id": 2835,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "2207",
+      "rating": 2207
+    },
+    {
+      "id": 3366,
+      "section": "一、贪心策略 / §1.1 从最小/最大开始贪心",
+      "stage": "basic",
+      "note": "贪心做法估计 2900"
+    },
+    {
+      "id": 561,
+      "section": "一、贪心策略 / §1.2 单序列配对",
+      "stage": "basic",
+      "note": "约 1300"
+    },
+    {
+      "id": 1877,
+      "section": "一、贪心策略 / §1.2 单序列配对",
+      "stage": "basic",
+      "note": "1301",
+      "rating": 1301
+    },
+    {
+      "id": 881,
+      "section": "一、贪心策略 / §1.2 单序列配对",
+      "stage": "basic",
+      "note": "1530 经典题",
+      "rating": 1530
+    },
+    {
+      "id": 2592,
+      "section": "一、贪心策略 / §1.2 单序列配对",
+      "stage": "basic",
+      "note": "1569 田忌赛马",
+      "rating": 1569
+    },
+    {
+      "id": 2576,
+      "section": "一、贪心策略 / §1.2 单序列配对",
+      "stage": "basic",
+      "note": "1843",
+      "rating": 1843
+    },
+    {
+      "id": 2037,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1357",
+      "rating": 1357
+    },
+    {
+      "id": 455,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1381",
+      "rating": 1381
+    },
+    {
+      "id": 2410,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1381 同 455 题",
+      "rating": 1381
+    },
+    {
+      "id": 1433,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1436",
+      "rating": 1436
+    },
+    {
+      "id": 870,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1648 田忌赛马",
+      "rating": 1648
+    },
+    {
+      "id": 826,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 2449,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "2076",
+      "rating": 2076
+    },
+    {
+      "id": 1889,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "2214",
+      "rating": 2214
+    },
+    {
+      "id": 2561,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "2222",
+      "rating": 2222
+    },
+    {
+      "id": 2071,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "2648",
+      "rating": 2648
+    },
+    {
+      "id": 2323,
+      "section": "一、贪心策略 / §1.3 双序列配对",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3402,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1246",
+      "rating": 1246
+    },
+    {
+      "id": 3191,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1312",
+      "rating": 1312
+    },
+    {
+      "id": 1827,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1315",
+      "rating": 1315
+    },
+    {
+      "id": 2027,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1346",
+      "rating": 1346
+    },
+    {
+      "id": 605,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "约 1400"
+    },
+    {
+      "id": 3111,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1401",
+      "rating": 1401
+    },
+    {
+      "id": 2957,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1430",
+      "rating": 1430
+    },
+    {
+      "id": 3192,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1433",
+      "rating": 1433
+    },
+    {
+      "id": 1529,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "同 3192 题"
+    },
+    {
+      "id": 2789,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1485",
+      "rating": 1485
+    },
+    {
+      "id": 3576,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1489",
+      "rating": 1489
+    },
+    {
+      "id": 3849,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1556",
+      "rating": 1556
+    },
+    {
+      "id": 1144,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1559",
+      "rating": 1559
+    },
+    {
+      "id": 3228,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1593",
+      "rating": 1593
+    },
+    {
+      "id": 2086,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1623",
+      "rating": 1623
+    },
+    {
+      "id": 2571,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1649",
+      "rating": 1649
+    },
+    {
+      "id": 3776,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1740",
+      "rating": 1740
+    },
+    {
+      "id": 861,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1818",
+      "rating": 1818
+    },
+    {
+      "id": 3980,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1846",
+      "rating": 1846
+    },
+    {
+      "id": 3326,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1864",
+      "rating": 1864
+    },
+    {
+      "id": 955,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1876",
+      "rating": 1876
+    },
+    {
+      "id": 1536,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1881",
+      "rating": 1881
+    },
+    {
+      "id": 2673,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 1488,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "1974",
+      "rating": 1974
+    },
+    {
+      "id": 2366,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "2060",
+      "rating": 2060
+    },
+    {
+      "id": 2528,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "2236",
+      "rating": 2236
+    },
+    {
+      "id": 3449,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "2748",
+      "rating": 2748
+    },
+    {
+      "id": 2422,
+      "section": "一、贪心策略 / §1.4 从最左/最右开始贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1221,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1220",
+      "rating": 1220
+    },
+    {
+      "id": 2405,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1355",
+      "rating": 1355
+    },
+    {
+      "id": 2294,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1416",
+      "rating": 1416
+    },
+    {
+      "id": 2358,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1503",
+      "rating": 1503
+    },
+    {
+      "id": 2522,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1605",
+      "rating": 1605
+    },
+    {
+      "id": 3557,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1720",
+      "rating": 1720
+    },
+    {
+      "id": 1546,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 2436,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2892,
+      "section": "一、贪心策略 / §1.5 划分型贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2171,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "1748",
+      "rating": 1748
+    },
+    {
+      "id": 3085,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "1765",
+      "rating": 1765
+    },
+    {
+      "id": 1727,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "1927 可以优化到 $\\mathcal{O}(mn)$ 时间",
+      "rating": 1927
+    },
+    {
+      "id": 2749,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "2132",
+      "rating": 2132
+    },
+    {
+      "id": 2910,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "2132",
+      "rating": 2132
+    },
+    {
+      "id": 2234,
+      "section": "一、贪心策略 / §1.6 先枚举，再贪心",
+      "stage": "basic",
+      "note": "2562",
+      "rating": 2562
+    },
+    {
+      "id": 1877,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1301",
+      "rating": 1301
+    },
+    {
+      "id": 2895,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1352",
+      "rating": 1352
+    },
+    {
+      "id": 1846,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1454",
+      "rating": 1454
+    },
+    {
+      "id": 3457,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1704",
+      "rating": 1704
+    },
+    {
+      "id": 1665,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1901",
+      "rating": 1901
+    },
+    {
+      "id": 3273,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "2013",
+      "rating": 2013
+    },
+    {
+      "id": 2136,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "2033",
+      "rating": 2033
+    },
+    {
+      "id": 2561,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "2222",
+      "rating": 2222
+    },
+    {
+      "id": 179,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3309,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3897,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "1998",
+      "rating": 1998
+    },
+    {
+      "id": 2412,
+      "section": "一、贪心策略 / §1.7 交换论证法",
+      "stage": "basic",
+      "note": "2092",
+      "rating": 2092
+    },
+    {
+      "id": 2335,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1360",
+      "rating": 1360
+    },
+    {
+      "id": 3659,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1440",
+      "rating": 1440
+    },
+    {
+      "id": 1753,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1488  同 2335 题，但数据范围更大",
+      "rating": 1488
+    },
+    {
+      "id": 767,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1681",
+      "rating": 1681
+    },
+    {
+      "id": 1054,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1702  同 767 题",
+      "rating": 1702
+    },
+    {
+      "id": 2856,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1750  有 $\\mathcal{O}(\\log n)$ 做法",
+      "rating": 1750
+    },
+    {
+      "id": 1953,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1804",
+      "rating": 1804
+    },
+    {
+      "id": 3785,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "2052",
+      "rating": 2052
+    },
+    {
+      "id": 3664,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "2158",
+      "rating": 2158
+    },
+    {
+      "id": 3495,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "2206  有 $\\mathcal{O}(1)$ 公式",
+      "rating": 2206
+    },
+    {
+      "id": 3139,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "2666",
+      "rating": 2666
+    },
+    {
+      "id": 621,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "相同元素至少间隔 n"
+    },
+    {
+      "id": 358,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 984,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1405,
+      "section": "一、贪心策略 / §1.8 相邻不同",
+      "stage": "basic",
+      "note": "1821",
+      "rating": 1821
+    },
+    {
+      "id": "LCP 30",
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "约 1900"
+    },
+    {
+      "id": 1642,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "1962",
+      "rating": 1962
+    },
+    {
+      "id": 630,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "约 2000"
+    },
+    {
+      "id": 871,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "2074",
+      "rating": 2074
+    },
+    {
+      "id": 3362,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "2424 虽然没有反悔的过程，但思路和 871 是类似的",
+      "rating": 2424
+    },
+    {
+      "id": 2813,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "2582 也可以不用堆",
+      "rating": 2582
+    },
+    {
+      "id": 3049,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "3111",
+      "rating": 3111
+    },
+    {
+      "id": 3711,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2599,
+      "section": "一、贪心策略 / §1.9 反悔贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 435,
+      "section": "二、区间贪心 / §2.1 不相交区间",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 646,
+      "section": "二、区间贪心 / §2.1 不相交区间",
+      "stage": "basic",
+      "note": "同 435 题"
+    },
+    {
+      "id": 1520,
+      "section": "二、区间贪心 / §2.1 不相交区间",
+      "stage": "basic",
+      "note": "2363",
+      "rating": 2363
+    },
+    {
+      "id": 3458,
+      "section": "二、区间贪心 / §2.1 不相交区间",
+      "stage": "basic",
+      "note": "同 1520 题"
+    },
+    {
+      "id": 2406,
+      "section": "二、区间贪心 / §2.2 区间分组",
+      "stage": "basic",
+      "note": "1713",
+      "rating": 1713
+    },
+    {
+      "id": 253,
+      "section": "二、区间贪心 / §2.2 区间分组",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 452,
+      "section": "二、区间贪心 / §2.3 区间选点",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 757,
+      "section": "二、区间贪心 / §2.3 区间选点",
+      "stage": "basic",
+      "note": "2379",
+      "rating": 2379
+    },
+    {
+      "id": 2589,
+      "section": "二、区间贪心 / §2.3 区间选点",
+      "stage": "basic",
+      "note": "2381",
+      "rating": 2381
+    },
+    {
+      "id": "LCP 32",
+      "section": "二、区间贪心 / §2.3 区间选点",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 45,
+      "section": "二、区间贪心 / §2.4 区间覆盖",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 1024,
+      "section": "二、区间贪心 / §2.4 区间覆盖",
+      "stage": "basic",
+      "note": "1746",
+      "rating": 1746
+    },
+    {
+      "id": 1326,
+      "section": "二、区间贪心 / §2.4 区间覆盖",
+      "stage": "basic",
+      "note": "1885",
+      "rating": 1885
+    },
+    {
+      "id": 56,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 57,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2848,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 55,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 763,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1443",
+      "rating": 1443
+    },
+    {
+      "id": 3169,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1483",
+      "rating": 1483
+    },
+    {
+      "id": 3951,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1530",
+      "rating": 1530
+    },
+    {
+      "id": 3975,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1533",
+      "rating": 1533
+    },
+    {
+      "id": 3964,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1572",
+      "rating": 1572
+    },
+    {
+      "id": 2580,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1632",
+      "rating": 1632
+    },
+    {
+      "id": 3394,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1916",
+      "rating": 1916
+    },
+    {
+      "id": 2963,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "1985",
+      "rating": 1985
+    },
+    {
+      "id": 2584,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "2159",
+      "rating": 2159
+    },
+    {
+      "id": 616,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 758,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3323,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 759,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2655,
+      "section": "二、区间贪心 / §2.5 合并区间",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1288,
+      "section": "二、区间贪心 / §2.6 其他区间贪心",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2054,
+      "section": "二、区间贪心 / §2.6 其他区间贪心",
+      "stage": "basic",
+      "note": "1883",
+      "rating": 1883
+    },
+    {
+      "id": 1705,
+      "section": "二、区间贪心 / §2.6 其他区间贪心",
+      "stage": "basic",
+      "note": "1930",
+      "rating": 1930
+    },
+    {
+      "id": 1353,
+      "section": "二、区间贪心 / §2.6 其他区间贪心",
+      "stage": "basic",
+      "note": "2016",
+      "rating": 2016
+    },
+    {
+      "id": 1323,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1194",
+      "rating": 1194
+    },
+    {
+      "id": 4000,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1200",
+      "rating": 1200
+    },
+    {
+      "id": 3216,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1243",
+      "rating": 1243
+    },
+    {
+      "id": 2697,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1304",
+      "rating": 1304
+    },
+    {
+      "id": 3517,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1357",
+      "rating": 1357
+    },
+    {
+      "id": 1881,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1381",
+      "rating": 1381
+    },
+    {
+      "id": 2734,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1405",
+      "rating": 1405
+    },
+    {
+      "id": 1432,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1427",
+      "rating": 1427
+    },
+    {
+      "id": 1946,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1445",
+      "rating": 1445
+    },
+    {
+      "id": 1663,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1461",
+      "rating": 1461
+    },
+    {
+      "id": 1328,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1474",
+      "rating": 1474
+    },
+    {
+      "id": 2259,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2566,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 670,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3106,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1515",
+      "rating": 1515
+    },
+    {
+      "id": 3723,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1537",
+      "rating": 1537
+    },
+    {
+      "id": 1053,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1633",
+      "rating": 1633
+    },
+    {
+      "id": 2375,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1642",
+      "rating": 1642
+    },
+    {
+      "id": 2182,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1680",
+      "rating": 1680
+    },
+    {
+      "id": 738,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 3403,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1762",
+      "rating": 1762
+    },
+    {
+      "id": 3170,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1772",
+      "rating": 1772
+    },
+    {
+      "id": 1363,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1823",
+      "rating": 1823
+    },
+    {
+      "id": 3752,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1827",
+      "rating": 1827
+    },
+    {
+      "id": 1754,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1829",
+      "rating": 1829
+    },
+    {
+      "id": 1202,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 2434,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1953",
+      "rating": 1953
+    },
+    {
+      "id": 2948,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "2047",
+      "rating": 2047
+    },
+    {
+      "id": 1505,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "2337",
+      "rating": 2337
+    },
+    {
+      "id": 3474,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "2605 结论好猜，如何证明？",
+      "rating": 2605
+    },
+    {
+      "id": 555,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3088,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3720,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "1958",
+      "rating": 1958
+    },
+    {
+      "id": 3734,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "2330",
+      "rating": 2330
+    },
+    {
+      "id": 2663,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "2416",
+      "rating": 2416
+    },
+    {
+      "id": 2048,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3646,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 3348,
+      "section": "三、字符串贪心 / §3.1 字典序最小/最大",
+      "stage": "basic",
+      "note": "3101",
+      "rating": 3101
+    },
+    {
+      "id": 409,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "约 1250"
+    },
+    {
+      "id": 2697,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1304",
+      "rating": 1304
+    },
+    {
+      "id": 3517,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1357",
+      "rating": 1357
+    },
+    {
+      "id": 680,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "约 1400  进阶问题：有多少个合法方案？"
+    },
+    {
+      "id": 1328,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1474",
+      "rating": 1474
+    },
+    {
+      "id": 1400,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1530",
+      "rating": 1530
+    },
+    {
+      "id": 2131,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1557",
+      "rating": 1557
+    },
+    {
+      "id": 2384,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1636",
+      "rating": 1636
+    },
+    {
+      "id": 3035,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1857",
+      "rating": 1857
+    },
+    {
+      "id": 1616,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1868",
+      "rating": 1868
+    },
+    {
+      "id": 1147,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "1912",
+      "rating": 1912
+    },
+    {
+      "id": 2193,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "2091",
+      "rating": 2091
+    },
+    {
+      "id": 3734,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "2330",
+      "rating": 2330
+    },
+    {
+      "id": 3646,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 266,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2422,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1842,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3088,
+      "section": "三、字符串贪心 / §3.2 回文串贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2160,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1314",
+      "rating": 1314
+    },
+    {
+      "id": 2578,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1351",
+      "rating": 1351
+    },
+    {
+      "id": 2244,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1372",
+      "rating": 1372
+    },
+    {
+      "id": 2870,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1392",
+      "rating": 1392
+    },
+    {
+      "id": 1217,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1408",
+      "rating": 1408
+    },
+    {
+      "id": 3091,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": "1522",
+      "rating": 1522
+    },
+    {
+      "id": "LCS 1",
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 397,
+      "section": "四、数学贪心 / §4.1 基础",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 628,
+      "section": "四、数学贪心 / §4.2 乘积贪心",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3732,
+      "section": "四、数学贪心 / §4.2 乘积贪心",
+      "stage": "basic",
+      "note": "1529",
+      "rating": 1529
+    },
+    {
+      "id": 1567,
+      "section": "四、数学贪心 / §4.2 乘积贪心",
+      "stage": "basic",
+      "note": "1710",
+      "rating": 1710
+    },
+    {
+      "id": 4014,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1192",
+      "rating": 1192
+    },
+    {
+      "id": 3974,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1263",
+      "rating": 1263
+    },
+    {
+      "id": 2285,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1496",
+      "rating": 1496
+    },
+    {
+      "id": 3016,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1534",
+      "rating": 1534
+    },
+    {
+      "id": 1402,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1679",
+      "rating": 1679
+    },
+    {
+      "id": 2931,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1822",
+      "rating": 1822
+    },
+    {
+      "id": 1589,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "1871",
+      "rating": 1871
+    },
+    {
+      "id": 1874,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2268,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "（会员题）同 3016 题"
+    },
+    {
+      "id": 2561,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "2222 基于 $\\min$ 的排序不等式",
+      "rating": 2222
+    },
+    {
+      "id": 3547,
+      "section": "四、数学贪心 / §4.3 排序不等式",
+      "stage": "basic",
+      "note": "链/环"
+    },
+    {
+      "id": 3081,
+      "section": "四、数学贪心 / §4.4 均值不等式",
+      "stage": "basic",
+      "note": "1905",
+      "rating": 1905
+    },
+    {
+      "id": 1969,
+      "section": "四、数学贪心 / §4.4 均值不等式",
+      "stage": "basic",
+      "note": "1967",
+      "rating": 1967
+    },
+    {
+      "id": 2939,
+      "section": "四、数学贪心 / §4.4 均值不等式",
+      "stage": "basic",
+      "note": "2128",
+      "rating": 2128
+    },
+    {
+      "id": 3723,
+      "section": "四、数学贪心 / §4.4 均值不等式",
+      "stage": "basic",
+      "note": "1537",
+      "rating": 1537
+    },
+    {
+      "id": 2897,
+      "section": "四、数学贪心 / §4.4 均值不等式",
+      "stage": "basic",
+      "note": "2301",
+      "rating": 2301
+    },
+    {
+      "id": 462,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2033,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "1672",
+      "rating": 1672
+    },
+    {
+      "id": 2448,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2005 带权中位数",
+      "rating": 2005
+    },
+    {
+      "id": 2607,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2071",
+      "rating": 2071
+    },
+    {
+      "id": 2967,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2116",
+      "rating": 2116
+    },
+    {
+      "id": 1478,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2190",
+      "rating": 2190
+    },
+    {
+      "id": 2968,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2444",
+      "rating": 2444
+    },
+    {
+      "id": 1703,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2467",
+      "rating": 2467
+    },
+    {
+      "id": 3762,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2497",
+      "rating": 2497
+    },
+    {
+      "id": 3086,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "2673",
+      "rating": 2673
+    },
+    {
+      "id": "LCP 24",
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3441,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "进阶做法"
+    },
+    {
+      "id": 296,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "（会员题）二维"
+    },
+    {
+      "id": 3937,
+      "section": "四、数学贪心 / §4.5 中位数贪心",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 2952,
+      "section": "四、数学贪心 / §4.6 归纳法",
+      "stage": "basic",
+      "note": "1784",
+      "rating": 1784
+    },
+    {
+      "id": 330,
+      "section": "四、数学贪心 / §4.6 归纳法",
+      "stage": "basic",
+      "note": "同 2952 题"
+    },
+    {
+      "id": 1798,
+      "section": "四、数学贪心 / §4.6 归纳法",
+      "stage": "basic",
+      "note": "1931",
+      "rating": 1931
+    },
+    {
+      "id": 1414,
+      "section": "四、数学贪心 / §4.7 其他数学贪心",
+      "stage": "basic",
+      "note": "1466 难点在证明上",
+      "rating": 1466
+    },
+    {
+      "id": 3107,
+      "section": "四、数学贪心 / §4.7 其他数学贪心",
+      "stage": "basic",
+      "note": "1605",
+      "rating": 1605
+    },
+    {
+      "id": 754,
+      "section": "四、数学贪心 / §4.7 其他数学贪心",
+      "stage": "basic",
+      "note": "约 2000"
+    },
+    {
+      "id": 1058,
+      "section": "四、数学贪心 / §4.7 其他数学贪心",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2745,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1607 想一想 $z=0$ 怎么做，$z=1$ 怎么做，$z=2$ 怎么做",
+      "rating": 1607
+    },
+    {
+      "id": 2611,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1663 想一想 $k=1$ 怎么做，$k=2$ 怎么做",
+      "rating": 1663
+    },
+    {
+      "id": 1029,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "同 2611 题"
+    },
+    {
+      "id": 2645,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "考虑 $\\textit{word}$ 长为 $2$ 的所有情况，以及答案等于 $1$ 的情况"
+    },
+    {
+      "id": 2202,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1717",
+      "rating": 1717
+    },
+    {
+      "id": 2568,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1754",
+      "rating": 1754
+    },
+    {
+      "id": 1702,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1825",
+      "rating": 1825
+    },
+    {
+      "id": 3012,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1833",
+      "rating": 1833
+    },
+    {
+      "id": 2350,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "1961",
+      "rating": 1961
+    },
+    {
+      "id": 3660,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "2187",
+      "rating": 2187
+    },
+    {
+      "id": 517,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2499,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "2633",
+      "rating": 2633
+    },
+    {
+      "id": 3357,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "3077",
+      "rating": 3077
+    },
+    {
+      "id": 3431,
+      "section": "五、思维题 / §5.1 从特殊到一般",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2733,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1148",
+      "rating": 1148
+    },
+    {
+      "id": 3432,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1200",
+      "rating": 1200
+    },
+    {
+      "id": 3875,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1200",
+      "rating": 1200
+    },
+    {
+      "id": 1903,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1249",
+      "rating": 1249
+    },
+    {
+      "id": 3996,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1260",
+      "rating": 1260
+    },
+    {
+      "id": 2549,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1266",
+      "rating": 1266
+    },
+    {
+      "id": 3746,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1327",
+      "rating": 1327
+    },
+    {
+      "id": 2396,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1329",
+      "rating": 1329
+    },
+    {
+      "id": 1689,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1355",
+      "rating": 1355
+    },
+    {
+      "id": 3760,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1364",
+      "rating": 1364
+    },
+    {
+      "id": 3674,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1369",
+      "rating": 1369
+    },
+    {
+      "id": 3689,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1371",
+      "rating": 1371
+    },
+    {
+      "id": 2078,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 598,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "约 1400"
+    },
+    {
+      "id": 521,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "约 1400"
+    },
+    {
+      "id": 3675,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1414",
+      "rating": 1414
+    },
+    {
+      "id": 3227,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1452",
+      "rating": 1452
+    },
+    {
+      "id": 3638,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1463",
+      "rating": 1463
+    },
+    {
+      "id": 3702,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1489",
+      "rating": 1489
+    },
+    {
+      "id": 3810,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1492",
+      "rating": 1492
+    },
+    {
+      "id": 2419,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1496",
+      "rating": 1496
+    },
+    {
+      "id": 3424,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1503",
+      "rating": 1503
+    },
+    {
+      "id": 1992,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1539",
+      "rating": 1539
+    },
+    {
+      "id": 1007,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1541",
+      "rating": 1541
+    },
+    {
+      "id": 2811,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1543",
+      "rating": 1543
+    },
+    {
+      "id": 3987,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1550",
+      "rating": 1550
+    },
+    {
+      "id": 463,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2211,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1581",
+      "rating": 1581
+    },
+    {
+      "id": 877,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1590",
+      "rating": 1590
+    },
+    {
+      "id": 3207,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 3828,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1591",
+      "rating": 1591
+    },
+    {
+      "id": 3471,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 2546,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1605",
+      "rating": 1605
+    },
+    {
+      "id": 1503,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1619",
+      "rating": 1619
+    },
+    {
+      "id": 2860,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1626",
+      "rating": 1626
+    },
+    {
+      "id": 1332,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1629",
+      "rating": 1629
+    },
+    {
+      "id": 1975,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1648",
+      "rating": 1648
+    },
+    {
+      "id": 1145,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1741",
+      "rating": 1741
+    },
+    {
+      "id": 2087,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1744",
+      "rating": 1744
+    },
+    {
+      "id": 1297,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1748",
+      "rating": 1748
+    },
+    {
+      "id": 3577,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1750",
+      "rating": 1750
+    },
+    {
+      "id": 3282,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1772",
+      "rating": 1772
+    },
+    {
+      "id": 3644,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1775",
+      "rating": 1775
+    },
+    {
+      "id": 2712,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1791",
+      "rating": 1791
+    },
+    {
+      "id": 3148,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1820",
+      "rating": 1820
+    },
+    {
+      "id": 2311,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1840",
+      "rating": 1840
+    },
+    {
+      "id": 2332,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1841",
+      "rating": 1841
+    },
+    {
+      "id": 3961,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1880",
+      "rating": 1880
+    },
+    {
+      "id": 2680,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1912",
+      "rating": 1912
+    },
+    {
+      "id": 2731,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "1923 联系 1503 题",
+      "rating": 1923
+    },
+    {
+      "id": 2556,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "2369",
+      "rating": 2369
+    },
+    {
+      "id": 3353,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1708,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3596,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3496,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3125,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1794,
+      "section": "五、思维题 / §5.2 脑筋急转弯",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 453,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3375,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1383",
+      "rating": 1383
+    },
+    {
+      "id": 2840,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1486",
+      "rating": 1486
+    },
+    {
+      "id": 2914,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1480",
+      "rating": 1480
+    },
+    {
+      "id": 3365,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1514",
+      "rating": 1514
+    },
+    {
+      "id": 1657,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1530",
+      "rating": 1530
+    },
+    {
+      "id": 3868,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "1579",
+      "rating": 1579
+    },
+    {
+      "id": 3857,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(1)$"
+    },
+    {
+      "id": 2551,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 391,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1585,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "2333",
+      "rating": 2333
+    },
+    {
+      "id": 1040,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "2456",
+      "rating": 2456
+    },
+    {
+      "id": 1622,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "2476",
+      "rating": 2476
+    },
+    {
+      "id": 249,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 49,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1183,
+      "section": "五、思维题 / §5.3 等价转化",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2139,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1417",
+      "rating": 1417
+    },
+    {
+      "id": 3779,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1444",
+      "rating": 1444
+    },
+    {
+      "id": 3396,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "同 3779 题"
+    },
+    {
+      "id": 3147,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1460",
+      "rating": 1460
+    },
+    {
+      "id": 869,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1505",
+      "rating": 1505
+    },
+    {
+      "id": 1558,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1637",
+      "rating": 1637
+    },
+    {
+      "id": 554,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "约 1700"
+    },
+    {
+      "id": 780,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1897",
+      "rating": 1897
+    },
+    {
+      "id": 417,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "约 1900"
+    },
+    {
+      "id": 991,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1909",
+      "rating": 1909
+    },
+    {
+      "id": 2227,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1945",
+      "rating": 1945
+    },
+    {
+      "id": 1354,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2015",
+      "rating": 2015
+    },
+    {
+      "id": 2543,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2221",
+      "rating": 2221
+    },
+    {
+      "id": 3307,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2232",
+      "rating": 2232
+    },
+    {
+      "id": 3614,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "前一题的加强版"
+    },
+    {
+      "id": 3419,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2243",
+      "rating": 2243
+    },
+    {
+      "id": 1611,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2345",
+      "rating": 2345
+    },
+    {
+      "id": 3609,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2419",
+      "rating": 2419
+    },
+    {
+      "id": 936,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2583",
+      "rating": 2583
+    },
+    {
+      "id": 782,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 683,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "（会员题）做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 3141,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3607,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1700",
+      "rating": 1700
+    },
+    {
+      "id": 2718,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1769",
+      "rating": 1769
+    },
+    {
+      "id": 3639,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "1853",
+      "rating": 1853
+    },
+    {
+      "id": 1970,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2124",
+      "rating": 2124
+    },
+    {
+      "id": 2382,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2136",
+      "rating": 2136
+    },
+    {
+      "id": 803,
+      "section": "五、思维题 / §5.4 逆向思维",
+      "stage": "basic",
+      "note": "2765",
+      "rating": 2765
+    },
+    {
+      "id": 3871,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "1381",
+      "rating": 1381
+    },
+    {
+      "id": 2063,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 979,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "1709",
+      "rating": 1709
+    },
+    {
+      "id": 1588,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 3771,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "1981",
+      "rating": 1981
+    },
+    {
+      "id": 2477,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2012",
+      "rating": 2012
+    },
+    {
+      "id": 2681,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2060",
+      "rating": 2060
+    },
+    {
+      "id": 3855,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2085",
+      "rating": 2085
+    },
+    {
+      "id": 3786,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2139",
+      "rating": 2139
+    },
+    {
+      "id": 891,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2183",
+      "rating": 2183
+    },
+    {
+      "id": 3428,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "这题是 891 题的进阶版本"
+    },
+    {
+      "id": 3426,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "2443",
+      "rating": 2443
+    },
+    {
+      "id": 2763,
+      "section": "五、思维题 / §5.5 贡献法",
+      "stage": "basic",
+      "note": "$\\mathcal{O}(n)$ 做法大约 2700"
+    },
+    {
+      "id": 135,
+      "section": "五、思维题 / §5.6 两次扫描",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3796,
+      "section": "五、思维题 / §5.6 两次扫描",
+      "stage": "basic",
+      "note": "1833",
+      "rating": 1833
+    },
+    {
+      "id": 3494,
+      "section": "五、思维题 / §5.6 两次扫描",
+      "stage": "basic",
+      "note": "2042",
+      "rating": 2042
+    },
+    {
+      "id": 1840,
+      "section": "五、思维题 / §5.6 两次扫描",
+      "stage": "basic",
+      "note": "2374",
+      "rating": 2374
+    },
+    {
+      "id": 1202,
+      "section": "五、思维题 / §5.7 交换元素",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 1722,
+      "section": "五、思维题 / §5.7 交换元素",
+      "stage": "basic",
+      "note": "1892",
+      "rating": 1892
+    },
+    {
+      "id": 3695,
+      "section": "五、思维题 / §5.7 交换元素",
+      "stage": "basic",
+      "note": "1984",
+      "rating": 1984
+    },
+    {
+      "id": 2948,
+      "section": "五、思维题 / §5.7 交换元素",
+      "stage": "basic",
+      "note": "2047",
+      "rating": 2047
+    },
+    {
+      "id": 2525,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1301",
+      "rating": 1301
+    },
+    {
+      "id": 860,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2165,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1362",
+      "rating": 1362
+    },
+    {
+      "id": 2091,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1384",
+      "rating": 1384
+    },
+    {
+      "id": 1033,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1421",
+      "rating": 1421
+    },
+    {
+      "id": 3876,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1444",
+      "rating": 1444
+    },
+    {
+      "id": 2918,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1526",
+      "rating": 1526
+    },
+    {
+      "id": 2591,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1531",
+      "rating": 1531
+    },
+    {
+      "id": 2131,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1557",
+      "rating": 1557
+    },
+    {
+      "id": 3789,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1580",
+      "rating": 1580
+    },
+    {
+      "id": 2844,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1588",
+      "rating": 1588
+    },
+    {
+      "id": 1247,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1597",
+      "rating": 1597
+    },
+    {
+      "id": 838,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1638",
+      "rating": 1638
+    },
+    {
+      "id": 2170,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 2202,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1717",
+      "rating": 1717
+    },
+    {
+      "id": 3922,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 2982,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1773",
+      "rating": 1773
+    },
+    {
+      "id": 3724,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1790 变形题见我的题解",
+      "rating": 1790
+    },
+    {
+      "id": 3001,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1797",
+      "rating": 1797
+    },
+    {
+      "id": 2423,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 2934,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1803",
+      "rating": 1803
+    },
+    {
+      "id": 3800,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1841",
+      "rating": 1841
+    },
+    {
+      "id": 2162,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1852",
+      "rating": 1852
+    },
+    {
+      "id": 3942,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1855",
+      "rating": 1855
+    },
+    {
+      "id": 3863,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1860",
+      "rating": 1860
+    },
+    {
+      "id": 3440,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1998",
+      "rating": 1998
+    },
+    {
+      "id": 3886,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "1999",
+      "rating": 1999
+    },
+    {
+      "id": 1927,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2005",
+      "rating": 2005
+    },
+    {
+      "id": 2508,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2060",
+      "rating": 2060
+    },
+    {
+      "id": 3240,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2080",
+      "rating": 2080
+    },
+    {
+      "id": 3854,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2095",
+      "rating": 2095
+    },
+    {
+      "id": 3548,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2245",
+      "rating": 2245
+    },
+    {
+      "id": 2029,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2277",
+      "rating": 2277
+    },
+    {
+      "id": 2468,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2382",
+      "rating": 2382
+    },
+    {
+      "id": 420,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3609,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2419",
+      "rating": 2419
+    },
+    {
+      "id": 1040,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2456",
+      "rating": 2456
+    },
+    {
+      "id": 335,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1330,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2482",
+      "rating": 2482
+    },
+    {
+      "id": 3197,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2541",
+      "rating": 2541
+    },
+    {
+      "id": 3366,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n\\log n)$"
+    },
+    {
+      "id": 2499,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2633",
+      "rating": 2633
+    },
+    {
+      "id": 3311,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2664",
+      "rating": 2664
+    },
+    {
+      "id": 3139,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2666",
+      "rating": 2666
+    },
+    {
+      "id": 3017,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2709",
+      "rating": 2709
+    },
+    {
+      "id": 2983,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2780",
+      "rating": 2780
+    },
+    {
+      "id": 3395,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "2800",
+      "rating": 2800
+    },
+    {
+      "id": 3357,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "3077",
+      "rating": 3077
+    },
+    {
+      "id": 1900,
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(\\log n)$ 或者 $\\mathcal{O}(1)$"
+    },
+    {
+      "id": "LCP 48",
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 21",
+      "section": "五、思维题 / §5.8 分类讨论",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1304,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1167",
+      "rating": 1167
+    },
+    {
+      "id": 3963,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1311",
+      "rating": 1311
+    },
+    {
+      "id": 942,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1444",
+      "rating": 1444
+    },
+    {
+      "id": 1968,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1499 做法不止一种，见我在官解下的 [评论](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors/solutions/936697/gou-zao-yuan-su-bu-deng-yu-liang-xiang-l-u6vz/comments/1081404)",
+      "rating": 1499
+    },
+    {
+      "id": 1253,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1506",
+      "rating": 1506
+    },
+    {
+      "id": 1317,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(\\log n)$。进阶问题：最小化 $a$"
+    },
+    {
+      "id": 3513,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1663",
+      "rating": 1663
+    },
+    {
+      "id": 2182,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1680",
+      "rating": 1680
+    },
+    {
+      "id": 3592,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1701",
+      "rating": 1701
+    },
+    {
+      "id": 969,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "约 1800"
+    },
+    {
+      "id": 406,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1605,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "1868 西北角法",
+      "rating": 1868
+    },
+    {
+      "id": 2375,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 324,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "约 2000"
+    },
+    {
+      "id": 3988,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2055",
+      "rating": 2055
+    },
+    {
+      "id": 667,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "约 2100"
+    },
+    {
+      "id": 2122,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2159",
+      "rating": 2159
+    },
+    {
+      "id": 1980,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "做到 $\\mathcal{O}(n)$"
+    },
+    {
+      "id": 3680,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2378",
+      "rating": 2378
+    },
+    {
+      "id": 932,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "约 2500"
+    },
+    {
+      "id": 2790,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2620",
+      "rating": 2620
+    },
+    {
+      "id": 3311,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2664",
+      "rating": 2664
+    },
+    {
+      "id": 2573,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2682",
+      "rating": 2682
+    },
+    {
+      "id": 1982,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "2872",
+      "rating": 2872
+    },
+    {
+      "id": 280,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 484,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3990,
+      "section": "六、构造题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 278,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 374,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 1237,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "非暴力做法"
+    },
+    {
+      "id": 1095,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "1827",
+      "rating": 1827
+    },
+    {
+      "id": 843,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "2078",
+      "rating": 2078
+    },
+    {
+      "id": 2728,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 277,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2782,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3064,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3094,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1428,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 702,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1533,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2936,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1618,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1538,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 489,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1778,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1810,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 1274,
+      "section": "七、交互题",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 2833,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1294",
+      "rating": 1294
+    },
+    {
+      "id": 2740,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1302",
+      "rating": 1302
+    },
+    {
+      "id": 2946,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1406 结论",
+      "rating": 1406
+    },
+    {
+      "id": 3523,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1435 结论好猜，如何证明？",
+      "rating": 1435
+    },
+    {
+      "id": 781,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1453 逻辑推理题",
+      "rating": 1453
+    },
+    {
+      "id": 1041,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1521 如何证明结论？",
+      "rating": 1521
+    },
+    {
+      "id": 3587,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1548",
+      "rating": 1548
+    },
+    {
+      "id": 1864,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1601",
+      "rating": 1601
+    },
+    {
+      "id": 1899,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1636",
+      "rating": 1636
+    },
+    {
+      "id": 2498,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1759",
+      "rating": 1759
+    },
+    {
+      "id": 134,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 3443,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1856",
+      "rating": 1856
+    },
+    {
+      "id": 3635,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1870",
+      "rating": 1870
+    },
+    {
+      "id": 3002,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1917",
+      "rating": 1917
+    },
+    {
+      "id": 1733,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "1984",
+      "rating": 1984
+    },
+    {
+      "id": 659,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "约 2100"
+    },
+    {
+      "id": 2732,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "2240 注意数据范围",
+      "rating": 2240
+    },
+    {
+      "id": 3474,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "2605 结论好猜，如何证明？",
+      "rating": 2605
+    },
+    {
+      "id": "LCP 3",
+      "section": "八、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 26",
+      "section": "八、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": "LCP 70",
+      "section": "八、其他",
+      "stage": "basic",
+      "note": ""
+    },
+    {
+      "id": 2340,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    },
+    {
+      "id": 3460,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "（会员题）证明"
+    },
+    {
+      "id": 2753,
+      "section": "八、其他",
+      "stage": "basic",
+      "note": "（会员题）"
+    }
+  ]
+}

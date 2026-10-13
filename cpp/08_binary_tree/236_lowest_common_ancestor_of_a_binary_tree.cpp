@@ -60,7 +60,11 @@ using namespace std;
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-
+        // TODO: 在这里实现你的解法。
+        (void)root;
+        (void)p;
+        (void)q;
+        return {};
     }
 };
 

@@ -67,7 +67,9 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-
+        // TODO: 在这里实现你的解法。
+        (void)head;
+        return {};
     }
 };
 
