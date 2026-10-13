@@ -17,7 +17,7 @@ class FullPlanWorkflowTest(unittest.TestCase):
         catalog, _ = leetcode.load_state()
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            for name in ('cpp','common','data','notes','docs','templates','tools'):
+            for name in ('cpp','common','data','notes','docs','templates','tools','.github'):
                 shutil.copytree(leetcode.ROOT / name, root / name, ignore=shutil.ignore_patterns('__pycache__'))
             for name in ('README.md','AGENTS.md','Makefile'):
                 shutil.copy2(leetcode.ROOT / name, root / name)
@@ -55,7 +55,7 @@ class FullPlanWorkflowTest(unittest.TestCase):
         original = leetcode.PROGRESS_PATH.read_bytes()
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            for name in ('cpp', 'common', 'data', 'notes', 'docs', 'templates', 'tools'):
+            for name in ('cpp', 'common', 'data', 'notes', 'docs', 'templates', 'tools', '.github'):
                 shutil.copytree(leetcode.ROOT / name, root / name,
                                 ignore=shutil.ignore_patterns('__pycache__'))
             for name in ('README.md', 'AGENTS.md', 'Makefile'):

@@ -27,10 +27,12 @@ def cpp_tokens(source: str) -> str:
 
 def local_errors(problem: dict, spec: dict, source: str) -> list[str]:
     """Check actual LOCAL assertions, without executing unfinished algorithms."""
-    marker = '#ifdef LOCAL\nint main'
-    if marker not in source:
+    main = re.search(r'^[ \t]*#[ \t]*ifdef[ \t]+LOCAL[ \t]*\r?\n'
+                     r'(?:\s|//[^\n]*\n|/\*[\s\S]*?\*/)*int\s+main\s*\(', source, re.M)
+    if main is None:
         return ['missing LOCAL main']
-    actual = cpp_tokens(source[source.index(marker):])
+    local_source = source[main.start():]
+    actual = cpp_tokens(local_source)
     if 'local_test_source' in spec:
         digest = hashlib.sha256(json.dumps(spec['cases'], ensure_ascii=False, sort_keys=True).encode()).hexdigest()
         if digest != spec.get('local_fixture_sha256'):
@@ -38,7 +40,7 @@ def local_errors(problem: dict, spec: dict, source: str) -> list[str]:
         if actual == cpp_tokens(spec['local_test_source']):
             return []
         expected_blocks = re.findall(r'^    \{\n.*?^    \}', spec['local_test_source'], re.M | re.S)
-        actual_blocks = re.findall(r'^    \{\n.*?^    \}', source[source.index(marker):], re.M | re.S)
+        actual_blocks = re.findall(r'^    \{\n.*?^    \}', local_source, re.M | re.S)
         if len(expected_blocks) == len(actual_blocks):
             for index, (expected, observed) in enumerate(zip(expected_blocks, actual_blocks), 1):
                 if cpp_tokens(expected) != cpp_tokens(observed):

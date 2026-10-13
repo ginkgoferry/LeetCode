@@ -11,6 +11,25 @@ from tools import leetcode
 
 
 class TrackerTest(unittest.TestCase):
+    def test_unfinished_reset_clears_review_with_or_without_confidence(self):
+        for status in ('TODO', 'DOING'):
+            for confidence in (None, 2):
+                with self.subTest(status=status, confidence=confidence):
+                    record = leetcode.empty_record()
+                    record.update(status='DONE', first_pass='2026-07-01', next_review='2026-10-20')
+                    progress = {'problems': {'1': record}}
+                    args = SimpleNamespace(problem='1', status=status, confidence=confidence,
+                                           minutes=0, date='2026-10-13', note=None)
+                    with mock.patch.object(leetcode, 'load_state', return_value=(self.catalog, progress)), \
+                         mock.patch.object(leetcode, 'persist_activity'):
+                        leetcode.command_record(args)
+                    self.assertIsNone(record['next_review'])
+                    self.assertEqual(record['first_pass'], '2026-07-01')
+                    self.assertEqual(len(record['history']), 1)
+                    self.assertEqual(leetcode.upcoming_reviews(self.catalog[:1], progress, '2026-10-13'), [])
+                    record['next_review'] = '2026-10-20'  # Old inconsistent data stays out of the queue.
+                    self.assertEqual(leetcode.upcoming_reviews(self.catalog[:1], progress, '2026-10-13'), [])
+
     def setUp(self) -> None:
         self.catalog = [
             {

@@ -25,8 +25,10 @@ aligned with CLI and Makefile help when changing behavior. Use the generated REA
 - `data/problems.json` owns stable problem metadata and catalog order. A null `path` means the problem is indexed but its local environment is not prepared.
 - `data/plans/*.json` owns each study plan's source, scope, sections, and study order (the `items` array). Hot 100 must retain its 100 entries and original order. A problem may appear in multiple sections; overall progress and reviews count each problem once.
 - `data/progress.json` owns status, dates, confidence, timing, and history.
+- Resetting a record to TODO or DOING clears its scheduled review while retaining first-pass dates and history. Future review queues include only HINT/DONE/REVIEW/STAR records.
 - `data/workspace.json` owns the current study plan preference. Switching plans must never alter learning records.
 - Plan items own `stage` (`basic` for the main route, `advanced` for explicitly optional/advanced sections) and optional difficulty `rating`. Missing ratings are unknown, never zero. Preserve explicit source scores; derived views may reuse consistent scores from other plans with provenance. Prefer explicit current-plan scores; conflicting external scores remain unknown when no current score exists.
+- `PLAN=all` has no preferred rating source; conflicting ratings stay unknown in both display and filtering. Selecting a concrete plan may use its explicit score.
 - Official metadata owns paid/free classification. Unknown or unverified permissions must not be treated as free. Paid problems retain plan entries but are excluded from new-problem recommendations; current paid entries have no local environment.
 - Legacy Hot 100 environment recipes preserve reviewed LOCAL assertions and fixture digests. Review and update the matching recipe when changing these assertions. Recovery restores TODO interfaces, never stored algorithm solutions.
 - `data/environments/*.json` contains verified C++ interfaces and local example specs. `make prepare PLAN=...` only creates missing source files and never overwrites solutions.

@@ -39,6 +39,15 @@ class TrainingTest(unittest.TestCase):
             aggregate = leetcode.select_plan(self.catalog, 'all')[0]
             self.assertIsNone(aggregate['rating'])
             self.assertIn('来源分数不一致', leetcode.rating_label(aggregate))
+            filtered = leetcode.filter_problems([aggregate], self.progress)
+            self.assertIsNone(filtered[0]['rating'])
+            self.assertEqual(leetcode.filter_problems([aggregate], self.progress, max_rating=1300), [])
+            self.assertEqual(len(leetcode.filter_problems([aggregate], self.progress, unrated='only')), 1)
+            self.assertEqual(len(leetcode.filter_problems([aggregate], self.progress,
+                                                         max_rating=1300, unrated='include')), 1)
+            explicit = leetcode.select_plan(self.catalog, 'b')[:1]
+            self.assertEqual(leetcode.filter_problems(explicit, self.progress,
+                                                     max_rating=1300)[0]['rating'], 1200)
 
     def test_score_range_is_inclusive_and_missing_is_not_zero(self):
         selected = leetcode.filter_problems(self.plan, self.progress, min_rating=1263,

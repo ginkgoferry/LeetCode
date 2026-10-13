@@ -163,6 +163,10 @@ def select_plan(
             ratings = [entry["rating"] for entry in entries if entry.get("rating")]
             distinct = set(ratings)
             effective = next(iter(distinct)) if len(distinct) == 1 else None
+            if len(distinct) > 1:
+                # The aggregate has no preferred plan; keep conflicting scores unknown
+                # in section filters as well as in the top-level display.
+                entries = [{**entry, "rating": None} for entry in entries]
             result.append({**problem, "training_entries": entries,
                            "rating": effective, "rating_conflict": len(distinct) > 1,
                            "rating_sources": [source for entry in entries for source in entry.get("rating_sources", [])],
@@ -485,7 +489,7 @@ def upcoming_reviews(
     for problem in catalog:
         record = get_record(progress, str(problem["id"]))
         next_review = record.get("next_review")
-        if next_review and next_review > reference:
+        if record['status'] in FINISHED_STATUSES and next_review and next_review > reference:
             result.append(problem)
     return sorted(
         result,
@@ -893,10 +897,10 @@ def command_record(args: argparse.Namespace) -> None:
         record["confidence"] = effective_confidence
         record["first_pass"] = record["first_pass"] or activity_date
         schedule_review(record, activity_date, effective_confidence)
-    elif args.confidence is not None:
-        record["confidence"] = args.confidence
-    elif args.status == "TODO":
+    else:
         record["next_review"] = None
+        if args.confidence is not None:
+            record["confidence"] = args.confidence
     add_history(
         record,
         activity_type="刷题",

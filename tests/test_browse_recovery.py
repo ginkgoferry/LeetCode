@@ -54,6 +54,9 @@ class BrowseRecoveryTest(unittest.TestCase):
             self.assertTrue(audit_examples.local_errors(problem, spec, broken))
             edited = before.replace('return {};', 'return {}; // user algorithm edit') + '#ifdef LOCAL\nint main' + main
             self.assertEqual(audit_examples.local_errors(problem, spec, edited), [])
+            formatted = source.replace('#ifdef LOCAL\nint main',
+                                       '#ifdef LOCAL\n\n// LOCAL examples\nint  main ', 1)
+            self.assertEqual(audit_examples.local_errors(problem, spec, formatted), [])
         spec = copy.deepcopy(self.specs['1'])
         spec['cases'][0]['expected'] = [1, 3]
         problem = next(p for p in self.catalog if p['id'] == 1)
